@@ -4,7 +4,7 @@
   --bg-main: #ffffff;
   --text-main: #000000;
   --border-dark: #000000;
-  --font-mono: 'Courier New', Courier, monospace;
+  --font-main: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: var(--font-mono);
+  font-family: var(--font-main);
   background-color: var(--bg-main);
   color: var(--text-main);
   line-height: 1.6;
@@ -23,7 +23,7 @@ body {
 
 /* Typography & Layout */
 h1, h2, h3, h4, p, span, div, button {
-  font-family: var(--font-mono);
+  font-family: var(--font-main);
 }
 
 .main-container {
@@ -149,7 +149,7 @@ h1, h2, h3, h4, p, span, div, button {
   border: none;
   background: transparent;
   outline: none;
-  font-family: var(--font-mono);
+  font-family: var(--font-main);
   font-weight: 700;
   font-size: 1rem;
   padding-left: 0.5rem;
@@ -280,7 +280,7 @@ h1, h2, h3, h4, p, span, div, button {
   border: none;
   border-right: 2px solid var(--border-dark);
   padding: 0.8rem;
-  font-family: var(--font-mono);
+  font-family: var(--font-main);
   font-weight: 800;
   cursor: pointer;
 }
@@ -471,7 +471,7 @@ h1, h2, h3, h4, p, span, div, button {
   height: 200px;
   border: 2px solid var(--border-dark);
   padding: 1rem;
-  font-family: var(--font-mono);
+  font-family: var(--font-main);
   margin-bottom: 1rem;
 }
 
