@@ -307,7 +307,7 @@ function renderQuestion() {
     optItem.onclick = () => selectOption(optIdx);
 
     optItem.innerHTML = `
-      <div class="option-radio"></div>
+      <div class="option-radio">${isSelected ? '✔' : ''}</div>
       <div class="option-text"><strong>[${String.fromCharCode(65 + optIdx)}]</strong> ${optText}</div>
     `;
     optionsContainer.appendChild(optItem);

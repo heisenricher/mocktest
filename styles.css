@@ -336,9 +336,15 @@ h1, h2, h3, h4, p, span, div, button {
   width: 20px;
   height: 20px;
   border: 2px solid var(--border-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  line-height: 1;
 }
 .option-item.selected .option-radio {
   background: var(--bg-main);
+  color: var(--text-main);
 }
 
 .exam-footer-nav {
