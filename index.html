@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MOCKTEST.HUB | Clean Minimalist Mock Test Engine</title>
-  <meta name="description" content="Ultra-clean, high-performance mock test platform for SSC CGL, GATE, UPSC, and Banking aspirants." />
+  <title>SSC CGL MOCK HUB | 100% Free SSC CGL Exam Platform</title>
+  <meta name="description" content="Dedicated 100% free SSC CGL Mock Test portal with official Tier-1 & Tier-2 exam patterns, 60-minute timers, and instant analytical scorecards." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Minimal Robotic Header -->
+  <!-- Minimal SSC CGL Header -->
   <nav class="navbar">
     <div class="logo-container" onclick="location.reload()">
-      <div class="logo-icon">[M]</div>
-      <span class="logo-text">MOCKTEST.HUB</span>
+      <div class="logo-icon">[CGL]</div>
+      <span class="logo-text">SSC.CGL.MOCK.HUB</span>
       <span class="badge-free">100% FREE</span>
     </div>
     <div class="nav-actions">
       <button class="btn btn-secondary" onclick="openImportModal()">
-        + Import JSON Test
+        + Import Custom Test JSON
       </button>
     </div>
   </nav>
@@ -26,21 +26,21 @@
   <!-- Main Container -->
   <main class="main-container">
     <section class="hero-section">
-      <h1 class="hero-title">> MOCK_TEST_ENGINE_V1.0</h1>
-      <p class="hero-subtitle">High-speed, distraction-free mock examination portal built for competitive exam aspirants.</p>
+      <h1 class="hero-title">> SSC_CGL_MOCK_ENGINE_2026</h1>
+      <p class="hero-subtitle">Official pattern Tier-1 & Tier-2 mock tests, sectional practice sets, negative marking (+2.00/-0.50), and step-by-step solution breakdowns for SSC CGL aspirants.</p>
       
       <div class="stats-grid">
         <div class="stat-item">
           <div class="stat-number" id="totalTestsCount">2</div>
-          <div class="stat-label">AVAILABLE_TESTS</div>
+          <div class="stat-label">SSC_CGL_TESTS</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">0.00</div>
-          <div class="stat-label">HOSTING_COST</div>
+          <div class="stat-number">60m</div>
+          <div class="stat-label">TIER-1_TIMER</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">100%</div>
-          <div class="stat-label">FREE_ACCESS</div>
+          <div class="stat-number">+2 / -0.5</div>
+          <div class="stat-label">OFFICIAL_MARKING</div>
         </div>
       </div>
     </section>
@@ -49,21 +49,19 @@
     <div class="search-filter-bar">
       <div class="search-input-wrapper">
         <span class="search-icon">></span>
-        <input type="text" id="searchInput" class="search-input" placeholder="TYPE TO FILTER TESTS BY EXAM, TOPIC, OR KEYWORD..." />
+        <input type="text" id="searchInput" class="search-input" placeholder="SEARCH SSC CGL TESTS, QUANT, REASONING, GA, ENGLISH..." />
       </div>
 
       <div class="category-pills">
-        <button class="pill active" data-cat="All">[ALL_EXAMS]</button>
-        <button class="pill" data-cat="SSC & Banking">[SSC & BANKING]</button>
-        <button class="pill" data-cat="GATE / Engineering">[GATE / ENGG]</button>
-        <button class="pill" data-cat="UPSC / Civil Services">[UPSC / CIVIL]</button>
-        <button class="pill" data-cat="Tech & Coding">[TECH / CODING]</button>
+        <button class="pill active" data-cat="All">[ALL_SSC_CGL_TESTS]</button>
+        <button class="pill" data-cat="Tier-1 Full Length">[TIER-1_FULL_MOCK]</button>
+        <button class="pill" data-cat="Quant Sectional">[QUANT_SECTIONAL]</button>
       </div>
     </div>
 
     <!-- Tests Catalog Grid -->
     <div class="tests-grid" id="testsGrid">
-      <!-- Dynamic Test Cards -->
+      <!-- Dynamic SSC CGL Test Cards -->
     </div>
   </main>
 
@@ -71,8 +69,8 @@
   <div class="exam-screen" id="examScreen">
     <div class="exam-header">
       <div class="exam-title-group">
-        <span class="badge-free">LIVE_SESSION</span>
-        <h2 class="exam-title" id="examTitle">SSC CGL MOCK</h2>
+        <span class="badge-free">SSC_CGL_LIVE</span>
+        <h2 class="exam-title" id="examTitle">SSC CGL TIER-1 MOCK</h2>
       </div>
       <div class="timer-box">
         <span>TIME:</span>
@@ -145,10 +143,10 @@
   <!-- Analytical Results Screen -->
   <div class="results-screen" id="resultsScreen">
     <div class="scorecard-header">
-      <span class="badge-free">EVALUATION_REPORT</span>
-      <h1 class="hero-title" style="margin-top: 0.5rem;" id="resTestTitle">TEST_SCORECARD</h1>
+      <span class="badge-free">SSC_CGL_SCORECARD</span>
+      <h1 class="hero-title" style="margin-top: 0.5rem;" id="resTestTitle">SSC_CGL_REPORT</h1>
       <div class="score-big" id="resScore">0.00 / 0.00</div>
-      <p style="color: var(--text-muted); font-size: 0.85rem;">FINAL MARKS OBTAINED</p>
+      <p style="color: var(--text-muted); font-size: 0.85rem;">TOTAL MARKS OBTAINED</p>
     </div>
 
     <div class="metrics-grid">
@@ -183,15 +181,15 @@
   <!-- Bulk Import Modal -->
   <div class="modal-overlay" id="importModal">
     <div class="modal-box">
-      <h3 class="modal-title">> IMPORT_TEST_JSON</h3>
+      <h3 class="modal-title">> IMPORT_SSC_CGL_JSON</h3>
       <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.85rem;">
-        Paste structured JSON object below to add new mock tests to the catalog.
+        Paste structured SSC CGL JSON object below to add new tests to the catalog.
       </p>
       
       <textarea id="jsonInput" class="code-area" placeholder='{
-  "id": "cgl-tier1-test-02",
-  "title": "SSC CGL Tier 1 Mock 02",
-  "category": "SSC & Banking",
+  "id": "ssc-cgl-tier1-mock-03",
+  "title": "SSC CGL Tier 1 Full Mock 03",
+  "category": "Tier-1 Full Length",
   "durationMinutes": 60,
   "totalMarks": 200,
   "questions": [...]
