@@ -84,12 +84,23 @@
         <span>TIME:</span>
         <span id="timerDisplay">60:00</span>
       </div>
-      <button class="btn btn-primary" onclick="confirmSubmitTest()" style="background: var(--accent-red); border-color: var(--accent-red);">
-        FINISH TEST
-      </button>
+      <div style="display: flex; gap: 0.5rem;">
+        <button class="btn btn-secondary" id="pauseBtn" onclick="togglePause()">
+          [PAUSE TEST]
+        </button>
+        <button class="btn btn-primary" onclick="confirmSubmitTest()" style="background: var(--accent-red); border-color: var(--accent-red);">
+          FINISH TEST
+        </button>
+      </div>
     </div>
 
-    <div class="exam-body">
+    <div class="exam-body" style="position: relative;">
+      
+      <!-- Pause Overlay -->
+      <div id="pauseOverlay" style="display: none; position: absolute; inset: 0; background: var(--bg-main); z-index: 50; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 1rem;">TEST PAUSED</h2>
+        <p style="color: var(--text-muted);">The timer is stopped and questions are hidden to prevent cheating.</p>
+      </div>
       <!-- Question Container -->
       <div class="question-container">
         <div>

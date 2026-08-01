@@ -35,6 +35,7 @@ let currentQuestionIndex = 0;
 let userResponses = {}; 
 let timerInterval = null;
 let timeRemainingSeconds = 0;
+let isPaused = false;
 let activeCategory = "All";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -227,6 +228,15 @@ function startTest(testId) {
   currentQuestionIndex = 0;
   userResponses = {};
   timeRemainingSeconds = currentTest.durationMinutes * 60;
+  isPaused = false;
+  
+  const pauseOverlay = document.getElementById("pauseOverlay");
+  const pauseBtn = document.getElementById("pauseBtn");
+  if (pauseOverlay) pauseOverlay.style.display = "none";
+  if (pauseBtn) {
+    pauseBtn.textContent = "[PAUSE TEST]";
+    pauseBtn.style.color = "var(--text-main)";
+  }
 
   currentTest.questions.forEach(q => {
     userResponses[q.id] = {
@@ -252,6 +262,8 @@ function startTimer() {
   updateTimerDisplay();
 
   timerInterval = setInterval(() => {
+    if (isPaused) return;
+
     timeRemainingSeconds--;
     updateTimerDisplay();
 
@@ -482,6 +494,26 @@ async function submitTest() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function togglePause() {
+  isPaused = !isPaused;
+  const overlay = document.getElementById("pauseOverlay");
+  const btn = document.getElementById("pauseBtn");
+  
+  if (isPaused) {
+    if (overlay) overlay.style.display = "flex";
+    if (btn) {
+      btn.textContent = "[RESUME TEST]";
+      btn.style.color = "var(--accent-green)";
+    }
+  } else {
+    if (overlay) overlay.style.display = "none";
+    if (btn) {
+      btn.textContent = "[PAUSE TEST]";
+      btn.style.color = "var(--text-main)";
+    }
+  }
+}
+
 function renderSolutions() {
   const container = document.getElementById("solutionsList");
   container.innerHTML = "";
@@ -584,6 +616,7 @@ window.clearResponse = clearResponse;
 window.markForReview = markForReview;
 window.saveAndNext = saveAndNext;
 window.confirmSubmitTest = confirmSubmitTest;
+window.togglePause = togglePause;
 window.closeResults = closeResults;
 window.openImportModal = openImportModal;
 window.closeImportModal = closeImportModal;
