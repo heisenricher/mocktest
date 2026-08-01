@@ -1,49 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MockTest Hub | Free Unlimited Mock Tests for Aspirants</title>
-  <meta name="description" content="Prepare for GATE, UPSC, JEE, SSC, Banking, and Tech Coding Exams with 1000s of free mock tests, real-time timers, and instant analytical scorecards." />
+  <title>MOCKTEST.HUB | Clean Minimalist Mock Test Engine</title>
+  <meta name="description" content="Ultra-clean, high-performance mock test platform for SSC CGL, GATE, UPSC, and Banking aspirants." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Top Navbar -->
+  <!-- Minimal Robotic Header -->
   <nav class="navbar">
     <div class="logo-container" onclick="location.reload()">
-      <div class="logo-icon">⚡</div>
-      <span class="logo-text">MockTest Hub</span>
-      <span class="badge-free">100% Free</span>
+      <div class="logo-icon">[M]</div>
+      <span class="logo-text">MOCKTEST.HUB</span>
+      <span class="badge-free">100% FREE</span>
     </div>
     <div class="nav-actions">
       <button class="btn btn-secondary" onclick="openImportModal()">
-        <span>📥</span> Import JSON Test
-      </button>
-      <button class="btn btn-theme" id="themeToggleBtn" title="Toggle Dark/Light Mode">
-        <span id="themeIcon">🌙</span>
+        + Import JSON Test
       </button>
     </div>
   </nav>
 
-  <!-- Main Catalog View -->
+  <!-- Main Container -->
   <main class="main-container">
     <section class="hero-section">
-      <h1 class="hero-title">Practice 1,000s of Free Mock Tests</h1>
-      <p class="hero-subtitle">Target your dream exam with real-time test simulations, negative marking, instant analytical scorecards, and step-by-step solutions.</p>
+      <h1 class="hero-title">> MOCK_TEST_ENGINE_V1.0</h1>
+      <p class="hero-subtitle">High-speed, distraction-free mock examination portal built for competitive exam aspirants.</p>
       
       <div class="stats-grid">
         <div class="stat-item">
-          <div class="stat-number" id="totalTestsCount">4</div>
-          <div class="stat-label">Active Mock Tests</div>
+          <div class="stat-number" id="totalTestsCount">2</div>
+          <div class="stat-label">AVAILABLE_TESTS</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">$0</div>
-          <div class="stat-label">Hosting & Usage Cost</div>
+          <div class="stat-number">0.00</div>
+          <div class="stat-label">HOSTING_COST</div>
         </div>
         <div class="stat-item">
           <div class="stat-number">100%</div>
-          <div class="stat-label">Free for Aspirants</div>
+          <div class="stat-label">FREE_ACCESS</div>
         </div>
       </div>
     </section>
@@ -51,43 +48,43 @@
     <!-- Search and Filters -->
     <div class="search-filter-bar">
       <div class="search-input-wrapper">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" class="search-input" placeholder="Search mock tests by exam name, topic, or subject..." />
+        <span class="search-icon">></span>
+        <input type="text" id="searchInput" class="search-input" placeholder="TYPE TO FILTER TESTS BY EXAM, TOPIC, OR KEYWORD..." />
       </div>
 
       <div class="category-pills">
-        <button class="pill active" data-cat="All">All Exams</button>
-        <button class="pill" data-cat="GATE / Engineering">GATE / Engineering</button>
-        <button class="pill" data-cat="UPSC / Civil Services">UPSC / Civil Services</button>
-        <button class="pill" data-cat="SSC & Banking">SSC & Banking</button>
-        <button class="pill" data-cat="Tech & Coding">Tech & Coding</button>
+        <button class="pill active" data-cat="All">[ALL_EXAMS]</button>
+        <button class="pill" data-cat="SSC & Banking">[SSC & BANKING]</button>
+        <button class="pill" data-cat="GATE / Engineering">[GATE / ENGG]</button>
+        <button class="pill" data-cat="UPSC / Civil Services">[UPSC / CIVIL]</button>
+        <button class="pill" data-cat="Tech & Coding">[TECH / CODING]</button>
       </div>
     </div>
 
     <!-- Tests Catalog Grid -->
     <div class="tests-grid" id="testsGrid">
-      <!-- Injected dynamically via app.js -->
+      <!-- Dynamic Test Cards -->
     </div>
   </main>
 
-  <!-- Live Exam Engine Overlay -->
+  <!-- Live Exam Engine Screen -->
   <div class="exam-screen" id="examScreen">
     <div class="exam-header">
       <div class="exam-title-group">
-        <span class="badge-free">Live Exam</span>
-        <h2 class="exam-title" id="examTitle">Mock Test</h2>
+        <span class="badge-free">LIVE_SESSION</span>
+        <h2 class="exam-title" id="examTitle">SSC CGL MOCK</h2>
       </div>
       <div class="timer-box">
-        <span>⏱️</span>
-        <span id="timerDisplay">00:00</span>
+        <span>TIME:</span>
+        <span id="timerDisplay">60:00</span>
       </div>
-      <button class="btn btn-primary" onclick="confirmSubmitTest()" style="background: #ef4444; box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);">
-        Submit Test
+      <button class="btn btn-primary" onclick="confirmSubmitTest()" style="background: var(--accent-red); border-color: var(--accent-red);">
+        FINISH TEST
       </button>
     </div>
 
     <div class="exam-body">
-      <!-- Question Section -->
+      <!-- Question Container -->
       <div class="question-container">
         <div>
           <div class="section-tabs" id="sectionTabsContainer">
@@ -95,46 +92,46 @@
           </div>
 
           <div class="question-header">
-            <span class="question-number-badge" id="qNumberBadge">Question 1</span>
-            <span class="marks-badge" id="marksBadge">+2 Marks | -0.66 Neg</span>
+            <span class="question-number-badge" id="qNumberBadge">QUESTION 01</span>
+            <span class="marks-badge" id="marksBadge">+2.00 | -0.50</span>
           </div>
 
-          <p class="question-text" id="questionText">Loading question...</p>
+          <p class="question-text" id="questionText">Loading question content...</p>
           <div class="options-list" id="optionsList">
-            <!-- Injected options -->
+            <!-- Injected Options -->
           </div>
         </div>
 
         <div class="exam-footer-nav">
-          <div style="display: flex; gap: 0.75rem;">
-            <button class="btn btn-secondary" onclick="prevQuestion()">← Previous</button>
-            <button class="btn btn-secondary" onclick="clearResponse()" style="color: #ef4444; border-color: rgba(239,68,68,0.3);">Clear Response</button>
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-secondary" onclick="prevQuestion()">[PREV]</button>
+            <button class="btn btn-secondary" onclick="clearResponse()" style="color: var(--accent-red);">[CLEAR]</button>
           </div>
-          <div style="display: flex; gap: 0.75rem;">
-            <button class="btn btn-secondary" onclick="markForReview()" style="color: #f59e0b; border-color: rgba(245,158,11,0.3);">Mark for Review & Next</button>
-            <button class="btn btn-primary" onclick="saveAndNext()">Save & Next →</button>
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-secondary" onclick="markForReview()" style="color: var(--accent-amber);">[MARK FOR REVIEW]</button>
+            <button class="btn btn-primary" onclick="saveAndNext()">[SAVE & NEXT]</button>
           </div>
         </div>
       </div>
 
-      <!-- Right Question Palette Sidebar -->
+      <!-- Right Palette Sidebar -->
       <div class="palette-sidebar">
-        <h3 class="palette-title">Question Palette</h3>
+        <h3 class="palette-title">> QUESTION_PALETTE</h3>
         <div class="palette-legend">
           <div class="legend-item">
-            <div class="legend-box" style="background: var(--status-answered);"></div>
+            <div class="legend-box" style="background: var(--accent-green);"></div>
             <span>Answered</span>
           </div>
           <div class="legend-item">
-            <div class="legend-box" style="background: var(--status-unanswered);"></div>
-            <span>Not Answered</span>
+            <div class="legend-box" style="background: var(--accent-red);"></div>
+            <span>Unanswered</span>
           </div>
           <div class="legend-item">
-            <div class="legend-box" style="background: var(--status-review);"></div>
-            <span>Marked Review</span>
+            <div class="legend-box" style="background: var(--accent-amber);"></div>
+            <span>Review</span>
           </div>
           <div class="legend-item">
-            <div class="legend-box" style="background: var(--status-notvisited);"></div>
+            <div class="legend-box" style="background: #e2e8f0;"></div>
             <span>Not Visited</span>
           </div>
         </div>
@@ -148,72 +145,61 @@
   <!-- Analytical Results Screen -->
   <div class="results-screen" id="resultsScreen">
     <div class="scorecard-header">
-      <span class="badge-free">Performance Report</span>
-      <h1 class="hero-title" style="margin-top: 0.5rem;" id="resTestTitle">Test Result</h1>
-      <div class="score-big" id="resScore">0 / 0</div>
-      <p style="color: var(--text-muted);">Overall Score Achieved</p>
+      <span class="badge-free">EVALUATION_REPORT</span>
+      <h1 class="hero-title" style="margin-top: 0.5rem;" id="resTestTitle">TEST_SCORECARD</h1>
+      <div class="score-big" id="resScore">0.00 / 0.00</div>
+      <p style="color: var(--text-muted); font-size: 0.85rem;">FINAL MARKS OBTAINED</p>
     </div>
 
     <div class="metrics-grid">
       <div class="metric-card">
-        <div class="metric-value" id="resAccuracy" style="color: var(--accent-primary);">0%</div>
-        <div class="metric-title">Accuracy Rate</div>
+        <div class="metric-value" id="resAccuracy" style="color: var(--accent-blue);">0%</div>
+        <div class="metric-title">ACCURACY RATE</div>
       </div>
       <div class="metric-card">
-        <div class="metric-value" id="resCorrect" style="color: #10b981;">0</div>
-        <div class="metric-title">Correct Answers</div>
+        <div class="metric-value" id="resCorrect" style="color: var(--accent-green);">0</div>
+        <div class="metric-title">CORRECT ANSWERS</div>
       </div>
       <div class="metric-card">
-        <div class="metric-value" id="resWrong" style="color: #ef4444;">0</div>
-        <div class="metric-title">Incorrect Answers</div>
+        <div class="metric-value" id="resWrong" style="color: var(--accent-red);">0</div>
+        <div class="metric-title">WRONG ANSWERS</div>
       </div>
       <div class="metric-card">
-        <div class="metric-value" id="resSkipped" style="color: #f59e0b;">0</div>
-        <div class="metric-title">Skipped Questions</div>
+        <div class="metric-value" id="resSkipped" style="color: var(--accent-amber);">0</div>
+        <div class="metric-title">SKIPPED QUESTIONS</div>
       </div>
     </div>
 
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h2 style="font-size: 1.5rem; font-weight: 800;">Detailed Solutions & Explanations</h2>
-      <button class="btn btn-primary" onclick="closeResults()">Back to Test Catalog</button>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <h2 style="font-size: 1.1rem; font-weight: 800;">> SOLUTION_EXPLANATIONS</h2>
+      <button class="btn btn-primary" onclick="closeResults()">[EXIT TO CATALOG]</button>
     </div>
 
     <div class="solutions-container" id="solutionsList">
-      <!-- Solutions injected via JS -->
+      <!-- Solutions -->
     </div>
   </div>
 
-  <!-- Bulk Import JSON Modal -->
+  <!-- Bulk Import Modal -->
   <div class="modal-overlay" id="importModal">
     <div class="modal-box">
-      <h3 class="modal-title">📥 Import Custom Mock Test (JSON)</h3>
-      <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
-        Paste a custom test JSON object below or use ChatGPT/Gemini to convert raw question papers into this format.
+      <h3 class="modal-title">> IMPORT_TEST_JSON</h3>
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.85rem;">
+        Paste structured JSON object below to add new mock tests to the catalog.
       </p>
       
       <textarea id="jsonInput" class="code-area" placeholder='{
-  "id": "my-custom-test",
-  "title": "Sample 50-Question Aptitude Test",
-  "category": "GATE / Engineering",
+  "id": "cgl-tier1-test-02",
+  "title": "SSC CGL Tier 1 Mock 02",
+  "category": "SSC & Banking",
   "durationMinutes": 60,
-  "totalMarks": 100,
-  "questions": [
-    {
-      "id": 1,
-      "section": "Aptitude",
-      "question": "What is 2 + 2?",
-      "options": ["3", "4", "5", "6"],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.66,
-      "explanation": "2 + 2 equals 4."
-    }
-  ]
+  "totalMarks": 200,
+  "questions": [...]
 }'></textarea>
 
       <div style="display: flex; justify-content: space-between; align-items: center;">
-        <button class="btn btn-secondary" onclick="closeImportModal()">Cancel</button>
-        <button class="btn btn-primary" onclick="importJSONTest()">Import & Save Test</button>
+        <button class="btn btn-secondary" onclick="closeImportModal()">CANCEL</button>
+        <button class="btn btn-primary" onclick="importJSONTest()">IMPORT TEST</button>
       </div>
     </div>
   </div>

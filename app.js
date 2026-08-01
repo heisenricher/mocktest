@@ -1,22 +1,19 @@
-// MockTest Hub - Core Application Logic
+// MockTest Hub - Core Minimalist Engine
 
 let allTests = [...SAMPLE_MOCK_TESTS];
 let currentTest = null;
 let currentQuestionIndex = 0;
-let userResponses = {}; // { questionId: { selectedOption: number, markedForReview: boolean } }
+let userResponses = {}; 
 let timerInterval = null;
 let timeRemainingSeconds = 0;
 let activeCategory = "All";
 
-// DOM Elements
 document.addEventListener("DOMContentLoaded", () => {
   loadCustomTestsFromStorage();
-  initTheme();
   renderCatalog();
   setupEventListeners();
 });
 
-// Load Custom Tests from LocalStorage
 function loadCustomTestsFromStorage() {
   const saved = localStorage.getItem("custom_mock_tests");
   if (saved) {
@@ -26,28 +23,6 @@ function loadCustomTestsFromStorage() {
     } catch (e) {
       console.error("Failed to load saved tests", e);
     }
-  }
-}
-
-// Theme Toggle
-function initTheme() {
-  const savedTheme = localStorage.getItem("theme") || "dark";
-  document.documentElement.setAttribute("data-theme", savedTheme);
-  updateThemeIcon(savedTheme);
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute("data-theme");
-  const next = current === "dark" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", next);
-  localStorage.setItem("theme", next);
-  updateThemeIcon(next);
-}
-
-function updateThemeIcon(theme) {
-  const icon = document.getElementById("themeIcon");
-  if (icon) {
-    icon.textContent = theme === "dark" ? "🌙" : "☀️";
   }
 }
 
@@ -70,9 +45,8 @@ function renderCatalog() {
 
   if (filtered.length === 0) {
     grid.innerHTML = `
-      <div style="grid-column: 1/-1; text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
-        <p style="font-size: 1.2rem; font-weight: 600;">No mock tests found matching your criteria.</p>
-        <p style="font-size: 0.9rem; margin-top: 0.5rem;">Try clearing search or importing your own test JSON!</p>
+      <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
+        <p style="font-size: 1rem; font-weight: 700;">> NO_TESTS_MATCHING_FILTER</p>
       </div>
     `;
     return;
@@ -89,21 +63,12 @@ function renderCatalog() {
       </div>
       <div>
         <div class="test-meta">
-          <div class="meta-item">
-            <span class="meta-icon">⏱️</span>
-            <span>${test.durationMinutes} Mins</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-icon">❓</span>
-            <span>${test.totalQuestions} Questions</span>
-          </div>
-          <div class="meta-item">
-            <span class="meta-icon">🎯</span>
-            <span>${test.totalMarks} Marks</span>
-          </div>
+          <div class="meta-item">[DUR: ${test.durationMinutes}m]</div>
+          <div class="meta-item">[QS: ${test.totalQuestions}]</div>
+          <div class="meta-item">[MARKS: ${test.totalMarks}]</div>
         </div>
         <button class="btn btn-primary" style="width: 100%; justify-content: center;" onclick="startTest('${test.id}')">
-          🚀 Start Free Test
+          [START MOCK TEST]
         </button>
       </div>
     `;
@@ -111,15 +76,12 @@ function renderCatalog() {
   });
 }
 
-// Setup Event Listeners
 function setupEventListeners() {
   document.getElementById("searchInput")?.addEventListener("input", renderCatalog);
-  document.getElementById("themeToggleBtn")?.addEventListener("click", toggleTheme);
 
-  // Category Pills
   const pills = document.querySelectorAll(".pill");
   pills.forEach(pill => {
-    pill.addEventListener("click", (e) => {
+    pill.addEventListener("click", () => {
       pills.forEach(p => p.classList.remove("active"));
       pill.classList.add("active");
       activeCategory = pill.getAttribute("data-cat");
@@ -128,7 +90,7 @@ function setupEventListeners() {
   });
 }
 
-// Start Test Engine
+// Start Test
 function startTest(testId) {
   currentTest = allTests.find(t => t.id === testId);
   if (!currentTest) return;
@@ -137,7 +99,6 @@ function startTest(testId) {
   userResponses = {};
   timeRemainingSeconds = currentTest.durationMinutes * 60;
 
-  // Initialize response state
   currentTest.questions.forEach(q => {
     userResponses[q.id] = {
       selectedOption: null,
@@ -146,7 +107,6 @@ function startTest(testId) {
     };
   });
 
-  // Mark first question visited
   userResponses[currentTest.questions[0].id].visited = true;
 
   document.getElementById("examTitle").textContent = currentTest.title;
@@ -158,7 +118,6 @@ function startTest(testId) {
   startTimer();
 }
 
-// Timer Logic
 function startTimer() {
   clearInterval(timerInterval);
   updateTimerDisplay();
@@ -169,7 +128,7 @@ function startTimer() {
 
     if (timeRemainingSeconds <= 0) {
       clearInterval(timerInterval);
-      alert("⏰ Time is up! Submitting your test automatically.");
+      alert("TIME EXPIRED. SUBMITTING TEST AUTOMATICALLY.");
       submitTest();
     }
   }, 1000);
@@ -188,7 +147,6 @@ function updateTimerDisplay() {
   if (timerEl) timerEl.textContent = formatted;
 }
 
-// Render Section Tabs
 function renderSectionTabs() {
   const container = document.getElementById("sectionTabsContainer");
   const sections = [...new Set(currentTest.questions.map(q => q.section))];
@@ -222,13 +180,12 @@ function updateActiveSectionTab() {
   });
 }
 
-// Render Active Question
 function renderQuestion() {
   const q = currentTest.questions[currentQuestionIndex];
   userResponses[q.id].visited = true;
 
-  document.getElementById("qNumberBadge").textContent = `Question ${currentQuestionIndex + 1} of ${currentTest.questions.length}`;
-  document.getElementById("marksBadge").textContent = `+${q.marks} Marks | -${q.negativeMarks} Neg`;
+  document.getElementById("qNumberBadge").textContent = `QUESTION ${String(currentQuestionIndex + 1).padStart(2, '0')} / ${String(currentTest.questions.length).padStart(2, '0')}`;
+  document.getElementById("marksBadge").textContent = `+${q.marks}.00 | -${q.negativeMarks}`;
   document.getElementById("questionText").textContent = q.question;
 
   const optionsContainer = document.getElementById("optionsList");
@@ -242,7 +199,7 @@ function renderQuestion() {
 
     optItem.innerHTML = `
       <div class="option-radio"></div>
-      <div class="option-text"><strong>${String.fromCharCode(65 + optIdx)}.</strong> ${optText}</div>
+      <div class="option-text"><strong>[${String.fromCharCode(65 + optIdx)}]</strong> ${optText}</div>
     `;
     optionsContainer.appendChild(optItem);
   });
@@ -251,32 +208,28 @@ function renderQuestion() {
   renderPalette();
 }
 
-// Select Option
 function selectOption(optIndex) {
   const q = currentTest.questions[currentQuestionIndex];
   if (userResponses[q.id].selectedOption === optIndex) {
-    userResponses[q.id].selectedOption = null; // deselect
+    userResponses[q.id].selectedOption = null;
   } else {
     userResponses[q.id].selectedOption = optIndex;
   }
   renderQuestion();
 }
 
-// Clear Response
 function clearResponse() {
   const q = currentTest.questions[currentQuestionIndex];
   userResponses[q.id].selectedOption = null;
   renderQuestion();
 }
 
-// Mark for Review & Next
 function markForReview() {
   const q = currentTest.questions[currentQuestionIndex];
   userResponses[q.id].markedForReview = true;
   nextQuestion();
 }
 
-// Save & Next
 function saveAndNext() {
   const q = currentTest.questions[currentQuestionIndex];
   userResponses[q.id].markedForReview = false;
@@ -302,7 +255,6 @@ function goToQuestion(idx) {
   renderQuestion();
 }
 
-// Render Palette
 function renderPalette() {
   const grid = document.getElementById("paletteGrid");
   grid.innerHTML = "";
@@ -311,7 +263,7 @@ function renderPalette() {
     const resp = userResponses[q.id];
     const btn = document.createElement("button");
     btn.className = "palette-btn";
-    btn.textContent = idx + 1;
+    btn.textContent = String(idx + 1).padStart(2, '0');
 
     if (resp.selectedOption !== null && resp.markedForReview) {
       btn.classList.add("review");
@@ -332,9 +284,8 @@ function renderPalette() {
   });
 }
 
-// Submit Test & Calculate Results
 function confirmSubmitTest() {
-  if (confirm("Are you sure you want to submit the test?")) {
+  if (confirm("CONFIRM SUBMISSION OF CURRENT TEST?")) {
     submitTest();
   }
 }
@@ -348,29 +299,18 @@ function submitTest() {
   let wrongCount = 0;
   let skippedCount = 0;
 
-  const sectionScores = {};
-
   currentTest.questions.forEach(q => {
     const resp = userResponses[q.id];
     const userAns = resp.selectedOption;
-
-    if (!sectionScores[q.section]) {
-      sectionScores[q.section] = { totalMarks: 0, obtainedMarks: 0, correct: 0, wrong: 0 };
-    }
-    sectionScores[q.section].totalMarks += q.marks;
 
     if (userAns === null) {
       skippedCount++;
     } else if (userAns === q.correctAnswer) {
       correctCount++;
       obtainedMarks += q.marks;
-      sectionScores[q.section].obtainedMarks += q.marks;
-      sectionScores[q.section].correct++;
     } else {
       wrongCount++;
       obtainedMarks -= q.negativeMarks;
-      sectionScores[q.section].obtainedMarks -= q.negativeMarks;
-      sectionScores[q.section].wrong++;
     }
   });
 
@@ -379,22 +319,19 @@ function submitTest() {
     ? Math.round((correctCount / (correctCount + wrongCount)) * 100) 
     : 0;
 
-  // Render Results Screen
   document.getElementById("resTestTitle").textContent = currentTest.title;
-  document.getElementById("resScore").textContent = `${obtainedMarks.toFixed(2)} / ${totalPossibleMarks}`;
+  document.getElementById("resScore").textContent = `${obtainedMarks.toFixed(2)} / ${totalPossibleMarks}.00`;
   document.getElementById("resAccuracy").textContent = `${accuracy}%`;
   document.getElementById("resCorrect").textContent = correctCount;
   document.getElementById("resWrong").textContent = wrongCount;
   document.getElementById("resSkipped").textContent = skippedCount;
 
-  // Render Solutions Review
   renderSolutions();
 
   document.getElementById("resultsScreen").classList.add("active");
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Render Solutions Review
 function renderSolutions() {
   const container = document.getElementById("solutionsList");
   container.innerHTML = "";
@@ -404,14 +341,14 @@ function renderSolutions() {
     const userAns = resp.selectedOption;
 
     let statusClass = "skipped";
-    let statusText = "Skipped";
+    let statusText = "[SKIPPED]";
 
     if (userAns === q.correctAnswer) {
       statusClass = "correct";
-      statusText = "Correct (+ " + q.marks + " Marks)";
+      statusText = `[CORRECT +${q.marks}.00]`;
     } else if (userAns !== null) {
       statusClass = "wrong";
-      statusText = "Incorrect (- " + q.negativeMarks + " Marks)";
+      statusText = `[INCORRECT -${q.negativeMarks}]`;
     }
 
     const card = document.createElement("div");
@@ -422,25 +359,25 @@ function renderSolutions() {
       let badge = "";
 
       if (oIdx === q.correctAnswer) {
-        optColor = "#10b981";
-        badge = " <strong style='color: #10b981;'>(Correct Answer)</strong>";
+        optColor = "var(--accent-green)";
+        badge = " <strong>[CORRECT]</strong>";
       } else if (oIdx === userAns) {
-        optColor = "#ef4444";
-        badge = " <strong style='color: #ef4444;'>(Your Choice)</strong>";
+        optColor = "var(--accent-red)";
+        badge = " <strong>[YOUR SELECTION]</strong>";
       }
 
-      return `<li style="color: ${optColor}; margin-bottom: 0.4rem;">${String.fromCharCode(65 + oIdx)}. ${opt}${badge}</li>`;
+      return `<li style="color: ${optColor}; margin-bottom: 0.35rem; font-family: var(--font-mono); font-size: 0.88rem;">[${String.fromCharCode(65 + oIdx)}] ${opt}${badge}</li>`;
     }).join("");
 
     card.innerHTML = `
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-        <span style="font-weight: 700; color: var(--accent-primary);">Question ${idx + 1} (${q.section})</span>
-        <span class="marks-badge" style="background: rgba(255,255,255,0.05); color: var(--text-main);">${statusText}</span>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+        <span style="font-weight: 800; font-family: var(--font-mono); font-size: 0.85rem;">Q${idx + 1} // ${q.section}</span>
+        <span style="font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700;">${statusText}</span>
       </div>
-      <p style="font-weight: 600; font-size: 1.05rem; margin-bottom: 1rem;">${q.question}</p>
-      <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">${optionsHtml}</ul>
+      <p style="font-weight: 600; font-size: 0.98rem; margin-bottom: 0.85rem; font-family: var(--font-sans);">${q.question}</p>
+      <ul style="list-style: none; padding-left: 0; margin-bottom: 0.85rem;">${optionsHtml}</ul>
       <div class="explanation-box">
-        <strong>💡 Detailed Explanation:</strong><br/>
+        <strong>> EXPLANATION:</strong><br/>
         ${q.explanation}
       </div>
     `;
@@ -454,7 +391,6 @@ function closeResults() {
   renderCatalog();
 }
 
-// Bulk JSON Import Modal
 function openImportModal() {
   document.getElementById("importModal").classList.add("active");
 }
@@ -468,7 +404,7 @@ function importJSONTest() {
   try {
     const parsed = JSON.parse(jsonText);
     if (!parsed.title || !parsed.questions || !Array.isArray(parsed.questions)) {
-      alert("Invalid test JSON format. Missing title or questions array.");
+      alert("INVALID JSON. MISSING TITLE OR QUESTIONS ARRAY.");
       return;
     }
 
@@ -485,8 +421,8 @@ function importJSONTest() {
     allTests.push(parsed);
     renderCatalog();
     closeImportModal();
-    alert("🎉 Mock Test imported successfully!");
+    alert("TEST IMPORTED SUCCESSFULLY.");
   } catch (err) {
-    alert("JSON Syntax Error: " + err.message);
+    alert("JSON ERROR: " + err.message);
   }
 }
