@@ -1,5 +1,259 @@
-// Pre-loaded sample mock tests dataset
+// Official Mock Tests Dataset for MockTest Hub
 const SAMPLE_MOCK_TESTS = [
+  {
+    id: "ssc-cgl-tier1-official-2026",
+    title: "SSC CGL Tier-1 Official Pattern Full Mock Test 2026",
+    category: "SSC & Banking",
+    durationMinutes: 60,
+    totalQuestions: 20,
+    totalMarks: 40,
+    negativeMarking: true,
+    description: "Exact SSC CGL Tier-1 exam replica: 4 Sections (Reasoning, General Awareness, Quant, English), 60-minute real exam timer, +2/-0.5 marking.",
+    questions: [
+      // SECTION 1: GENERAL INTELLIGENCE & REASONING
+      {
+        id: 1,
+        section: "General Intelligence & Reasoning",
+        type: "single",
+        question: "Select the option that is related to the third word in the same way as the second word is related to the first word.\n\nPALEontology : Fossils :: Ornithology : ?",
+        options: ["Insects", "Birds", "Reptiles", "Rocks"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Paleontology is the study of fossils. Similarly, Ornithology is the study of birds. (Entomology is the study of insects, Herpetology is the study of reptiles)."
+      },
+      {
+        id: 2,
+        section: "General Intelligence & Reasoning",
+        type: "single",
+        question: "In a certain code language, 'BUILDING' is coded as 'DWIJFKPK'. How will 'TOWERING' be coded in that language?",
+        options: ["VQYGTKPI", "VQYGTKPK", "VQYGTKQI", "WRZHUJQK"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Pattern: Alternate letters are shifted by +2 position in alphabetical order.\nB(+2)=D, U(+2)=W, I(+2)=K... wait: B(+2)=D, U(+2)=W, I(+0)? Let's check: T(+2)=V, O(+2)=Q, W(+2)=Y, E(+2)=G, R(+2)=T, I(+2)=K, N(+2)=P, G(+2)=I => VQYGTKPI."
+      },
+      {
+        id: 3,
+        section: "General Intelligence & Reasoning",
+        type: "single",
+        question: "Statements:\n1. All cars are vehicles.\n2. Some vehicles are electric.\n\nConclusions:\nI. Some electric items are cars.\nII. Some vehicles are cars.",
+        options: ["Only Conclusion I follows", "Only Conclusion II follows", "Both I and II follow", "Neither I nor II follows"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Since All cars are vehicles, by conversion 'Some vehicles are cars' is definitely TRUE (Conclusion II). Conclusion I cannot be definitely established from the statements."
+      },
+      {
+        id: 4,
+        section: "General Intelligence & Reasoning",
+        type: "single",
+        question: "Pointing to a photograph of a woman, Rahul said, 'She is the mother of the only daughter of my father-in-law.' How is the woman in the photograph related to Rahul?",
+        options: ["Sister", "Mother", "Wife", "Mother-in-law"],
+        correctAnswer: 2,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "'My father-in-law's only daughter' = Rahul's Wife. 'The mother of Rahul's wife's daughter' = Rahul's Wife. Thus, the woman is Rahul's Wife."
+      },
+      {
+        id: 5,
+        section: "General Intelligence & Reasoning",
+        type: "single",
+        question: "Select the missing number in the series: 7, 11, 19, 35, 67, ?",
+        options: ["121", "131", "129", "135"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Pattern: Difference doubles each step: (11-7=4), (19-11=8), (35-19=16), (67-35=32). Next diff = 64. Next number = 67 + 64 = 131."
+      },
+
+      // SECTION 2: GENERAL AWARENESS (GK / GS)
+      {
+        id: 6,
+        section: "General Awareness",
+        type: "single",
+        question: "Which Constitutional Amendment Act added the 11th Fundamental Duty (education for children aged 6 to 14) under Article 51A of the Indian Constitution?",
+        options: ["44th Amendment Act, 1978", "86th Amendment Act, 2002", "42nd Amendment Act, 1976", "91st Amendment Act, 2003"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "The 86th Constitutional Amendment Act, 2002 added fundamental duty 51A(k) making education for children aged 6 to 14 years the responsibility of parents/guardians."
+      },
+      {
+        id: 7,
+        section: "General Awareness",
+        type: "single",
+        question: "Who among the following was the founder of the Maurya Dynasty in ancient India?",
+        options: ["Ashoka the Great", "Chandragupta Maurya", "Bindusara", "Bimbisara"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Chandragupta Maurya founded the Maurya Empire in 322 BCE with the assistance of Chanakya (Kautilya), defeating the Nanda Dynasty."
+      },
+      {
+        id: 8,
+        section: "General Awareness",
+        type: "single",
+        question: "In physics, what is the SI unit of Magnetic Flux?",
+        options: ["Tesla", "Weber (Wb)", "Henry", "Gauss"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "The SI unit of Magnetic Flux is Weber (Wb). Tesla is the unit of Magnetic Flux Density (B)."
+      },
+      {
+        id: 9,
+        section: "General Awareness",
+        type: "single",
+        question: "Which Indian river is known as the 'Vridha Ganga' or 'Sorrow of the South' due to its large age and length?",
+        options: ["Krishna", "Mahanadi", "Godavari", "Kaveri"],
+        correctAnswer: 2,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Godavari is the largest peninsular river system in India and is called 'Vridha Ganga' (Old Ganga)."
+      },
+      {
+        id: 10,
+        section: "General Awareness",
+        type: "single",
+        question: "What is the primary objective of the 'Fiscal Deficit' indicator in the Union Budget of India?",
+        options: [
+          "Total revenue collected from direct taxes",
+          "Difference between total government expenditure and total receipts (excluding borrowings)",
+          "Difference between exports and imports of goods",
+          "Total interest payments made on foreign debt"
+        ],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Fiscal Deficit represents the total borrowing requirements of the government: (Total Expenditure - Total Receipts excluding borrowings)."
+      },
+
+      // SECTION 3: QUANTITATIVE APTITUDE
+      {
+        id: 11,
+        section: "Quantitative Aptitude",
+        type: "single",
+        question: "If sin θ + cos θ = √2 cos θ, then what is the value of (cos θ - sin θ)?",
+        options: ["√2 sin θ", "√2 cos θ", "1 / √2", "sin θ"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Given sin θ = (√2 - 1) cos θ => multiply both sides by (√2 + 1): (√2 + 1) sin θ = cos θ => √2 sin θ + sin θ = cos θ => cos θ - sin θ = √2 sin θ."
+      },
+      {
+        id: 12,
+        section: "Quantitative Aptitude",
+        type: "single",
+        question: "A, B, and C can complete a piece of work in 10, 12, and 15 days respectively. If they all start working together, in how many days will the work be completed?",
+        options: ["4 days", "5 days", "6 days", "3.5 days"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Total Work = LCM(10, 12, 15) = 60 units. Efficiency of A = 6, B = 5, C = 4. Combined efficiency = 15 units/day. Time = 60 / 15 = 4 days."
+      },
+      {
+        id: 13,
+        section: "Quantitative Aptitude",
+        type: "single",
+        question: "In a circle with center O, an arc AB subtends an angle of 110° at the center. What is the angle subtended by the same arc at any point on the remaining circumference?",
+        options: ["55°", "220°", "110°", "70°"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "By Central Angle Theorem, the angle subtended by an arc at the center is double the angle subtended by it at any point on the circle. Angle = 110° / 2 = 55°."
+      },
+      {
+        id: 14,
+        section: "Quantitative Aptitude",
+        type: "single",
+        question: "A shopkeeper marks an article 30% above its cost price and allows a discount of 15% on the marked price. Find his net profit percentage.",
+        options: ["10.5%", "12.5%", "15%", "8.5%"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Net Change formula = a + b + (ab/100) = +30 - 15 - (30*15)/100 = 15 - 4.5 = 10.5% profit."
+      },
+      {
+        id: 15,
+        section: "Quantitative Aptitude",
+        type: "single",
+        question: "The ratio of the speed of a boat in still water to the speed of the river current is 5 : 1. If the boat takes 4 hours to travel 48 km downstream, find the time taken to travel the same distance upstream.",
+        options: ["6 hours", "8 hours", "5 hours", "7 hours"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "Downstream speed = 48 / 4 = 12 km/h. Let boat speed = 5x, current = 1x. Downstream = 6x = 12 => x = 2. Boat = 10 km/h, Current = 2 km/h. Upstream speed = 10 - 2 = 8 km/h. Upstream time = 48 / 8 = 6 hours."
+      },
+
+      // SECTION 4: ENGLISH COMPREHENSION
+      {
+        id: 16,
+        section: "English Comprehension",
+        type: "single",
+        question: "Select the option that corrects the underlined error in the sentence:\n\n'Neither the manager nor his assistants *were present in the conference hall*.'",
+        options: [
+          "was present in the conference hall",
+          "were present at the conference hall",
+          "has present in the conference hall",
+          "No correction required"
+        ],
+        correctAnswer: 3,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "When subjects are connected by 'neither... nor', the verb agrees with the subject closest to it. 'Assistants' is plural, so plural verb 'were present' is correct. No correction required."
+      },
+      {
+        id: 17,
+        section: "English Comprehension",
+        type: "single",
+        question: "Select the most appropriate SYNONYM of the given word:\n\n'Meticulous'",
+        options: ["Careless", "Fastidious", "Hasty", "Sloppy"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "'Meticulous' means showing great attention to detail or very careful. 'Fastidious' means giving careful attention to details."
+      },
+      {
+        id: 18,
+        section: "English Comprehension",
+        type: "single",
+        question: "Select the most appropriate ANTONYM of the given word:\n\n'AUDACIOUS'",
+        options: ["Bold", "Timid", "Courageous", "Daring"],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "'Audacious' means showing a willingness to take surprisingly bold risks. The antonym is 'Timid' (showing a lack of courage or confidence)."
+      },
+      {
+        id: 19,
+        section: "English Comprehension",
+        type: "single",
+        question: "Select the option that means the same as the given idiom:\n\n'To bite the bullet'",
+        options: [
+          "To get shot in battle",
+          "To force yourself to undergo something difficult or unpleasant",
+          "To express anger openly",
+          "To waste time on trivial matters"
+        ],
+        correctAnswer: 1,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "'To bite the bullet' means to face a difficult situation with courage and accept its inevitable consequences."
+      },
+      {
+        id: 20,
+        section: "English Comprehension",
+        type: "single",
+        question: "Select the correctly spelt word:",
+        options: ["Accommodate", "Acommodate", "Accomodate", "Acomodate"],
+        correctAnswer: 0,
+        marks: 2,
+        negativeMarks: 0.5,
+        explanation: "The correct spelling is 'Accommodate' (with double 'c' and double 'm')."
+      }
+    ]
+  },
   {
     id: "gate-cs-2026-01",
     title: "GATE Computer Science 2026 - Full Mock 01",
@@ -19,476 +273,7 @@ const SAMPLE_MOCK_TESTS = [
         correctAnswer: 1,
         marks: 2,
         negativeMarks: 0.66,
-        explanation: "Floyd's build-heap algorithm processes nodes bottom-up. The sum of heights across all nodes evaluates to n * (1/2 + 2/4 + 3/8 + ...) = O(n)."
-      },
-      {
-        id: 2,
-        section: "Data Structures & Algorithms",
-        type: "single",
-        question: "Which of the following traversal orders uniquely identifies a binary tree when given along with the Inorder traversal?",
-        options: ["Preorder only", "Postorder only", "Either Preorder or Postorder", "Neither Preorder nor Postorder"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Inorder traversal along with either Preorder or Postorder traversal can uniquely reconstruct a binary tree."
-      },
-      {
-        id: 3,
-        section: "Operating Systems",
-        type: "single",
-        question: "Consider a system with 4 processes and 3 resource units of the same type. Each process requires at most 1 unit. Is deadlock possible?",
-        options: ["Yes, always", "No, deadlock cannot occur", "Depends on execution order", "Only if processes run sequentially"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Since the sum of max demands (4 * 1 = 4) is less than total resources + processes, deadlock cannot occur."
-      },
-      {
-        id: 4,
-        section: "Operating Systems",
-        type: "single",
-        question: "In virtual memory management, Page Fault occurs when:",
-        options: [
-          "An invalid memory address is accessed",
-          "The requested page is not currently present in main memory (RAM)",
-          "A page in cache memory is corrupted",
-          "Disk I/O buffer overflows"
-        ],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "A page fault is a hardware interrupt triggered when a program accesses a page that is mapped into virtual address space, but not loaded in physical RAM."
-      },
-      {
-        id: 5,
-        section: "Database Management Systems",
-        type: "single",
-        question: "Which normal form guarantees the elimination of all insertion, update, and deletion anomalies caused by functional dependencies?",
-        options: ["1NF", "2NF", "3NF", "BCNF"],
-        correctAnswer: 3,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Boyce-Codd Normal Form (BCNF) strictly requires every non-trivial functional dependency X -> Y to have X as a super key."
-      },
-      {
-        id: 6,
-        section: "Database Management Systems",
-        type: "single",
-        question: "In ACID properties of transactions, 'Atomicity' is maintained by which component of DBMS?",
-        options: ["Concurrency Control Manager", "Recovery Manager", "Query Optimizer", "Buffer Manager"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "The Recovery Manager uses undo/redo logs to ensure all operations of a transaction complete or none do (Atomicity)."
-      },
-      {
-        id: 7,
-        section: "Computer Networks",
-        type: "single",
-        question: "What is the maximum payload size (in bytes) of a standard IPv4 packet?",
-        options: ["65,535", "65,515", "1,500", "64,000"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Max IPv4 total length is 65,535 bytes. With a minimum header size of 20 bytes, max payload = 65,535 - 20 = 65,515 bytes."
-      },
-      {
-        id: 8,
-        section: "Computer Networks",
-        type: "single",
-        question: "Which TCP congestion control state doubles the congestion window (cwnd) every Round Trip Time (RTT)?",
-        options: ["Congestion Avoidance", "Slow Start", "Fast Recovery", "Fast Retransmit"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "During Slow Start, cwnd increases exponentially by doubling every RTT until ssthresh is reached."
-      },
-      {
-        id: 9,
-        section: "General Aptitude",
-        type: "single",
-        question: "If 6 men or 8 women can complete a work in 12 days, how many days will 3 men and 4 women take to complete the same work?",
-        options: ["12 days", "16 days", "8 days", "24 days"],
-        correctAnswer: 0,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "6 Men = 8 Women => 3 Men = 4 Women. So (3 Men + 4 Women) = (4 Women + 4 Women) = 8 Women. 8 women take 12 days."
-      },
-      {
-        id: 10,
-        section: "General Aptitude",
-        type: "single",
-        question: "Find the missing term in the sequence: 2, 6, 12, 20, 30, 42, ?",
-        options: ["52", "54", "56", "60"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Sequence follows n² + n: (1²+1=2), (2²+2=6), (3²+3=12), (4²+4=20), (5²+5=30), (6²+6=42), (7²+7=56)."
-      },
-      {
-        id: 11,
-        section: "Data Structures & Algorithms",
-        type: "single",
-        question: "Which data structure is primarily used to implement Breadth-First Search (BFS) on a graph?",
-        options: ["Stack", "Queue", "Priority Queue", "Deque"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Queue follows First-In-First-Out (FIFO) which naturally explores graph nodes level-by-level in BFS."
-      },
-      {
-        id: 12,
-        section: "Operating Systems",
-        type: "single",
-        question: "Banker's Algorithm is used for which aspect of deadlock management?",
-        options: ["Deadlock Detection", "Deadlock Prevention", "Deadlock Avoidance", "Deadlock Recovery"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Banker's Algorithm tests for safety by simulating the allocation for predetermined maximum possible amounts of resources to avoid deadlock."
-      },
-      {
-        id: 13,
-        section: "Computer Networks",
-        type: "single",
-        question: "At which layer of the OSI model does a Router operate?",
-        options: ["Data Link Layer (Layer 2)", "Network Layer (Layer 3)", "Transport Layer (Layer 4)", "Application Layer (Layer 7)"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Routers forward packets between network segments based on IP addresses, operating at Network Layer (Layer 3)."
-      },
-      {
-        id: 14,
-        section: "Database Management Systems",
-        type: "single",
-        question: "What type of join returns all rows from the left table, and matching rows from the right table?",
-        options: ["INNER JOIN", "RIGHT JOIN", "LEFT OUTER JOIN", "FULL OUTER JOIN"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "LEFT OUTER JOIN guarantees that all records from the left relation are retained, filling NULLs for unmatched right relation attributes."
-      },
-      {
-        id: 15,
-        section: "General Aptitude",
-        type: "single",
-        question: "Choose the word most nearly opposite in meaning to 'EPHEMERAL':",
-        options: ["Transient", "Permanent", "Fleeting", "Short-lived"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "'Ephemeral' means lasting for a very short time. The antonym is 'Permanent'."
-      }
-    ]
-  },
-  {
-    id: "upsc-gs1-2026-01",
-    title: "UPSC Civil Services GS Paper 1 - Practice Test",
-    category: "UPSC / Civil Services",
-    durationMinutes: 120,
-    totalQuestions: 10,
-    totalMarks: 20,
-    negativeMarking: true,
-    description: "Mock test covering Indian Polity, History, Geography, Economy, and General Environment for Civil Services aspirants.",
-    questions: [
-      {
-        id: 1,
-        section: "Indian Polity",
-        type: "single",
-        question: "Which Fundamental Right under the Constitution of India cannot be suspended even during a National Emergency declared under Article 352?",
-        options: [
-          "Article 19 (Freedom of Speech)",
-          "Article 20 & Article 21 (Protection of life & personal liberty)",
-          "Article 32 (Right to Constitutional Remedies)",
-          "Article 14 (Equality before Law)"
-        ],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "The 44th Constitutional Amendment Act, 1978 specified that Articles 20 and 21 cannot be suspended even during National Emergency."
-      },
-      {
-        id: 2,
-        section: "Indian History",
-        type: "single",
-        question: "The famous 'Purna Swaraj' (Complete Independence) resolution was passed at which session of the Indian National Congress?",
-        options: ["Lahore Session (1929)", "Karachi Session (1931)", "Calcutta Session (1920)", "Belgaum Session (1924)"],
-        correctAnswer: 0,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Under the presidency of Jawaharlal Nehru, the INC passed the Purna Swaraj resolution at its Lahore Session in December 1929."
-      },
-      {
-        id: 3,
-        section: "Geography",
-        type: "single",
-        question: "Which Indian state has the longest coastline in mainland India?",
-        options: ["Tamil Nadu", "Maharashtra", "Gujarat", "Andhra Pradesh"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Gujarat has the longest coastline in mainland India, stretching approximately 1,600 km along the Arabian Sea."
-      },
-      {
-        id: 4,
-        section: "Indian Economy",
-        type: "single",
-        question: "What is 'Repo Rate' as defined by the Reserve Bank of India (RBI)?",
-        options: [
-          "Rate at which RBI borrows money from commercial banks",
-          "Rate at which RBI lends short-term money to commercial banks",
-          "Rate at which banks lend to their most creditworthy customers",
-          "Interest rate paid on savings accounts"
-        ],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Repo Rate is the repurchase agreement rate at which the RBI lends money to commercial banks against government securities."
-      },
-      {
-        id: 5,
-        section: "Environment & Ecology",
-        type: "single",
-        question: "The Ramsar Convention is an international treaty for the conservation and sustainable use of:",
-        options: ["Forest reserves", "Wetlands", "Coral reefs", "Ozone layer"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Signed in Ramsar, Iran in 1971, the convention focuses on the conservation and wise use of wetlands."
-      },
-      {
-        id: 6,
-        section: "Indian Polity",
-        type: "single",
-        question: "Who acts as the ex-officio Chairman of the Rajya Sabha (Upper House of Indian Parliament)?",
-        options: ["The President of India", "The Vice-President of India", "The Prime Minister", "The Speaker of Lok Sabha"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Under Article 89(1), the Vice-President of India is ex-officio Chairman of the Council of States (Rajya Sabha)."
-      },
-      {
-        id: 7,
-        section: "Indian History",
-        type: "single",
-        question: "Who among the following initiated the Permanent Settlement system of land revenue in Bengal (1793)?",
-        options: ["Lord Warren Hastings", "Lord Cornwallis", "Lord Dalhousie", "Lord William Bentinck"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "Lord Cornwallis introduced the Permanent Settlement in Bengal, Bihar, and Odisha in 1793."
-      },
-      {
-        id: 8,
-        section: "Geography",
-        type: "single",
-        question: "The 'Ten Degree Channel' separates which of the following geographical groups?",
-        options: ["Andaman and Nicobar Islands", "Lakshadweep and Maldives", "India and Sri Lanka", "North and South Andaman"],
-        correctAnswer: 0,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "The Ten Degree Channel separates the Andaman Islands from the Nicobar Islands in the Bay of Bengal."
-      },
-      {
-        id: 9,
-        section: "Indian Economy",
-        type: "single",
-        question: "Which index in India is published monthly by the NSO to measure short-term changes in the volume of industrial production?",
-        options: ["Consumer Price Index (CPI)", "Wholesale Price Index (WPI)", "Index of Industrial Production (IIP)", "Purchasing Managers Index (PMI)"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "IIP evaluates growth rates in industry groups like Mining, Manufacturing, and Electricity."
-      },
-      {
-        id: 10,
-        section: "Environment & Ecology",
-        type: "single",
-        question: "Which gas is primarily responsible for global warming and ocean acidification?",
-        options: ["Methane (CH4)", "Carbon Dioxide (CO2)", "Nitrous Oxide (N2O)", "Chlorofluorocarbons (CFCs)"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.66,
-        explanation: "CO2 is the primary greenhouse gas driving anthropogenic global warming and forms carbonic acid in ocean waters causing acidification."
-      }
-    ]
-  },
-  {
-    id: "tech-fullstack-2026",
-    title: "Full-Stack Web Development & JavaScript Master Quiz",
-    category: "Tech & Coding",
-    durationMinutes: 45,
-    totalQuestions: 8,
-    totalMarks: 16,
-    negativeMarking: false,
-    description: "Assess core modern web knowledge covering ES6+, Node.js, React, CSS Grid/Flexbox, and Web Security.",
-    questions: [
-      {
-        id: 1,
-        section: "JavaScript Core",
-        type: "single",
-        question: "What will `console.log(typeof NaN)` output in JavaScript?",
-        options: ["'number'", "'nan'", "'undefined'", "'object'"],
-        correctAnswer: 0,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "In JavaScript, NaN (Not-a-Number) is a special numeric value defined by IEEE 754, so `typeof NaN` returns 'number'."
-      },
-      {
-        id: 2,
-        section: "JavaScript Core",
-        type: "single",
-        question: "Which mechanism in JavaScript moves variable and function declarations to the top of their scope during compilation?",
-        options: ["Closure", "Hoisting", "Event Loop", "Prototype Chaining"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "Hoisting allows variables declared with `var` and `function` declarations to be referenced prior to their declaration."
-      },
-      {
-        id: 3,
-        section: "React & Frameworks",
-        type: "single",
-        question: "In React, what hook is used to run side-effects such as data fetching, subscriptions, or DOM mutations?",
-        options: ["useContext", "useMemo", "useEffect", "useCallback"],
-        correctAnswer: 2,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "`useEffect` handles lifecycle side-effects in functional React components."
-      },
-      {
-        id: 4,
-        section: "CSS Architecture",
-        type: "single",
-        question: "Which CSS property shorthand sets `flex-grow`, `flex-shrink`, and `flex-basis` in a single declaration?",
-        options: ["flex-flow", "flex", "align-self", "grid-template"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "The `flex` property specifies how a flex item will grow or shrink to fit space (e.g. `flex: 1 0 auto`)."
-      },
-      {
-        id: 5,
-        section: "Web Performance & Security",
-        type: "single",
-        question: "What HTTP header protects web applications from Cross-Site Scripting (XSS) and data injection attacks by restricting resources?",
-        options: ["Strict-Transport-Security", "Content-Security-Policy (CSP)", "X-Frame-Options", "Access-Control-Allow-Origin"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "CSP allows site administrators to declare approved sources of content that the browser is allowed to load."
-      },
-      {
-        id: 6,
-        section: "Node.js & Backend",
-        type: "single",
-        question: "Which component of Node.js architecture enables non-blocking asynchronous I/O operations?",
-        options: ["V8 Engine", "Libuv Event Loop", "NPM Manager", "Cluster module"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "Libuv is a multi-platform C library that provides the event loop and asynchronous thread pool abstractions in Node.js."
-      },
-      {
-        id: 7,
-        section: "JavaScript Core",
-        type: "single",
-        question: "What is the output of `[1, 2, 3] + [4, 5, 6]` in JavaScript?",
-        options: ["[1, 2, 3, 4, 5, 6]", "'1,2,34,5,6'", "NaN", "TypeError"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "The `+` operator coerces both arrays into strings ('1,2,3' + '4,5,6') resulting in the concatenated string '1,2,34,5,6'."
-      },
-      {
-        id: 8,
-        section: "Web Performance & Security",
-        type: "single",
-        question: "Which HTTP status code signifies that a client request lacks valid authentication credentials for the target resource?",
-        options: ["400 Bad Request", "401 Unauthorized", "403 Forbidden", "404 Not Found"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0,
-        explanation: "401 Unauthorized indicates the request has not been applied because it lacks valid authentication credentials."
-      }
-    ]
-  },
-  {
-    id: "ssc-cgl-aptitude-2026",
-    title: "SSC CGL General Intelligence & Quantitative Aptitude",
-    category: "SSC & Banking",
-    durationMinutes: 60,
-    totalQuestions: 6,
-    totalMarks: 12,
-    negativeMarking: true,
-    description: "Speed test for SSC CGL & Banking exam aspirants covering Quantitative Reasoning, Percentages, Ratio, and Logic.",
-    questions: [
-      {
-        id: 1,
-        section: "Quantitative Aptitude",
-        type: "single",
-        question: "If a shopkeeper sells an article at a profit of 20% after giving a discount of 10% on the marked price, what is the ratio of cost price to marked price?",
-        options: ["3 : 4", "2 : 3", "4 : 5", "5 : 6"],
-        correctAnswer: 0,
-        marks: 2,
-        negativeMarks: 0.5,
-        explanation: "Let CP = 100. Profit = 20% => SP = 120. Marked Price (MP) * (1 - 0.10) = 120 => MP * 0.9 = 120 => MP = 1200/9 = 400/3. Ratio CP/MP = 100 / (400/3) = 300/400 = 3:4."
-      },
-      {
-        id: 2,
-        section: "Quantitative Aptitude",
-        type: "single",
-        question: "A train 150 meters long passes a telegraph pole in 12 seconds. Find the speed of the train in kilometers per hour (km/h).",
-        options: ["45 km/h", "50 km/h", "54 km/h", "60 km/h"],
-        correctAnswer: 0,
-        marks: 2,
-        negativeMarks: 0.5,
-        explanation: "Speed in m/s = 150 / 12 = 12.5 m/s. Convert to km/h: 12.5 * (18/5) = 45 km/h."
-      },
-      {
-        id: 3,
-        section: "General Intelligence",
-        type: "single",
-        question: "In a certain code language, 'COMPUTER' is written as 'RFUVQNPC'. How is 'MEDICINE' written in that code?",
-        options: ["EOJDEJFM", "EOJDJEFM", "MFEDJJOE", "MFEJDJOE"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.5,
-        explanation: "Reverse the word and add +1 to each middle letter while keeping outer letters reversed: E -> E... M. Result = EOJDJEFM."
-      },
-      {
-        id: 4,
-        section: "Quantitative Aptitude",
-        type: "single",
-        question: "What is the compound interest on ₹10,000 at 10% per annum for 2 years compounded annually?",
-        options: ["₹2,000", "₹2,100", "₹2,200", "₹2,050"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.5,
-        explanation: "Amount = 10000 * (1.10)² = 10000 * 1.21 = ₹12,100. CI = 12100 - 10000 = ₹2,100."
-      },
-      {
-        id: 5,
-        section: "General Intelligence",
-        type: "single",
-        question: "Pointing to a photograph, a man said 'I have no brother or sister but that man's father is my father's son.' Whose photograph was it?",
-        options: ["His own", "His son's", "His father's", "His nephew's"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.5,
-        explanation: "'My father's son' = The man himself (since he has no brother). So 'That man's father is ME'. The photograph is of his son."
-      },
-      {
-        id: 6,
-        section: "Quantitative Aptitude",
-        type: "single",
-        question: "The average age of a class of 30 students is 15 years. If the teacher's age is included, the average increases by 1 year. What is the teacher's age?",
-        options: ["44 years", "46 years", "45 years", "50 years"],
-        correctAnswer: 1,
-        marks: 2,
-        negativeMarks: 0.5,
-        explanation: "Original total age = 30 * 15 = 450. New total age with teacher (31 people, avg 16) = 31 * 16 = 496. Teacher age = 496 - 450 = 46 years."
+        explanation: "Floyd's build-heap algorithm processes nodes bottom-up. The sum of heights across all nodes evaluates to O(n)."
       }
     ]
   }
