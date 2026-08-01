@@ -1,5 +1,34 @@
-// MockTest Hub - Core Minimalist Engine
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
+import { getFirestore, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
 
+// TODO: REPLACE THIS ENTIRE CONFIG OBJECT WITH YOUR REAL FIREBASE CONFIG!
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+
+let app, auth, db, provider;
+let currentUser = null;
+let isFirebaseConfigured = false;
+
+if (firebaseConfig.apiKey !== "YOUR_API_KEY") {
+  try {
+    app = initializeApp(firebaseConfig);
+    auth = getAuth(app);
+    db = getFirestore(app);
+    provider = new GoogleAuthProvider();
+    isFirebaseConfigured = true;
+  } catch (e) {
+    console.error("Firebase init failed", e);
+  }
+}
+
+// MockTest Hub - Core Minimalist Engine
 let allTests = [...SAMPLE_MOCK_TESTS];
 let currentTest = null;
 let currentQuestionIndex = 0;
@@ -12,7 +41,107 @@ document.addEventListener("DOMContentLoaded", () => {
   loadCustomTestsFromStorage();
   renderCatalog();
   setupEventListeners();
+  setupFirebaseUI();
 });
+
+function setupFirebaseUI() {
+  const loginBtn = document.getElementById("loginBtn");
+  const logoutBtn = document.getElementById("logoutBtn");
+  const dashboardBtn = document.getElementById("dashboardBtn");
+  const closeDashboardBtn = document.getElementById("closeDashboardBtn");
+  
+  if (!isFirebaseConfigured) {
+    loginBtn.onclick = () => alert("FIREBASE NOT CONFIGURED. PLEASE ADD YOUR CONFIG KEYS IN APP.JS.");
+    return;
+  }
+
+  onAuthStateChanged(auth, (user) => {
+    const loginBtn = document.getElementById("loginBtn");
+    const userProfile = document.getElementById("userProfile");
+    const userAvatar = document.getElementById("userAvatar");
+    const userName = document.getElementById("userName");
+
+    if (user) {
+      currentUser = user;
+      loginBtn.style.display = "none";
+      userProfile.style.display = "flex";
+      userAvatar.src = user.photoURL || "";
+      userName.textContent = user.displayName.toUpperCase();
+    } else {
+      currentUser = null;
+      loginBtn.style.display = "inline-flex";
+      userProfile.style.display = "none";
+    }
+  });
+
+  loginBtn.onclick = async () => {
+    try {
+      await signInWithPopup(auth, provider);
+    } catch (e) {
+      console.error("Login Failed", e);
+      alert("LOGIN FAILED. SEE CONSOLE.");
+    }
+  };
+
+  logoutBtn.onclick = async () => {
+    await signOut(auth);
+  };
+
+  dashboardBtn.onclick = () => {
+    document.getElementById("dashboardModal").classList.add("active");
+    loadPastTests();
+  };
+  
+  closeDashboardBtn.onclick = () => {
+    document.getElementById("dashboardModal").classList.remove("active");
+  };
+}
+
+async function loadPastTests() {
+  const listEl = document.getElementById("pastTestsList");
+  if (!currentUser) {
+    listEl.innerHTML = `<div style="text-align: center; color: var(--accent-red); font-size: 0.8rem; padding: 2rem;">PLEASE LOG IN TO VIEW HISTORY.</div>`;
+    return;
+  }
+  
+  listEl.innerHTML = `<div style="text-align: center; color: var(--text-muted); font-size: 0.8rem; padding: 2rem;">LOADING CLOUD RECORDS...</div>`;
+  
+  try {
+    const testsRef = collection(db, "users", currentUser.uid, "tests");
+    const q = query(testsRef, orderBy("timestamp", "desc"));
+    const querySnapshot = await getDocs(q);
+    
+    if (querySnapshot.empty) {
+      listEl.innerHTML = `<div style="text-align: center; color: var(--text-muted); font-size: 0.8rem; padding: 2rem;">NO PAST TESTS FOUND IN CLOUD.</div>`;
+      return;
+    }
+
+    listEl.innerHTML = "";
+    querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      const dateStr = data.timestamp ? data.timestamp.toDate().toLocaleString() : "Unknown Date";
+      
+      const card = document.createElement("div");
+      card.style.cssText = "border: 1px solid var(--border-light); padding: 1rem; margin-bottom: 0.5rem; background: var(--bg-card); display: flex; justify-content: space-between; align-items: center;";
+      card.innerHTML = `
+        <div>
+          <div style="font-weight: 800; font-size: 0.9rem;">${data.testTitle}</div>
+          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">${dateStr}</div>
+        </div>
+        <div style="text-align: right;">
+          <div style="font-weight: 800; color: var(--accent-blue); font-size: 1.1rem;">${data.score.toFixed(2)} / ${data.totalMarks}</div>
+          <div style="font-size: 0.75rem; color: var(--text-muted);">${data.accuracy}% ACCURACY</div>
+        </div>
+      `;
+      listEl.appendChild(card);
+    });
+
+  } catch (error) {
+    console.error("Error fetching tests", error);
+    listEl.innerHTML = `<div style="text-align: center; color: var(--accent-red); font-size: 0.8rem; padding: 2rem;">ERROR FETCHING RECORDS. ENSURE FIRESTORE IS ENABLED IN TEST MODE.</div>`;
+  }
+}
+
 
 function loadCustomTestsFromStorage() {
   const saved = localStorage.getItem("custom_mock_tests");
@@ -290,7 +419,7 @@ function confirmSubmitTest() {
   }
 }
 
-function submitTest() {
+async function submitTest() {
   clearInterval(timerInterval);
   document.getElementById("examScreen").classList.remove("active");
 
@@ -325,6 +454,27 @@ function submitTest() {
   document.getElementById("resCorrect").textContent = correctCount;
   document.getElementById("resWrong").textContent = wrongCount;
   document.getElementById("resSkipped").textContent = skippedCount;
+
+  // FIREBASE: Save test to cloud if logged in
+  if (isFirebaseConfigured && currentUser) {
+    try {
+      const testsRef = collection(db, "users", currentUser.uid, "tests");
+      await addDoc(testsRef, {
+        testId: currentTest.id,
+        testTitle: currentTest.title,
+        score: obtainedMarks,
+        totalMarks: totalPossibleMarks,
+        accuracy: accuracy,
+        correct: correctCount,
+        wrong: wrongCount,
+        skipped: skippedCount,
+        timestamp: serverTimestamp()
+      });
+      console.log("Test saved to cloud successfully.");
+    } catch (e) {
+      console.error("Failed to save test to cloud", e);
+    }
+  }
 
   renderSolutions();
 

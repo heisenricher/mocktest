@@ -20,6 +20,15 @@
       <button class="btn btn-secondary" onclick="openImportModal()">
         + Import Custom Test JSON
       </button>
+      <div id="userAuthSection" style="display:flex; align-items:center; gap: 0.5rem; margin-left:1rem;">
+        <button id="loginBtn" class="btn btn-primary">[SIGN IN WITH GOOGLE]</button>
+        <div id="userProfile" style="display: none; align-items: center; gap: 0.5rem;">
+          <img id="userAvatar" src="" alt="Avatar" style="width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--border-light);" />
+          <span id="userName" style="font-size: 0.8rem; font-weight: 700;">USER</span>
+          <button class="btn btn-secondary" id="dashboardBtn" style="padding: 0.2rem 0.5rem; font-size: 0.75rem;">[MY TESTS]</button>
+          <button class="btn btn-secondary" id="logoutBtn" style="color: var(--accent-red); padding: 0.2rem 0.5rem; font-size: 0.75rem;">[LOGOUT]</button>
+        </div>
+      </div>
     </div>
   </nav>
 
@@ -55,7 +64,6 @@
       <div class="category-pills">
         <button class="pill active" data-cat="All">[ALL_SSC_CGL_TESTS]</button>
         <button class="pill" data-cat="Tier-1 Full Length">[TIER-1_FULL_MOCK]</button>
-        <button class="pill" data-cat="Quant Sectional">[QUANT_SECTIONAL]</button>
       </div>
     </div>
 
@@ -202,8 +210,28 @@
     </div>
   </div>
 
+  <!-- Past Tests Dashboard Modal -->
+  <div class="modal-overlay" id="dashboardModal">
+    <div class="modal-box" style="max-width: 600px;">
+      <h3 class="modal-title">> MY_PAST_TESTS_HISTORY</h3>
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.85rem;">
+        Your saved mock test records are securely stored in the cloud.
+      </p>
+      
+      <div id="pastTestsList" style="max-height: 400px; overflow-y: auto; margin-bottom: 1rem;">
+        <div style="text-align: center; color: var(--text-muted); font-size: 0.8rem; padding: 2rem;">
+          LOADING CLOUD RECORDS...
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end;">
+        <button class="btn btn-secondary" id="closeDashboardBtn">CLOSE DASHBOARD</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="sample-tests.js"></script>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
