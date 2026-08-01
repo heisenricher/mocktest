@@ -576,3 +576,15 @@ function importJSONTest() {
     alert("JSON ERROR: " + err.message);
   }
 }
+
+// Expose functions to global scope for HTML inline handlers
+window.startTest = startTest;
+window.prevQuestion = prevQuestion;
+window.clearResponse = clearResponse;
+window.markForReview = markForReview;
+window.saveAndNext = saveAndNext;
+window.confirmSubmitTest = confirmSubmitTest;
+window.closeResults = closeResults;
+window.openImportModal = openImportModal;
+window.closeImportModal = closeImportModal;
+window.importJSONTest = importJSONTest;
