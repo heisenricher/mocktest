@@ -571,6 +571,7 @@ function importJSONTest() {
 // Expose functions to global scope
 window.startTest = startTest;
 window.prevQuestion = prevQuestion;
+window.nextQuestion = nextQuestion;
 window.clearResponse = clearResponse;
 window.markForReview = markForReview;
 window.saveAndNext = saveAndNext;
