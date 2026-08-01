@@ -1,535 +1,2131 @@
 const SAMPLE_MOCK_TESTS = [
 {
   "id": "ssc-cgl-tier1-mock-01",
-  "title": "SSC CGL Tier-1 Full Mock 01 (API Sourced)",
+  "title": "SSC CGL TIER-1 MOCK 01",
   "category": "Tier-1 Full Length",
   "durationMinutes": 60,
   "totalQuestions": 100,
   "totalMarks": 200,
   "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #01. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #01. 100 questions spanning Reasoning, GA, Quant, and English.",
   "questions": [
     {
       "id": "m1_r_1",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'GOVT1' is written as 'IQXV1', how is the code shifted?",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "Forward by 2",
-        "Backward by 2",
-        "Backward by 1",
-        "Forward by 3"
+        64,
+        "62",
+        "69",
+        "65"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
     },
     {
       "id": "m1_r_2",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 17 - 5 + 2 = ?",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
       "options": [
-        "88",
-        "166",
-        "81",
-        "83"
+        "UCSFGU",
+        "SZQFDS",
+        "UBSHFU",
+        "RBPFDQ"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 17 * 5 - 2 = 83."
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
     },
     {
       "id": "m1_r_3",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 10, 12, 14, 16, ?",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
       "options": [
-        "19",
-        "20",
-        "18",
-        "16"
+        "Kitten",
+        "Cub",
+        "Irrelevant 1",
+        "Irrelevant 2"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
+      "explanation": "The relationship is Dog -> Puppy."
     },
     {
       "id": "m1_r_4",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'GOVT1' is written as 'JRYW1', how is the code shifted?",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "Backward by 2",
-        "Forward by 4",
-        "Forward by 3",
-        "Backward by 3"
+        "Cousin",
+        "Uncle",
+        "Father",
+        "Brother"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m1_r_5",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 4 + 4 = ?",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "136",
-        "66",
-        "68",
-        "73"
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 4 - 4 = 68."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m1_r_6",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 2, 4, 6, 8, ?",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
       "options": [
-        "10",
-        "12",
-        "11",
-        "8"
+        49,
+        "54",
+        "50",
+        "47"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
     },
     {
       "id": "m1_r_7",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'PASS1' is written as 'RCUU1', how is the code shifted?",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
       "options": [
-        "Backward by 1",
-        "Forward by 2",
-        "Forward by 3",
-        "Backward by 2"
+        "UCSFGU",
+        "VCTIGV",
+        "SZQFDS",
+        "RBPFDQ"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m1_r_8",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 5 + 3 = ?",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
       "options": [
-        "174",
-        "85",
-        "92",
-        "87"
+        "Irrelevant 1",
+        "Tokyo",
+        "Irrelevant 2",
+        "Kyoto"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 5 - 3 = 87."
+      "explanation": "The relationship is India -> New Delhi."
     },
     {
       "id": "m1_r_9",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "15",
-        "17",
-        "18",
-        "19"
+        "Cousin",
+        "Father",
+        "Brother",
+        "Uncle"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m1_r_10",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'EXAM1' is written as 'HADP1', how is the code shifted?",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "Backward by 3",
-        "Backward by 2",
-        "Forward by 4",
-        "Forward by 3"
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m1_r_11",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 2 + 3 = ?",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "25",
-        "30",
-        "23",
-        "50"
+        "69",
+        "62",
+        64,
+        "65"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 2 - 3 = 25."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
     },
     {
       "id": "m1_r_12",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 5, 9, 13, 17, ?",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
       "options": [
-        "19",
-        "21",
-        "25",
-        "22"
+        "RBPFDQ",
+        "SZQFDS",
+        "UCSFGU",
+        "VCTIGV"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m1_r_13",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'BANK1' is written as 'CBOL1', how is the code shifted?",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
       "options": [
-        "Backward by 0",
-        "Forward by 1",
-        "Forward by 2",
-        "Backward by 1"
+        "Kyoto",
+        "Tokyo",
+        "Irrelevant 1",
+        "Irrelevant 2"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
+      "explanation": "The relationship is India -> New Delhi."
     },
     {
       "id": "m1_r_14",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 4 + 2 = ?",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "79",
-        "72",
-        "148",
-        "74"
+        "Cousin",
+        "Brother",
+        "Father",
+        "Uncle"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 4 - 2 = 74."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m1_r_15",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 5, 10, 15, 20, ?",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "23",
-        "30",
-        "26",
-        "25"
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m1_r_16",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'BANK1' is written as 'EDQN1', how is the code shifted?",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "Backward by 3",
-        "Backward by 2",
-        "Forward by 4",
-        "Forward by 3"
+        64,
+        "62",
+        "69",
+        "65"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
     },
     {
       "id": "m1_r_17",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 3 + 4 = ?",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
       "options": [
-        "49",
-        "44",
-        "42",
-        "88"
+        "UCSFGU",
+        "RBPFDQ",
+        "SZQFDS",
+        "UBSHFU"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 3 - 4 = 44."
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
     },
     {
       "id": "m1_r_18",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 4, 9, 14, 19, ?",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
       "options": [
-        "24",
-        "29",
-        "25",
-        "22"
+        "Irrelevant 1",
+        "Cub",
+        "Kitten",
+        "Irrelevant 2"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
+      "explanation": "The relationship is Dog -> Puppy."
     },
     {
       "id": "m1_r_19",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'RAIL1' is written as 'SBJM1', how is the code shifted?",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 0",
-        "Backward by 1"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m1_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 4 + 4 = ?",
-      "options": [
-        "50",
-        "52",
-        "104",
-        "57"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 4 - 4 = 52."
-    },
-    {
-      "id": "m1_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 10, 15, 20, ?",
-      "options": [
-        "30",
-        "23",
-        "26",
-        "25"
+        "Uncle",
+        "Cousin",
+        "Brother",
+        "Father"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
-      "id": "m1_r_22",
-      "section": "General Intelligence & Reasoning",
+      "id": "m1_r_20",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'MOCK1' is written as 'OQEM1', how is the code shifted?",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Forward by 2",
-        "Backward by 1"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m1_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 4 + 4 = ?",
-      "options": [
-        "76",
-        "81",
-        "152",
-        "74"
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 4 - 4 = 76."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
-      "id": "m1_r_24",
-      "section": "General Intelligence & Reasoning",
+      "id": "m1_r_21",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 10, 12, 14, 16, ?",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "19",
-        "20",
-        "18",
-        "16"
+        64,
+        "65",
+        "62",
+        "69"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
     },
     {
-      "id": "m1_r_25",
-      "section": "General Intelligence & Reasoning",
+      "id": "m1_r_22",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'TEST1' is written as 'VGUV1', how is the code shifted?",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
       "options": [
-        "Backward by 1",
-        "Forward by 3",
-        "Backward by 2",
-        "Forward by 2"
+        "SZQFDS",
+        "UCSFGU",
+        "RBPFDQ",
+        "UBSHFU"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m1_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Kitten",
+        "Cub"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m1_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Cousin",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m1_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m1_ga_26",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q140] According to the United States Constitution, how old must a person be to be elected President of the United States?",
+      "question": "The First Battle of Panipat was fought in the year? (Set 2)",
       "options": [
-        "35",
-        "30",
-        "40",
-        "45"
+        "1761",
+        "1191",
+        "1526",
+        "1556"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is 35."
+      "explanation": "The correct answer is 1526."
     },
     {
       "id": "m1_ga_27",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 196",
+      "question": "Which classical dance form originated in Kerala? (Set 7)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Kuchipudi",
+        "Odissi",
+        "Bharatanatyam",
+        "Kathakali"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Kathakali."
     },
     {
       "id": "m1_ga_28",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q73] The mountainous Khyber Pass connects which of the two following countries?",
+      "question": "The Quit India Movement was launched in which year? (Set 5)",
       "options": [
-        "Tajikistan and Kyrgyzstan",
-        "Afghanistan and Pakistan",
-        "India and Nepal",
-        "Pakistan and India"
+        "1930",
+        "1942",
+        "1920",
+        "1947"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Afghanistan and Pakistan."
+      "explanation": "The correct answer is 1942."
     },
     {
       "id": "m1_ga_29",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q96] Which city is the capital of Michigan?",
+      "question": "Who is known as the Father of Indian Economics? (Set 3)",
       "options": [
-        "Detroit",
-        "Ann Arbor",
-        "Kalamazoo",
-        "Lansing"
+        "Manmohan Singh",
+        "Amartya Sen",
+        "Raghuram Rajan",
+        "Dadabhai Naoroji"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Lansing."
+      "explanation": "The correct answer is Dadabhai Naoroji."
     },
     {
       "id": "m1_ga_30",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 242",
+      "question": "The First Battle of Panipat was fought in the year? (Set 5)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "1761",
+        "1526",
+        "1191",
+        "1556"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is 1526."
     },
     {
       "id": "m1_ga_31",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 186",
+      "question": "The Quit India Movement was launched in which year? (Set 4)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "1947",
+        "1942",
+        "1930",
+        "1920"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is 1942."
     },
     {
       "id": "m1_ga_32",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q56] What city is the Terracotta Army located in?",
+      "question": "Which is the longest river in Peninsular India?",
       "options": [
-        "Xi'an",
-        "Beijing",
-        "Hong Kong",
-        "Shanghai"
+        "Krishna",
+        "Godavari",
+        "Kaveri",
+        "Mahanadi"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Xi'an."
+      "explanation": "The correct answer is Godavari."
     },
     {
       "id": "m1_ga_33",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q20] Which element has the atomic number of 7?",
+      "question": "Who is known as the Father of Indian Economics? (Set 6)",
       "options": [
-        "Neon",
+        "Dadabhai Naoroji",
+        "Raghuram Rajan",
+        "Amartya Sen",
+        "Manmohan Singh"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m1_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 3)",
+      "options": [
+        "Ohm",
+        "Ampere",
+        "Watt",
+        "Volt"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m1_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 9)",
+      "options": [
+        "Nathu La",
+        "Rohtang Pass",
+        "Shipki La",
+        "Zoji La"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m1_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 3)",
+      "options": [
+        "Bharatanatyam",
+        "Kuchipudi",
+        "Odissi",
+        "Kathakali"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m1_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 3)",
+      "options": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m1_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution?",
+      "options": [
+        "Ireland",
+        "UK",
+        "USA",
+        "USSR"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m1_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 9)",
+      "options": [
+        "Hygrometer",
+        "Lactometer",
+        "Barometer",
+        "Anemometer"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m1_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 2)",
+      "options": [
+        "Retinol",
+        "Calciferol",
+        "Ascorbic Acid",
+        "Thiamine"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m1_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 9)",
+      "options": [
+        "Nitrogen",
         "Oxygen",
-        "Hydrogen",
+        "Argon",
+        "Carbon Dioxide"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m1_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 4)",
+      "options": [
+        "Nathu La",
+        "Shipki La",
+        "Zoji La",
+        "Rohtang Pass"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m1_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 6)",
+      "options": [
+        "Rohtang Pass",
+        "Shipki La",
+        "Zoji La",
+        "Nathu La"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m1_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 2)",
+      "options": [
+        "Krishna",
+        "Mahanadi",
+        "Kaveri",
+        "Godavari"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m1_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire?",
+      "options": [
+        "Chandragupta Maurya",
+        "Bimbisara",
+        "Bindusara",
+        "Ashoka"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m1_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 7)",
+      "options": [
+        "London",
+        "Geneva",
+        "New York",
+        "Paris"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m1_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to? (Set 3)",
+      "options": [
+        "Plasma",
+        "Haemoglobin",
+        "Platelets",
+        "Myoglobin"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m1_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 3)",
+      "options": [
+        "Indus",
+        "Ganga",
+        "Brahmaputra",
+        "Teesta"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m1_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 1)",
+      "options": [
+        "Bharatanatyam",
+        "Kathakali",
+        "Kuchipudi",
+        "Odissi"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m1_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 5)",
+      "options": [
+        "B.R. Ambedkar",
+        "Mahatma Gandhi",
+        "Sardar Patel",
+        "Jawaharlal Nehru"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m1_q_51",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "30\u00b0",
+        "45\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m1_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "228",
+        "236",
+        "234",
+        "240"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m1_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "10 cm",
+        "8 cm",
+        "3 cm",
+        "6 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 4\u00b2) = 6 cm."
+    },
+    {
+      "id": "m1_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "11.2%",
+        "5.2%",
+        "8.2%",
+        "6.2%"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 15 - (25*15)/100 = 6.25%."
+    },
+    {
+      "id": "m1_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "11 days",
+        "16 days",
+        "12 days",
+        "14 days"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
+    },
+    {
+      "id": "m1_q_56",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 6000 is invested at simple interest of 5% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 6600",
+        "Rs. 7100",
+        "Rs. 6450",
+        "Rs. 6800"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 600. Amount = P + SI = 6000 + 600 = 6600."
+    },
+    {
+      "id": "m1_q_57",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 108 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
+      "options": [
+        "650 m",
+        "580 m",
+        "600 m",
+        "700 m"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 108 * (5/18) = 30 m/s. Length = Speed * Time = 30 * 20 = 600 m."
+    },
+    {
+      "id": "m1_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 232 is divided between P and Q in the ratio 2:6. What is P's share?",
+      "options": [
+        "Rs. 68",
+        "Rs. 38",
+        "Rs. 174",
+        "Rs. 58"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 232 * (2/8) = 58."
+    },
+    {
+      "id": "m1_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "60\u00b0",
+        "30\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m1_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "80",
+        "78",
+        "76",
+        "72"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m1_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "26 cm",
+        "28 cm",
+        "24 cm",
+        "12 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 4\u00b2) = 24 cm."
+    },
+    {
+      "id": "m1_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "8.2%",
+        "6.2%",
+        "5.2%",
+        "11.2%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 15 - (25*15)/100 = 6.25%."
+    },
+    {
+      "id": "m1_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 15 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "10 days",
+        "14 days",
+        "12 days",
+        "9 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (15*30)/(15+30) = 10 days."
+    },
+    {
+      "id": "m1_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 7000 is invested at simple interest of 5% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 7550",
+        "Rs. 7900",
+        "Rs. 7700",
+        "Rs. 8200"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 700. Amount = P + SI = 7000 + 700 = 7700."
+    },
+    {
+      "id": "m1_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
+      "options": [
+        "250 m",
+        "180 m",
+        "200 m",
+        "300 m"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 10 = 200 m."
+    },
+    {
+      "id": "m1_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 351 is divided between P and Q in the ratio 3:6. What is P's share?",
+      "options": [
+        "Rs. 117",
+        "Rs. 234",
+        "Rs. 127",
+        "Rs. 97"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 351 * (3/9) = 117."
+    },
+    {
+      "id": "m1_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "60\u00b0",
+        "90\u00b0",
+        "45\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m1_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 7, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "366",
+        "357",
+        "364",
+        "371"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 7\u00b3 + 3(7) = 364."
+    },
+    {
+      "id": "m1_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "10 cm",
+        "8 cm",
+        "6 cm",
+        "3 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 4\u00b2) = 6 cm."
+    },
+    {
+      "id": "m1_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 20% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "7.0%",
+        "1.0%",
+        "2.0%",
+        "4.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 20 - 15 - (20*15)/100 = 2.0%."
+    },
+    {
+      "id": "m1_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "8 days",
+        "7 days",
+        "10 days",
+        "12 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
+    },
+    {
+      "id": "m1_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 8000 is invested at simple interest of 12% per annum. What will be the total amount after 4 years?",
+      "options": [
+        "Rs. 12040",
+        "Rs. 12340",
+        "Rs. 11840",
+        "Rs. 11690"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 3840. Amount = P + SI = 8000 + 3840 = 11840."
+    },
+    {
+      "id": "m1_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 54 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
+      "options": [
+        "200 m",
+        "130 m",
+        "150 m",
+        "250 m"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 54 * (5/18) = 15 m/s. Length = Speed * Time = 15 * 10 = 150 m."
+    },
+    {
+      "id": "m1_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 506 is divided between P and Q in the ratio 5:6. What is P's share?",
+      "options": [
+        "Rs. 276",
+        "Rs. 240",
+        "Rs. 230",
+        "Rs. 210"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 506 * (5/11) = 230."
+    },
+    {
+      "id": "m1_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "45\u00b0",
+        "30\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m1_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Irrelevant",
+        "Lethargic",
+        "Hardworking",
+        "Lazy"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m1_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Empty",
+        "Irrelevant",
+        "Fertile",
+        "Dry"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m1_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "To cook food",
+        "To be extremely happy",
+        "To act aggressively",
+        "Feeling ill"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m1_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Fascinnate",
+        "Facinate",
+        "Fascinate",
+        "Fassinate"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m1_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "to the store",
+        "He",
+        "today",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m1_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Hardworking",
+        "Lethargic",
+        "Lazy",
+        "Irrelevant"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m1_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Modern",
+        "Outdated",
+        "Irrelevant",
+        "Ancient"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m1_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To act aggressively",
+        "To endure a painful situation",
+        "To cook food",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m1_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Fascinnate",
+        "Fassinate",
+        "Facinate",
+        "Fascinate"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m1_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "to the store",
+        "today",
+        "did not went",
+        "He"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m1_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Scarce",
+        "Rare",
+        "Irrelevant",
+        "Plentiful"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m1_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Ancient",
+        "Irrelevant",
+        "Outdated",
+        "Modern"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m1_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "To cook food",
+        "Feeling ill",
+        "To act aggressively",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m1_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Embarass",
+        "Embarrass",
+        "Emmbarrass",
+        "Embarras"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m1_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "to the store",
+        "He",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m1_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Hardworking",
+        "Irrelevant",
+        "Lethargic",
+        "Lazy"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m1_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Irrelevant",
+        "Fertile",
+        "Empty",
+        "Dry"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m1_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To cook food",
+        "To act aggressively",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m1_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Embarrass",
+        "Emmbarrass",
+        "Embarass",
+        "Embarras"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m1_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "did not went",
+        "to the store",
+        "He"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m1_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Lethargic",
+        "Lazy",
+        "Hardworking",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m1_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Irrelevant",
+        "Aggressive",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m1_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To be extremely happy",
+        "To cook food",
+        "To act aggressively"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m1_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Embarrass",
+        "Emmbarrass",
+        "Embarras",
+        "Embarass"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m1_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "today",
+        "to the store",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-02",
+  "title": "SSC CGL TIER-1 MOCK 02",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #02. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m2_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        "50",
+        49,
+        "54",
+        "47"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m2_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m2_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Kitten",
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Cub"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m2_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Father",
+        "Brother",
+        "Cousin"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m2_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m2_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "65",
+        64,
+        "62",
+        "69"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m2_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "VCTIGV",
+        "SZQFDS",
+        "UCSFGU",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m2_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Tokyo",
+        "Kyoto"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m2_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Brother",
+        "Cousin"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m2_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m2_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
+      "options": [
+        100,
+        "98",
+        "101",
+        "105"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
+    },
+    {
+      "id": "m2_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m2_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Humidity",
+        "Irrelevant 1",
+        "Pressure",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m2_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Father",
+        "Cousin"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m2_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m2_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        "82",
+        81,
+        "79",
+        "86"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m2_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "RBPFDQ",
+        "SZQFDS",
+        "VCTIGV"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m2_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Pressure",
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Humidity"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m2_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Cousin",
+        "Uncle",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m2_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m2_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
+      "options": [
+        "101",
+        "105",
+        100,
+        "98"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
+    },
+    {
+      "id": "m2_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "RBPFDQ",
+        "VCTIGV",
+        "UCSFGU"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m2_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Humidity",
+        "Pressure"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m2_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Father",
+        "Uncle",
+        "Cousin"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m2_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m2_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 7)",
+      "options": [
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Gujarat",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m2_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Quit India Movement was launched in which year? (Set 8)",
+      "options": [
+        "1942",
+        "1930",
+        "1920",
+        "1947"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1942."
+    },
+    {
+      "id": "m2_ga_28",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics? (Set 4)",
+      "options": [
+        "Amartya Sen",
+        "Manmohan Singh",
+        "Dadabhai Naoroji",
+        "Raghuram Rajan"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m2_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire? (Set 6)",
+      "options": [
+        "Bimbisara",
+        "Bindusara",
+        "Ashoka",
+        "Chandragupta Maurya"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m2_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 5)",
+      "options": [
+        "Article 17",
+        "Article 14",
+        "Article 32",
+        "Article 19"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m2_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 3)",
+      "options": [
+        "Krishna",
+        "Mahanadi",
+        "Kaveri",
+        "Godavari"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m2_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 6)",
+      "options": [
+        "Oxygen",
+        "Argon",
+        "Carbon Dioxide",
         "Nitrogen"
       ],
       "correctAnswer": 3,
@@ -538,410 +2134,6970 @@ const SAMPLE_MOCK_TESTS = [
       "explanation": "The correct answer is Nitrogen."
     },
     {
-      "id": "m1_ga_34",
+      "id": "m2_ga_33",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q16] Alzheimer's disease primarily affects which part of the human body?",
+      "question": "Which pass connects Srinagar to Leh? (Set 7)",
       "options": [
-        "Heart",
-        "Lungs",
-        "Brain",
-        "Skin"
+        "Nathu La",
+        "Rohtang Pass",
+        "Zoji La",
+        "Shipki La"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Brain."
+      "explanation": "The correct answer is Zoji La."
     },
     {
-      "id": "m1_ga_35",
+      "id": "m2_ga_34",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q47] What is the half-life of Uranium-235?",
+      "question": "What is the chemical name of Vitamin C? (Set 1)",
       "options": [
-        "703,800,000 years",
-        "1,260,900,000 years",
-        "Uranium-235 is a stable isotope",
-        "4,300,400,000 years"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 703,800,000 years."
-    },
-    {
-      "id": "m1_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q137] Which nation joined NATO as its 29th member in 2017?",
-      "options": [
-        "Andorra",
-        "Montenegro",
-        "Iceland",
-        "Estonia"
+        "Retinol",
+        "Ascorbic Acid",
+        "Calciferol",
+        "Thiamine"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Montenegro."
+      "explanation": "The correct answer is Ascorbic Acid."
     },
     {
-      "id": "m1_ga_37",
+      "id": "m2_ga_35",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 241",
+      "question": "Which is the longest river in Peninsular India? (Set 1)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Mahanadi",
+        "Krishna",
+        "Godavari",
+        "Kaveri"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Godavari."
     },
     {
-      "id": "m1_ga_38",
+      "id": "m2_ga_36",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q14] Au on the Periodic Table refers to which element?",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 6)",
       "options": [
-        "Silver",
-        "Gold",
-        "Oxygen",
-        "Nickel"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Gold."
-    },
-    {
-      "id": "m1_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q6] The medical term for the belly button is which of the following?",
-      "options": [
-        "Nevus",
-        "Umbilicus",
-        "Nares",
-        "Paxillus"
+        "9",
+        "8",
+        "7",
+        "6"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Umbilicus."
+      "explanation": "The correct answer is 8."
     },
     {
-      "id": "m1_ga_40",
+      "id": "m2_ga_37",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q5] What is the scientific name of the red fox?",
+      "question": "The Quit India Movement was launched in which year? (Set 6)",
       "options": [
-        "Vulpes Redus",
-        "Vulpes Vulpes",
-        "Vulpes Vulpie",
-        "Red Fox"
+        "1947",
+        "1930",
+        "1942",
+        "1920"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Vulpes Vulpes."
+      "explanation": "The correct answer is 1942."
     },
     {
-      "id": "m1_ga_41",
+      "id": "m2_ga_38",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q120] Which U.S. president is said to have had the longest beard?",
+      "question": "The red colour of human blood is due to? (Set 8)",
       "options": [
-        "Rutherford B. Hayes",
-        "Zachary Taylor",
-        "James A. Garfield",
-        "John Quincy Adams"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Rutherford B. Hayes."
-    },
-    {
-      "id": "m1_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q36] About what percentage of the Earth's surface is water? ",
-      "options": [
-        "50%",
-        "90%",
-        "30%",
-        "70%"
+        "Platelets",
+        "Myoglobin",
+        "Plasma",
+        "Haemoglobin"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is 70%."
+      "explanation": "The correct answer is Haemoglobin."
     },
     {
-      "id": "m1_ga_43",
+      "id": "m2_ga_39",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 175",
+      "question": "What is the SI unit of electrical resistance? (Set 5)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m1_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 216",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m1_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 168",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m1_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q3] Who made the discovery of X-rays?",
-      "options": [
-        "James Watt",
-        "Thomas Alva Edison",
-        "Wilhelm Conrad R\u00f6ntgen",
-        "Albert Einstein"
+        "Ampere",
+        "Watt",
+        "Ohm",
+        "Volt"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Wilhelm Conrad R\u00f6ntgen."
+      "explanation": "The correct answer is Ohm."
     },
     {
-      "id": "m1_ga_47",
+      "id": "m2_ga_40",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q76] Which of these is NOT an island that is part of the Philippines?",
+      "question": "The First Battle of Panipat was fought in the year? (Set 4)",
       "options": [
-        "Java",
-        "Palawan",
-        "Mindanao",
-        "Luzon"
+        "1191",
+        "1761",
+        "1526",
+        "1556"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m2_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 5)",
+      "options": [
+        "New York",
+        "Paris",
+        "London",
+        "Geneva"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m2_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 9)",
+      "options": [
+        "Ascorbic Acid",
+        "Retinol",
+        "Calciferol",
+        "Thiamine"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Java."
+      "explanation": "The correct answer is Ascorbic Acid."
     },
     {
-      "id": "m1_ga_48",
+      "id": "m2_ga_43",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q86] Which of the following is the longest river in Europe?",
+      "question": "Which is the longest river in Peninsular India? (Set 5)",
       "options": [
-        "Ural",
-        "Danube",
-        "Volga",
-        "Dnieper"
+        "Mahanadi",
+        "Godavari",
+        "Kaveri",
+        "Krishna"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m2_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala?",
+      "options": [
+        "Bharatanatyam",
+        "Kuchipudi",
+        "Kathakali",
+        "Odissi"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Volga."
+      "explanation": "The correct answer is Kathakali."
     },
     {
-      "id": "m1_ga_49",
+      "id": "m2_ga_45",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q66] About how many countries are there in the world?",
+      "question": "The Indian National Congress was founded in? (Set 8)",
       "options": [
-        "500",
-        "300",
-        "200",
-        "100"
+        "1905",
+        "1885",
+        "1919",
+        "1857"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1885."
+    },
+    {
+      "id": "m2_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 8)",
+      "options": [
+        "Lord Mountbatten",
+        "Warren Hastings",
+        "Lord Dalhousie",
+        "C. Rajagopalachari"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m2_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 9)",
+      "options": [
+        "UK",
+        "Ireland",
+        "USA",
+        "USSR"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m2_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 4)",
+      "options": [
+        "C. Rajagopalachari",
+        "Lord Dalhousie",
+        "Lord Mountbatten",
+        "Warren Hastings"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is 200."
+      "explanation": "The correct answer is Lord Mountbatten."
     },
     {
-      "id": "m1_ga_50",
+      "id": "m2_ga_49",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q148] The 2014 movie \"The Raid 2: Berandal\" was mainly filmed in which Asian country?",
+      "question": "The red colour of human blood is due to? (Set 2)",
       "options": [
-        "Thailand",
-        "Malaysia",
-        "Indonesia",
-        "Brunei"
+        "Platelets",
+        "Plasma",
+        "Myoglobin",
+        "Haemoglobin"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Indonesia."
+      "explanation": "The correct answer is Haemoglobin."
     },
     {
-      "id": "m1_q_51",
+      "id": "m2_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 8)",
+      "options": [
+        "Ascorbic Acid",
+        "Calciferol",
+        "Retinol",
+        "Thiamine"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m2_q_51",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 10 days, and B can do it in 60 days. If they work together, how many days will they take?",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
+        "75\u00b0",
+        "30\u00b0",
+        "90\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m2_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "234",
+        "240",
+        "228",
+        "236"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m2_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "12 cm",
+        "10 cm",
+        "4 cm",
+        "8 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 3\u00b2) = 8 cm."
+    },
+    {
+      "id": "m2_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "11.0%",
+        "12.0%",
+        "14.0%",
+        "17.0%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 20 - (40*20)/100 = 12.000000000000004%."
+    },
+    {
+      "id": "m2_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "8 days",
+        "12 days",
         "10 days",
-        "7 days",
-        8,
-        "12 days"
+        "7 days"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/10, by B = 1/60. Total = 1/10 + 1/60. Days = 8."
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
     },
     {
-      "id": "m1_q_52",
+      "id": "m2_q_56",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 8000 at 15% per annum for 3 years.",
+      "question": "A sum of Rs. 2000 is invested at simple interest of 12% per annum. What will be the total amount after 2 years?",
       "options": [
-        "Rs. 3650",
-        "Rs. 3400",
-        "Rs. 3600",
-        "Rs. 3700"
+        "Rs. 2980",
+        "Rs. 2480",
+        "Rs. 2330",
+        "Rs. 2680"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 8000*15*3/100 = 3600."
+      "explanation": "SI = P*R*T/100 = 480. Amount = P + SI = 2000 + 480 = 2480."
     },
     {
-      "id": "m1_q_53",
+      "id": "m2_q_57",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
       "options": [
-        "425 m",
-        "355 m",
-        "475 m",
-        "375 m"
+        "250 m",
+        "180 m",
+        "300 m",
+        "200 m"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 15 = 375m."
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 10 = 200 m."
     },
     {
-      "id": "m1_q_54",
+      "id": "m2_q_58",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "An amount of Rs. 160 is divided between P and Q in the ratio 2:6. What is P's share?",
       "options": [
-        "4",
+        "Rs. 20",
+        "Rs. 50",
+        "Rs. 120",
+        "Rs. 40"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 160 * (2/8) = 40."
+    },
+    {
+      "id": "m2_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "75\u00b0",
+        "60\u00b0",
+        "30\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m2_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "76",
+        "78",
+        "72",
+        "80"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m2_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "3 cm",
+        "10 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 4\u00b2) = 6 cm."
+    },
+    {
+      "id": "m2_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "5.0%",
+        "-1.0%",
+        "0.0%",
+        "2.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 20 - (25*20)/100 = 0.0%."
+    },
+    {
+      "id": "m2_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "8 days",
+        "5 days",
+        "6 days",
+        "10 days"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m2_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 5% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 5100",
+        "Rs. 4800",
+        "Rs. 4450",
+        "Rs. 4600"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 600. Amount = P + SI = 4000 + 600 = 4600."
+    },
+    {
+      "id": "m2_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
+      "options": [
+        "230 m",
+        "350 m",
+        "300 m",
+        "250 m"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 10 = 250 m."
+    },
+    {
+      "id": "m2_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 154 is divided between P and Q in the ratio 4:7. What is P's share?",
+      "options": [
+        "Rs. 98",
+        "Rs. 36",
+        "Rs. 56",
+        "Rs. 66"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 154 * (4/11) = 56."
+    },
+    {
+      "id": "m2_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "30\u00b0",
+        "60\u00b0",
+        "90\u00b0",
+        "75\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m2_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "236",
+        "234",
+        "228",
+        "240"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m2_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "24 cm",
+        "26 cm",
+        "28 cm",
+        "12 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 4\u00b2) = 24 cm."
+    },
+    {
+      "id": "m2_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "21.0%",
+        "18.0%",
+        "19.0%",
+        "24.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 18.999999999999986%."
+    },
+    {
+      "id": "m2_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 15 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "9 days",
+        "12 days",
+        "14 days",
+        "10 days"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (15*30)/(15+30) = 10 days."
+    },
+    {
+      "id": "m2_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 10% per annum. What will be the total amount after 4 years?",
+      "options": [
+        "Rs. 5800",
+        "Rs. 6100",
+        "Rs. 5600",
+        "Rs. 5450"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1600. Amount = P + SI = 4000 + 1600 = 5600."
+    },
+    {
+      "id": "m2_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
+      "options": [
+        "350 m",
+        "300 m",
+        "400 m",
+        "280 m"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 15 = 300 m."
+    },
+    {
+      "id": "m2_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 245 is divided between P and Q in the ratio 3:4. What is P's share?",
+      "options": [
+        "Rs. 140",
+        "Rs. 115",
+        "Rs. 85",
+        "Rs. 105"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 245 * (3/7) = 105."
+    },
+    {
+      "id": "m2_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "30\u00b0",
+        "60\u00b0",
+        "75\u00b0"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m2_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Irrelevant",
+        "Secret",
+        "Frank",
+        "Deceitful"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m2_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Irrelevant",
+        "Ancient",
+        "Modern",
+        "Outdated"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m2_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To be extremely happy",
+        "To cook food",
+        "To act aggressively"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m2_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Acccomodate",
+        "Accommodate",
+        "Acommodate",
+        "Accomodate"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m2_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "did not went",
+        "to the store",
+        "today"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m2_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Irrelevant",
+        "Lazy",
+        "Hardworking",
+        "Lethargic"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m2_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Fertile",
+        "Irrelevant",
+        "Empty",
+        "Dry"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m2_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
+      "options": [
+        "Avoid the main topic",
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Beat around the bush' means avoid the main topic."
+    },
+    {
+      "id": "m2_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Accommodate",
+        "Acccomodate",
+        "Acommodate",
+        "Accomodate"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m2_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "today",
+        "did not went",
+        "to the store"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m2_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Lethargic",
+        "Irrelevant",
+        "Hardworking",
+        "Lazy"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m2_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Aggressive",
+        "Irrelevant",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m2_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To act aggressively",
+        "To endure a painful situation",
+        "To cook food",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m2_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Embarass",
+        "Embarras",
+        "Embarrass",
+        "Emmbarrass"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m2_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "He",
+        "did not went",
+        "to the store"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m2_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Plentiful",
+        "Rare",
+        "Scarce",
+        "Irrelevant"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m2_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Aggressive",
+        "Friendly",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m2_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "To be extremely happy",
+        "To cook food",
+        "Feeling ill",
+        "To act aggressively"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m2_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Emmbarrass",
+        "Embarras",
+        "Embarrass",
+        "Embarass"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m2_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "today",
+        "to the store",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m2_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Frank",
+        "Deceitful",
+        "Secret",
+        "Irrelevant"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m2_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Irrelevant",
+        "Dry",
+        "Empty",
+        "Fertile"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m2_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
+      "options": [
+        "Avoid the main topic",
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Beat around the bush' means avoid the main topic."
+    },
+    {
+      "id": "m2_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Embarass",
+        "Emmbarrass",
+        "Embarras",
+        "Embarrass"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m2_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "He",
+        "to the store",
+        "today"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-03",
+  "title": "SSC CGL TIER-1 MOCK 03",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #03. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m3_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        "82",
+        81,
+        "79",
+        "86"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m3_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "SZQFDS",
+        "UBSHFU",
+        "UCSFGU"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m3_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Kitten",
+        "Cub"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m3_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Cousin",
+        "Brother",
+        "Uncle"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m3_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m3_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        64,
+        "62",
+        "65",
+        "69"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m3_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "SZQFDS",
+        "VCTIGV",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m3_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 2",
+        "Pressure",
+        "Humidity",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m3_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Cousin",
+        "Brother"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m3_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m3_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "69",
+        "62",
+        64,
+        "65"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m3_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "UCSFGU",
+        "UBSHFU",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m3_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Irrelevant 1",
+        "Kyoto",
+        "Irrelevant 2",
+        "Tokyo"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m3_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Uncle",
+        "Father",
+        "Brother"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m3_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m3_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 4, 9, 16, 25, ?",
+      "options": [
+        "37",
+        "34",
+        36,
+        "41"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 2\u00b2, 3\u00b2, 4\u00b2, etc."
+    },
+    {
+      "id": "m3_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "VCTIGV",
+        "SZQFDS",
+        "RBPFDQ",
+        "UCSFGU"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m3_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Humidity",
+        "Pressure",
+        "Irrelevant 1",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m3_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Cousin",
+        "Uncle",
+        "Brother"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m3_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m3_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "69",
+        "65",
+        "62",
+        64
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m3_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UBSHFU",
+        "SZQFDS",
+        "RBPFDQ",
+        "UCSFGU"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m3_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Kitten",
+        "Cub",
+        "Irrelevant 2",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m3_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Uncle",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m3_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m3_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire? (Set 5)",
+      "options": [
+        "Bindusara",
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bimbisara"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m3_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh?",
+      "options": [
+        "Zoji La",
+        "Nathu La",
+        "Rohtang Pass",
+        "Shipki La"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m3_ga_28",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire? (Set 8)",
+      "options": [
+        "Bindusara",
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bimbisara"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m3_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 6)",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Lactometer",
+        "Anemometer"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m3_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 2)",
+      "options": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar",
+        "Sardar Patel"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m3_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Indian National Congress was founded in? (Set 6)",
+      "options": [
+        "1905",
+        "1857",
+        "1919",
+        "1885"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1885."
+    },
+    {
+      "id": "m3_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 3)",
+      "options": [
+        "Warren Hastings",
+        "Lord Dalhousie",
+        "Lord Mountbatten",
+        "C. Rajagopalachari"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m3_ga_33",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Quit India Movement was launched in which year? (Set 1)",
+      "options": [
+        "1942",
+        "1930",
+        "1920",
+        "1947"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1942."
+    },
+    {
+      "id": "m3_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 2)",
+      "options": [
+        "12",
+        "10",
+        "2",
+        "14"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m3_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 5)",
+      "options": [
+        "14",
+        "12",
+        "10",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m3_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 2)",
+      "options": [
+        "Zoji La",
+        "Shipki La",
+        "Rohtang Pass",
+        "Nathu La"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m3_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 5)",
+      "options": [
+        "Kathakali",
+        "Bharatanatyam",
+        "Kuchipudi",
+        "Odissi"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m3_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 1)",
+      "options": [
+        "Geneva",
+        "London",
+        "New York",
+        "Paris"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m3_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 6)",
+      "options": [
+        "Ohm",
+        "Ampere",
+        "Watt",
+        "Volt"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m3_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 8)",
+      "options": [
         "6",
         "8",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8."
+    },
+    {
+      "id": "m3_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 9)",
+      "options": [
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar",
+        "Mahatma Gandhi",
+        "Sardar Patel"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m3_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 1)",
+      "options": [
+        "Indus",
+        "Teesta",
+        "Brahmaputra",
+        "Ganga"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m3_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 3)",
+      "options": [
+        "Ascorbic Acid",
+        "Calciferol",
+        "Retinol",
+        "Thiamine"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m3_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 4)",
+      "options": [
+        "Krishna",
+        "Kaveri",
+        "Godavari",
+        "Mahanadi"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m3_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 5)",
+      "options": [
+        "Oxygen",
+        "Argon",
+        "Nitrogen",
+        "Carbon Dioxide"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m3_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline?",
+      "options": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m3_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 8)",
+      "options": [
+        "Barometer",
+        "Anemometer",
+        "Hygrometer",
+        "Lactometer"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m3_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Quit India Movement was launched in which year? (Set 2)",
+      "options": [
+        "1920",
+        "1930",
+        "1942",
+        "1947"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1942."
+    },
+    {
+      "id": "m3_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics? (Set 8)",
+      "options": [
+        "Dadabhai Naoroji",
+        "Manmohan Singh",
+        "Amartya Sen",
+        "Raghuram Rajan"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m3_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India?",
+      "options": [
+        "Warren Hastings",
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Lord Dalhousie"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m3_q_51",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "60\u00b0",
+        "45\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m3_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 5, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "135",
+        "140",
+        "145",
+        "142"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 5\u00b3 + 3(5) = 140."
+    },
+    {
+      "id": "m3_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "10 cm",
+        "4 cm",
+        "12 cm",
+        "8 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 3\u00b2) = 8 cm."
+    },
+    {
+      "id": "m3_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "12.5%",
+        "11.5%",
+        "17.5%",
+        "14.5%"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 10 - (25*10)/100 = 12.5%."
+    },
+    {
+      "id": "m3_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "12 days",
+        "14 days",
+        "16 days",
+        "11 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
+    },
+    {
+      "id": "m3_q_56",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 2000 is invested at simple interest of 12% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 2570",
+        "Rs. 3220",
+        "Rs. 2920",
+        "Rs. 2720"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 720. Amount = P + SI = 2000 + 720 = 2720."
+    },
+    {
+      "id": "m3_q_57",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 54 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
+      "options": [
+        "325 m",
+        "275 m",
+        "225 m",
+        "205 m"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 54 * (5/18) = 15 m/s. Length = Speed * Time = 15 * 15 = 225 m."
+    },
+    {
+      "id": "m3_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 190 is divided between P and Q in the ratio 4:6. What is P's share?",
+      "options": [
+        "Rs. 86",
+        "Rs. 56",
+        "Rs. 114",
+        "Rs. 76"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 190 * (4/10) = 76."
+    },
+    {
+      "id": "m3_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "60\u00b0",
+        "75\u00b0",
+        "30\u00b0"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m3_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "80",
+        "72",
+        "76",
+        "78"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m3_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "12 cm",
+        "28 cm",
+        "24 cm",
+        "26 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 3\u00b2) = 24 cm."
+    },
+    {
+      "id": "m3_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 20% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "-2.0%",
+        "-4.0%",
+        "1.0%",
+        "-5.0%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 20 - 20 - (20*20)/100 = -4.0%."
+    },
+    {
+      "id": "m3_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "16 days",
+        "14 days",
+        "12 days",
+        "11 days"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
+    },
+    {
+      "id": "m3_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 3000 is invested at simple interest of 10% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 4400",
+        "Rs. 3750",
+        "Rs. 4100",
+        "Rs. 3900"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 900. Amount = P + SI = 3000 + 900 = 3900."
+    },
+    {
+      "id": "m3_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 54 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
+      "options": [
+        "160 m",
+        "280 m",
+        "180 m",
+        "230 m"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 54 * (5/18) = 15 m/s. Length = Speed * Time = 15 * 12 = 180 m."
+    },
+    {
+      "id": "m3_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 243 is divided between P and Q in the ratio 2:7. What is P's share?",
+      "options": [
+        "Rs. 64",
+        "Rs. 34",
+        "Rs. 54",
+        "Rs. 189"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 243 * (2/9) = 54."
+    },
+    {
+      "id": "m3_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "60\u00b0",
+        "45\u00b0",
+        "90\u00b0",
+        "30\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m3_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 5, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "142",
+        "135",
+        "140",
+        "145"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 5\u00b3 + 3(5) = 140."
+    },
+    {
+      "id": "m3_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "20 cm",
+        "18 cm",
+        "22 cm",
+        "9 cm"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 4\u00b2) = 18 cm."
+    },
+    {
+      "id": "m3_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 20% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "1.0%",
+        "-5.0%",
+        "-4.0%",
+        "-2.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 20 - 20 - (20*20)/100 = -3.9999999999999964%."
+    },
+    {
+      "id": "m3_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "12 days",
+        "14 days",
+        "11 days",
+        "16 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
+    },
+    {
+      "id": "m3_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 8000 is invested at simple interest of 8% per annum. What will be the total amount after 4 years?",
+      "options": [
+        "Rs. 11060",
+        "Rs. 10560",
+        "Rs. 10410",
+        "Rs. 10760"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 2560. Amount = P + SI = 8000 + 2560 = 10560."
+    },
+    {
+      "id": "m3_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 54 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
+      "options": [
+        "250 m",
+        "200 m",
+        "130 m",
+        "150 m"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 54 * (5/18) = 15 m/s. Length = Speed * Time = 15 * 10 = 150 m."
+    },
+    {
+      "id": "m3_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 125 is divided between P and Q in the ratio 2:3. What is P's share?",
+      "options": [
+        "Rs. 75",
+        "Rs. 60",
+        "Rs. 50",
+        "Rs. 30"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 125 * (2/5) = 50."
+    },
+    {
+      "id": "m3_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "45\u00b0",
+        "60\u00b0",
+        "30\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m3_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m3_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Outdated",
+        "Ancient",
+        "Modern",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m3_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To be extremely happy",
+        "To cook food",
+        "To endure a painful situation",
+        "To act aggressively"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m3_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Facinate",
+        "Fassinate",
+        "Fascinate",
+        "Fascinnate"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m3_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "He",
+        "to the store",
+        "today"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m3_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Irrelevant",
+        "Lethargic",
+        "Hardworking",
+        "Lazy"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m3_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Friendly",
+        "Aggressive",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m3_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To be extremely happy",
+        "To endure a painful situation",
+        "To act aggressively",
+        "To cook food"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m3_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Fassinate",
+        "Fascinnate",
+        "Fascinate",
+        "Facinate"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m3_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "did not went",
+        "He",
+        "to the store"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m3_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Irrelevant",
+        "Lethargic"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m3_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Aggressive",
+        "Bitter",
+        "Irrelevant",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m3_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To be extremely happy",
+        "To act aggressively",
+        "To cook food"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m3_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Acommodate",
+        "Acccomodate",
+        "Accomodate",
+        "Accommodate"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m3_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "He",
+        "to the store",
+        "today"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m3_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Scarce",
+        "Irrelevant",
+        "Plentiful",
+        "Rare"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m3_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Aggressive",
+        "Irrelevant",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m3_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "Feeling ill",
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m3_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Facinate",
+        "Fascinate",
+        "Fascinnate",
+        "Fassinate"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m3_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "to the store",
+        "did not went",
+        "today"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m3_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Secret",
+        "Frank",
+        "Deceitful",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m3_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Irrelevant",
+        "Modern",
+        "Ancient",
+        "Outdated"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m3_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "To be extremely happy",
+        "To act aggressively",
+        "To cook food",
+        "Feeling ill"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m3_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Acommodate",
+        "Accommodate",
+        "Acccomodate",
+        "Accomodate"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m3_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "to the store",
+        "did not went",
+        "He"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-04",
+  "title": "SSC CGL TIER-1 MOCK 04",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #04. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m4_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        64,
+        "65",
+        "69",
+        "62"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m4_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "VCTIGV",
+        "UCSFGU",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m4_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Humidity",
+        "Pressure"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m4_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Uncle",
+        "Cousin",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m4_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m4_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        49,
+        "54",
+        "47",
+        "50"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m4_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "UBSHFU",
+        "SZQFDS",
+        "UCSFGU"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m4_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 2",
+        "Kitten",
+        "Cub",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m4_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Cousin",
+        "Uncle",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m4_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m4_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "65",
+        "62",
+        64,
+        "69"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m4_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "UBSHFU",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m4_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 2",
+        "Cub",
+        "Irrelevant 1",
+        "Kitten"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m4_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Uncle",
+        "Cousin",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m4_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m4_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        "86",
+        "79",
+        "82",
+        81
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m4_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "SZQFDS",
+        "VCTIGV",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m4_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Tokyo",
+        "Kyoto"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m4_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Father",
+        "Brother",
+        "Uncle"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m4_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m4_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        "50",
+        "54",
+        49,
+        "47"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m4_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "UCSFGU",
+        "RBPFDQ",
+        "VCTIGV"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m4_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Tokyo",
+        "Kyoto",
+        "Irrelevant 1",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m4_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Cousin",
+        "Father",
+        "Brother"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m4_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m4_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 1)",
+      "options": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8."
+    },
+    {
+      "id": "m4_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 4)",
+      "options": [
+        "Article 17",
+        "Article 32",
+        "Article 14",
+        "Article 19"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m4_ga_28",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 1)",
+      "options": [
+        "Prime Minister",
+        "President of India",
+        "Chief of Defence Staff",
+        "Minister of Defence"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m4_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 2)",
+      "options": [
+        "Minister of Defence",
+        "Chief of Defence Staff",
+        "Prime Minister",
+        "President of India"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m4_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 8)",
+      "options": [
+        "Chief of Defence Staff",
+        "President of India",
+        "Minister of Defence",
+        "Prime Minister"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m4_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 2)",
+      "options": [
+        "Hygrometer",
+        "Lactometer",
+        "Anemometer",
+        "Barometer"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m4_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 3)",
+      "options": [
+        "Lactometer",
+        "Anemometer",
+        "Barometer",
+        "Hygrometer"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m4_ga_33",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 8)",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Indus",
+        "Teesta"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m4_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics? (Set 2)",
+      "options": [
+        "Dadabhai Naoroji",
+        "Manmohan Singh",
+        "Raghuram Rajan",
+        "Amartya Sen"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m4_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Quit India Movement was launched in which year? (Set 3)",
+      "options": [
+        "1942",
+        "1920",
+        "1947",
+        "1930"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1942."
+    },
+    {
+      "id": "m4_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 5)",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8."
+    },
+    {
+      "id": "m4_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to? (Set 5)",
+      "options": [
+        "Myoglobin",
+        "Haemoglobin",
+        "Plasma",
+        "Platelets"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m4_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year? (Set 1)",
+      "options": [
+        "1761",
+        "1191",
+        "1556",
+        "1526"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m4_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 7)",
+      "options": [
+        "New Delhi",
+        "Mumbai",
+        "Chennai",
+        "Kolkata"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m4_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 1)",
+      "options": [
+        "Kolkata",
+        "Chennai",
+        "Mumbai",
+        "New Delhi"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m4_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 7)",
+      "options": [
+        "Indus",
+        "Teesta",
+        "Brahmaputra",
+        "Ganga"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m4_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 7)",
+      "options": [
+        "Article 19",
+        "Article 14",
+        "Article 32",
+        "Article 17"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m4_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 4)",
+      "options": [
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Gujarat"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m4_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 9)",
+      "options": [
+        "9th Schedule",
+        "7th Schedule",
+        "8th Schedule",
+        "10th Schedule"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8th Schedule."
+    },
+    {
+      "id": "m4_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance?",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Watt",
+        "Ohm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m4_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 5)",
+      "options": [
+        "Barometer",
+        "Lactometer",
+        "Anemometer",
+        "Hygrometer"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m4_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 2)",
+      "options": [
+        "New York",
+        "London",
+        "Paris",
+        "Geneva"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m4_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river?",
+      "options": [
+        "Brahmaputra",
+        "Indus",
+        "Teesta",
+        "Ganga"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m4_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 6)",
+      "options": [
+        "10th Schedule",
+        "7th Schedule",
+        "8th Schedule",
+        "9th Schedule"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8th Schedule."
+    },
+    {
+      "id": "m4_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 5)",
+      "options": [
+        "Ascorbic Acid",
+        "Retinol",
+        "Calciferol",
+        "Thiamine"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m4_q_51",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "30\u00b0",
+        "90\u00b0",
+        "60\u00b0",
+        "75\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m4_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "236",
+        "240",
+        "228",
+        "234"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m4_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
+      "options": [
+        "16 cm",
+        "20 cm",
+        "18 cm",
+        "8 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 5\u00b2) = 16 cm."
+    },
+    {
+      "id": "m4_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "18.0%",
+        "19.0%",
+        "24.0%",
+        "21.0%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 18.999999999999993%."
+    },
+    {
+      "id": "m4_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "8 days",
+        "5 days",
+        "10 days",
+        "6 days"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m4_q_56",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 5% per annum. What will be the total amount after 4 years?",
+      "options": [
+        "Rs. 5000",
+        "Rs. 4650",
+        "Rs. 4800",
+        "Rs. 5300"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 800. Amount = P + SI = 4000 + 800 = 4800."
+    },
+    {
+      "id": "m4_q_57",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 108 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
+      "options": [
+        "550 m",
+        "450 m",
+        "430 m",
+        "500 m"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 108 * (5/18) = 30 m/s. Length = Speed * Time = 30 * 15 = 450 m."
+    },
+    {
+      "id": "m4_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 250 is divided between P and Q in the ratio 4:6. What is P's share?",
+      "options": [
+        "Rs. 80",
+        "Rs. 150",
+        "Rs. 110",
+        "Rs. 100"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 250 * (4/10) = 100."
+    },
+    {
+      "id": "m4_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "60\u00b0",
+        "45\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m4_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 7, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "366",
+        "371",
+        "357",
+        "364"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 7\u00b3 + 3(7) = 364."
+    },
+    {
+      "id": "m4_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "10 cm",
+        "8 cm",
+        "3 cm",
+        "6 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 4\u00b2) = 6 cm."
+    },
+    {
+      "id": "m4_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "18.0%",
+        "19.0%",
+        "24.0%",
+        "21.0%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 18.99999999999999%."
+    },
+    {
+      "id": "m4_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "8 days",
+        "10 days",
+        "12 days",
+        "7 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
+    },
+    {
+      "id": "m4_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 8000 is invested at simple interest of 12% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 9770",
+        "Rs. 10120",
+        "Rs. 10420",
+        "Rs. 9920"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1920. Amount = P + SI = 8000 + 1920 = 9920."
+    },
+    {
+      "id": "m4_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
+      "options": [
+        "400 m",
+        "380 m",
+        "450 m",
+        "500 m"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 20 = 400 m."
+    },
+    {
+      "id": "m4_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 207 is divided between P and Q in the ratio 4:5. What is P's share?",
+      "options": [
+        "Rs. 92",
+        "Rs. 115",
+        "Rs. 72",
+        "Rs. 102"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 207 * (4/9) = 92."
+    },
+    {
+      "id": "m4_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "60\u00b0",
+        "90\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m4_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "72",
+        "76",
+        "80",
+        "78"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m4_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "12 cm",
+        "24 cm",
+        "26 cm",
+        "28 cm"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 3\u00b2) = 24 cm."
+    },
+    {
+      "id": "m4_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "18.0%",
+        "19.0%",
+        "21.0%",
+        "24.0%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 19.000000000000004%."
+    },
+    {
+      "id": "m4_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "12 days",
+        "14 days",
+        "16 days",
+        "11 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
+    },
+    {
+      "id": "m4_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 12% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 5440",
+        "Rs. 5640",
+        "Rs. 5290",
+        "Rs. 5940"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1440. Amount = P + SI = 4000 + 1440 = 5440."
+    },
+    {
+      "id": "m4_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
+      "options": [
+        "340 m",
+        "290 m",
+        "220 m",
+        "240 m"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 12 = 240 m."
+    },
+    {
+      "id": "m4_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 333 is divided between P and Q in the ratio 2:7. What is P's share?",
+      "options": [
+        "Rs. 84",
+        "Rs. 54",
+        "Rs. 74",
+        "Rs. 259"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 333 * (2/9) = 74."
+    },
+    {
+      "id": "m4_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "60\u00b0",
+        "45\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m4_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Irrelevant",
+        "Secret",
+        "Frank",
+        "Deceitful"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m4_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Dry",
+        "Empty",
+        "Fertile",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m4_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
+      "options": [
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food",
+        "To reveal a secret"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Spill the beans' means to reveal a secret."
+    },
+    {
+      "id": "m4_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Fascinnate",
+        "Fassinate",
+        "Fascinate",
+        "Facinate"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m4_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "to the store",
+        "today",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m4_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Deceitful",
+        "Frank",
+        "Secret",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m4_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Dry",
+        "Empty",
+        "Irrelevant",
+        "Fertile"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m4_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "To cook food",
+        "To be extremely happy",
+        "Feeling ill",
+        "To act aggressively"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m4_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Facinate",
+        "Fascinate",
+        "Fassinate",
+        "Fascinnate"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m4_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "today",
+        "to the store",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m4_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Hardworking",
+        "Lazy",
+        "Lethargic",
+        "Irrelevant"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m4_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Friendly",
+        "Irrelevant",
+        "Aggressive"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m4_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
+      "options": [
+        "To be extremely happy",
+        "To cook food",
+        "Avoid the main topic",
+        "To act aggressively"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Beat around the bush' means avoid the main topic."
+    },
+    {
+      "id": "m4_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Emmbarrass",
+        "Embarrass",
+        "Embarass",
+        "Embarras"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m4_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "to the store",
+        "He",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m4_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Rare",
+        "Scarce",
+        "Irrelevant",
+        "Plentiful"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m4_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Friendly",
+        "Irrelevant",
+        "Aggressive",
+        "Bitter"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m4_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "Feeling ill",
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m4_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Embarrass",
+        "Emmbarrass",
+        "Embarass",
+        "Embarras"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m4_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "did not went",
+        "today",
+        "to the store"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m4_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Irrelevant",
+        "Secret",
+        "Deceitful",
+        "Frank"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m4_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Empty",
+        "Dry",
+        "Fertile",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m4_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To be extremely happy",
+        "To cook food",
+        "To act aggressively"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m4_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Embarras",
+        "Emmbarrass",
+        "Embarrass",
+        "Embarass"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m4_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "to the store",
+        "today",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-05",
+  "title": "SSC CGL TIER-1 MOCK 05",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #05. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m5_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 4, 9, 16, 25, ?",
+      "options": [
+        36,
+        "41",
+        "37",
+        "34"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 2\u00b2, 3\u00b2, 4\u00b2, etc."
+    },
+    {
+      "id": "m5_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "RBPFDQ",
+        "UCSFGU",
+        "UBSHFU"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m5_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Irrelevant 2",
+        "Tokyo",
+        "Kyoto",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m5_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Uncle",
+        "Father",
+        "Brother"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m5_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m5_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        81,
+        "82",
+        "79",
+        "86"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m5_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "SZQFDS",
+        "RBPFDQ",
+        "UBSHFU"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m5_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 2",
+        "Humidity",
+        "Pressure",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m5_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Cousin",
+        "Brother"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m5_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m5_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 4, 9, 16, 25, ?",
+      "options": [
+        "37",
+        "41",
+        36,
+        "34"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 2\u00b2, 3\u00b2, 4\u00b2, etc."
+    },
+    {
+      "id": "m5_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m5_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 1",
+        "Pressure",
+        "Irrelevant 2",
+        "Humidity"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m5_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Cousin",
+        "Father",
+        "Uncle"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m5_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m5_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        64,
+        "62",
+        "65",
+        "69"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m5_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "VCTIGV",
+        "UCSFGU",
+        "SZQFDS",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m5_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Kyoto",
+        "Irrelevant 1",
+        "Tokyo",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m5_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Uncle",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m5_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m5_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
+      "options": [
+        "98",
+        100,
+        "101",
+        "105"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
+    },
+    {
+      "id": "m5_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "RBPFDQ",
+        "VCTIGV",
+        "SZQFDS"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m5_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Kyoto",
+        "Tokyo",
+        "Irrelevant 2",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m5_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Father",
+        "Uncle",
+        "Brother"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m5_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m5_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 3)",
+      "options": [
+        "7",
+        "6",
+        "9",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8."
+    },
+    {
+      "id": "m5_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 6)",
+      "options": [
+        "14",
+        "12",
+        "2",
         "10"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
+      "explanation": "The correct answer is 12."
     },
     {
-      "id": "m1_q_55",
-      "section": "Quantitative Aptitude",
+      "id": "m5_ga_28",
+      "section": "General Awareness",
       "type": "single",
-      "question": "What is 35% of 314?",
+      "question": "Who is known as the Father of Indian Economics? (Set 5)",
       "options": [
-        "109",
-        "129",
-        "104",
-        "119"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 314 = 109."
-    },
-    {
-      "id": "m1_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 250 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 322",
-        "Rs. 325",
-        "Rs. 292",
-        "Rs. 312"
+        "Raghuram Rajan",
+        "Manmohan Singh",
+        "Amartya Sen",
+        "Dadabhai Naoroji"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 250 + (25% of 250) = 312."
+      "explanation": "The correct answer is Dadabhai Naoroji."
     },
     {
-      "id": "m1_q_57",
+      "id": "m5_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by?",
+      "options": [
+        "Mahatma Gandhi",
+        "B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Sardar Patel"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m5_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 9)",
+      "options": [
+        "Warren Hastings",
+        "C. Rajagopalachari",
+        "Lord Dalhousie",
+        "Lord Mountbatten"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m5_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 6)",
+      "options": [
+        "UK",
+        "USA",
+        "Ireland",
+        "USSR"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m5_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 7)",
+      "options": [
+        "Warren Hastings",
+        "Lord Dalhousie",
+        "C. Rajagopalachari",
+        "Lord Mountbatten"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m5_ga_33",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 9)",
+      "options": [
+        "Minister of Defence",
+        "Prime Minister",
+        "Chief of Defence Staff",
+        "President of India"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m5_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 3)",
+      "options": [
+        "10th Schedule",
+        "7th Schedule",
+        "8th Schedule",
+        "9th Schedule"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8th Schedule."
+    },
+    {
+      "id": "m5_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 6)",
+      "options": [
+        "Maharashtra",
+        "Gujarat",
+        "Tamil Nadu",
+        "Andhra Pradesh"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m5_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 2)",
+      "options": [
+        "Chennai",
+        "Kolkata",
+        "New Delhi",
+        "Mumbai"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m5_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 8)",
+      "options": [
+        "Argon",
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m5_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 1)",
+      "options": [
+        "Ampere",
+        "Volt",
+        "Watt",
+        "Ohm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m5_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Indian National Congress was founded in? (Set 9)",
+      "options": [
+        "1885",
+        "1905",
+        "1857",
+        "1919"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1885."
+    },
+    {
+      "id": "m5_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 5)",
+      "options": [
+        "9th Schedule",
+        "8th Schedule",
+        "7th Schedule",
+        "10th Schedule"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8th Schedule."
+    },
+    {
+      "id": "m5_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 1)",
+      "options": [
+        "Article 32",
+        "Article 19",
+        "Article 17",
+        "Article 14"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m5_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 9)",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m5_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 5)",
+      "options": [
+        "President of India",
+        "Chief of Defence Staff",
+        "Minister of Defence",
+        "Prime Minister"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m5_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 2)",
+      "options": [
+        "Watt",
+        "Ampere",
+        "Volt",
+        "Ohm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m5_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 4)",
+      "options": [
+        "Sardar Patel",
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "B.R. Ambedkar"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m5_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 7)",
+      "options": [
+        "Hygrometer",
+        "Anemometer",
+        "Barometer",
+        "Lactometer"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m5_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 1)",
+      "options": [
+        "Shipki La",
+        "Nathu La",
+        "Zoji La",
+        "Rohtang Pass"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m5_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to? (Set 7)",
+      "options": [
+        "Haemoglobin",
+        "Myoglobin",
+        "Plasma",
+        "Platelets"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m5_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Quit India Movement was launched in which year? (Set 7)",
+      "options": [
+        "1942",
+        "1930",
+        "1920",
+        "1947"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1942."
+    },
+    {
+      "id": "m5_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 9)",
+      "options": [
+        "Gujarat",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m5_q_51",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 60 days. If they work together, how many days will they take?",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        12,
-        "11 days",
-        "16 days",
+        "30\u00b0",
+        "75\u00b0",
+        "90\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m5_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "236",
+        "240",
+        "234",
+        "228"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m5_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
+      "options": [
+        "24 cm",
+        "28 cm",
+        "12 cm",
+        "26 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 5\u00b2) = 24 cm."
+    },
+    {
+      "id": "m5_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "26.0%",
+        "28.0%",
+        "25.0%",
+        "31.0%"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 10 - (40*10)/100 = 25.999999999999996%."
+    },
+    {
+      "id": "m5_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "5 days",
+        "6 days",
+        "10 days",
+        "8 days"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m5_q_56",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 7000 is invested at simple interest of 5% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 8550",
+        "Rs. 8050",
+        "Rs. 7900",
+        "Rs. 8250"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1050. Amount = P + SI = 7000 + 1050 = 8050."
+    },
+    {
+      "id": "m5_q_57",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 54 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
+      "options": [
+        "160 m",
+        "180 m",
+        "230 m",
+        "280 m"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 54 * (5/18) = 15 m/s. Length = Speed * Time = 15 * 12 = 180 m."
+    },
+    {
+      "id": "m5_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 175 is divided between P and Q in the ratio 3:4. What is P's share?",
+      "options": [
+        "Rs. 85",
+        "Rs. 100",
+        "Rs. 75",
+        "Rs. 55"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 175 * (3/7) = 75."
+    },
+    {
+      "id": "m5_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "60\u00b0",
+        "90\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m5_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 5, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "142",
+        "145",
+        "140",
+        "135"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 5\u00b3 + 3(5) = 140."
+    },
+    {
+      "id": "m5_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "9 cm",
+        "20 cm",
+        "22 cm",
+        "18 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 4\u00b2) = 18 cm."
+    },
+    {
+      "id": "m5_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "17.5%",
+        "12.5%",
+        "11.5%",
+        "14.5%"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 10 - (25*10)/100 = 12.5%."
+    },
+    {
+      "id": "m5_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "10 days",
+        "7 days",
+        "8 days",
+        "12 days"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
+    },
+    {
+      "id": "m5_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 7000 is invested at simple interest of 10% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 8600",
+        "Rs. 8400",
+        "Rs. 8900",
+        "Rs. 8250"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1400. Amount = P + SI = 7000 + 1400 = 8400."
+    },
+    {
+      "id": "m5_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
+      "options": [
+        "500 m",
+        "550 m",
+        "480 m",
+        "600 m"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 20 = 500 m."
+    },
+    {
+      "id": "m5_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 490 is divided between P and Q in the ratio 3:7. What is P's share?",
+      "options": [
+        "Rs. 157",
+        "Rs. 343",
+        "Rs. 127",
+        "Rs. 147"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 490 * (3/10) = 147."
+    },
+    {
+      "id": "m5_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "30\u00b0",
+        "60\u00b0",
+        "75\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m5_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 3, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "36",
+        "33",
+        "38",
+        "39"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 3\u00b3 + 3(3) = 36."
+    },
+    {
+      "id": "m5_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
+      "options": [
+        "18 cm",
+        "8 cm",
+        "20 cm",
+        "16 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 5\u00b2) = 16 cm."
+    },
+    {
+      "id": "m5_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "0.0%",
+        "-1.0%",
+        "5.0%",
+        "2.0%"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 20 - (25*20)/100 = 0.0%."
+    },
+    {
+      "id": "m5_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "5 days",
+        "6 days",
+        "10 days",
+        "8 days"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m5_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 6000 is invested at simple interest of 12% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 8360",
+        "Rs. 8160",
+        "Rs. 8010",
+        "Rs. 8660"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 2160. Amount = P + SI = 6000 + 2160 = 8160."
+    },
+    {
+      "id": "m5_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 108 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
+      "options": [
+        "600 m",
+        "580 m",
+        "650 m",
+        "700 m"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 108 * (5/18) = 30 m/s. Length = Speed * Time = 30 * 20 = 600 m."
+    },
+    {
+      "id": "m5_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 473 is divided between P and Q in the ratio 5:6. What is P's share?",
+      "options": [
+        "Rs. 215",
+        "Rs. 195",
+        "Rs. 225",
+        "Rs. 258"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 473 * (5/11) = 215."
+    },
+    {
+      "id": "m5_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "90\u00b0",
+        "45\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m5_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Deceitful",
+        "Irrelevant",
+        "Frank",
+        "Secret"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m5_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Fertile",
+        "Irrelevant",
+        "Empty",
+        "Dry"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m5_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
+      "options": [
+        "To be extremely happy",
+        "To reveal a secret",
+        "To cook food",
+        "To act aggressively"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Spill the beans' means to reveal a secret."
+    },
+    {
+      "id": "m5_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Fascinnate",
+        "Fascinate",
+        "Fassinate",
+        "Facinate"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m5_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "today",
+        "to the store",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m5_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Scarce",
+        "Irrelevant",
+        "Plentiful",
+        "Rare"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m5_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Friendly",
+        "Aggressive",
+        "Irrelevant",
+        "Bitter"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m5_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To act aggressively",
+        "To cook food",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m5_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Emmbarrass",
+        "Embarass",
+        "Embarras",
+        "Embarrass"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m5_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "to the store",
+        "He",
+        "did not went",
+        "today"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m5_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Lazy",
+        "Hardworking",
+        "Irrelevant",
+        "Lethargic"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m5_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Friendly",
+        "Aggressive",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m5_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To cook food",
+        "To act aggressively",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m5_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Accommodate",
+        "Acccomodate",
+        "Accomodate",
+        "Acommodate"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m5_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "today",
+        "did not went",
+        "to the store"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m5_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Lethargic",
+        "Lazy",
+        "Hardworking",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m5_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Friendly",
+        "Bitter",
+        "Irrelevant",
+        "Aggressive"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m5_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To cook food",
+        "To act aggressively",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m5_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Fascinate",
+        "Fascinnate",
+        "Facinate",
+        "Fassinate"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m5_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "He",
+        "today",
+        "to the store"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m5_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Frank",
+        "Deceitful",
+        "Irrelevant",
+        "Secret"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m5_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Irrelevant",
+        "Aggressive",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m5_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
+      "options": [
+        "To act aggressively",
+        "Avoid the main topic",
+        "To be extremely happy",
+        "To cook food"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Beat around the bush' means avoid the main topic."
+    },
+    {
+      "id": "m5_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Accommodate",
+        "Accomodate",
+        "Acommodate",
+        "Acccomodate"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m5_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "to the store",
+        "today",
+        "He"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-06",
+  "title": "SSC CGL TIER-1 MOCK 06",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #06. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m6_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "62",
+        "69",
+        64,
+        "65"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m6_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "VCTIGV",
+        "UCSFGU",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m6_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Kitten",
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Cub"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m6_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Uncle",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m6_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m6_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        "82",
+        "79",
+        81,
+        "86"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m6_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m6_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Pressure",
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Humidity"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m6_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Uncle",
+        "Brother",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m6_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m6_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "69",
+        64,
+        "62",
+        "65"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m6_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "SZQFDS",
+        "UBSHFU",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m6_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 2",
+        "Humidity",
+        "Irrelevant 1",
+        "Pressure"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m6_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Father",
+        "Cousin"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m6_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m6_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        "82",
+        "86",
+        "79",
+        81
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m6_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "UCSFGU",
+        "VCTIGV",
+        "SZQFDS"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m6_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 1",
+        "Kitten",
+        "Irrelevant 2",
+        "Cub"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m6_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Brother",
+        "Father",
+        "Uncle",
+        "Cousin"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m6_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m6_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
+      "options": [
+        "105",
+        100,
+        "98",
+        "101"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
+    },
+    {
+      "id": "m6_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UBSHFU",
+        "UCSFGU",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m6_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Pressure",
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Humidity"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m6_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Brother",
+        "Father",
+        "Cousin"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m6_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m6_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 2)",
+      "options": [
+        "Article 19",
+        "Article 17",
+        "Article 32",
+        "Article 14"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m6_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire? (Set 4)",
+      "options": [
+        "Bindusara",
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Bimbisara"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m6_ga_28",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 4)",
+      "options": [
+        "Kolkata",
+        "Chennai",
+        "Mumbai",
+        "New Delhi"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m6_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 6)",
+      "options": [
+        "Thiamine",
+        "Calciferol",
+        "Ascorbic Acid",
+        "Retinol"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m6_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 6)",
+      "options": [
+        "Mahanadi",
+        "Godavari",
+        "Krishna",
+        "Kaveri"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m6_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year?",
+      "options": [
+        "1556",
+        "1526",
+        "1761",
+        "1191"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m6_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 7)",
+      "options": [
+        "Kaveri",
+        "Mahanadi",
+        "Krishna",
+        "Godavari"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m6_ga_33",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 4)",
+      "options": [
+        "Ascorbic Acid",
+        "Calciferol",
+        "Retinol",
+        "Thiamine"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m6_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 1)",
+      "options": [
+        "B.R. Ambedkar",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Sardar Patel"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m6_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 8)",
+      "options": [
+        "Ohm",
+        "Ampere",
+        "Watt",
+        "Volt"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m6_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 8)",
+      "options": [
+        "USSR",
+        "UK",
+        "Ireland",
+        "USA"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m6_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Indian National Congress was founded in? (Set 7)",
+      "options": [
+        "1919",
+        "1857",
+        "1905",
+        "1885"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1885."
+    },
+    {
+      "id": "m6_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 4)",
+      "options": [
+        "Ganga",
+        "Indus",
+        "Teesta",
+        "Brahmaputra"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m6_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics?",
+      "options": [
+        "Amartya Sen",
+        "Manmohan Singh",
+        "Dadabhai Naoroji",
+        "Raghuram Rajan"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m6_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 8)",
+      "options": [
+        "B.R. Ambedkar",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Sardar Patel"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m6_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Carbon Dioxide",
+        "Oxygen"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m6_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 5)",
+      "options": [
+        "Rohtang Pass",
+        "Shipki La",
+        "Nathu La",
+        "Zoji La"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m6_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 6)",
+      "options": [
+        "Kuchipudi",
+        "Odissi",
+        "Kathakali",
+        "Bharatanatyam"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m6_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 1)",
+      "options": [
+        "12",
+        "14",
+        "2",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m6_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 6)",
+      "options": [
+        "Mahatma Gandhi",
+        "Sardar Patel",
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m6_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 3)",
+      "options": [
+        "Nathu La",
+        "Zoji La",
+        "Rohtang Pass",
+        "Shipki La"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m6_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 3)",
+      "options": [
+        "Argon",
+        "Carbon Dioxide",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m6_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 3)",
+      "options": [
+        "Minister of Defence",
+        "President of India",
+        "Chief of Defence Staff",
+        "Prime Minister"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m6_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 4)",
+      "options": [
+        "Argon",
+        "Nitrogen",
+        "Oxygen",
+        "Carbon Dioxide"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m6_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Indian National Congress was founded in? (Set 4)",
+      "options": [
+        "1905",
+        "1857",
+        "1885",
+        "1919"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1885."
+    },
+    {
+      "id": "m6_q_51",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "90\u00b0",
+        "45\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m6_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "240",
+        "236",
+        "228",
+        "234"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m6_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
+      "options": [
+        "16 cm",
+        "8 cm",
+        "20 cm",
+        "18 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 5\u00b2) = 16 cm."
+    },
+    {
+      "id": "m6_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "21.0%",
+        "18.0%",
+        "19.0%",
+        "24.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 18.999999999999993%."
+    },
+    {
+      "id": "m6_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 15 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "12 days",
+        "9 days",
+        "10 days",
         "14 days"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/60. Total = 1/15 + 1/60. Days = 12."
+      "explanation": "Total days = (A*B)/(A+B) = (15*30)/(15+30) = 10 days."
     },
     {
-      "id": "m1_q_58",
+      "id": "m6_q_56",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 15% per annum for 2 years.",
+      "question": "A sum of Rs. 7000 is invested at simple interest of 5% per annum. What will be the total amount after 3 years?",
       "options": [
-        "Rs. 900",
-        "Rs. 700",
-        "Rs. 950",
-        "Rs. 1000"
+        "Rs. 8050",
+        "Rs. 8250",
+        "Rs. 8550",
+        "Rs. 7900"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*15*2/100 = 900."
+      "explanation": "SI = P*R*T/100 = 1050. Amount = P + SI = 7000 + 1050 = 8050."
     },
     {
-      "id": "m1_q_59",
+      "id": "m6_q_57",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
+      "options": [
+        "425 m",
+        "375 m",
+        "475 m",
+        "355 m"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 15 = 375 m."
+    },
+    {
+      "id": "m6_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 96 is divided between P and Q in the ratio 2:6. What is P's share?",
+      "options": [
+        "Rs. 34",
+        "Rs. 4",
+        "Rs. 72",
+        "Rs. 24"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 96 * (2/8) = 24."
+    },
+    {
+      "id": "m6_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "30\u00b0",
+        "60\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m6_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "234",
+        "228",
+        "236",
+        "240"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m6_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "10 cm",
+        "3 cm",
+        "6 cm",
+        "8 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 4\u00b2) = 6 cm."
+    },
+    {
+      "id": "m6_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 20% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "-4.0%",
+        "-2.0%",
+        "1.0%",
+        "-5.0%"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 20 - 20 - (20*20)/100 = -3.9999999999999867%."
+    },
+    {
+      "id": "m6_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "6 days",
+        "10 days",
+        "8 days",
+        "5 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m6_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 10% per annum. What will be the total amount after 4 years?",
+      "options": [
+        "Rs. 5600",
+        "Rs. 6100",
+        "Rs. 5800",
+        "Rs. 5450"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1600. Amount = P + SI = 4000 + 1600 = 5600."
+    },
+    {
+      "id": "m6_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
       "options": [
         "475 m",
         "375 m",
@@ -951,9498 +9107,1102 @@ const SAMPLE_MOCK_TESTS = [
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 15 = 375m."
-    },
-    {
-      "id": "m1_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "10",
-        "6",
-        "8",
-        "4"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m1_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 498?",
-      "options": [
-        "74",
-        "94",
-        "84",
-        "69"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 498 = 74."
-    },
-    {
-      "id": "m1_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 270 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 337",
-        "Rs. 304",
-        "Rs. 324",
-        "Rs. 334"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 270 + (20% of 270) = 324."
-    },
-    {
-      "id": "m1_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "9 days",
-        "14 days",
-        10,
-        "12 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/60. Total = 1/12 + 1/60. Days = 10."
-    },
-    {
-      "id": "m1_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 10000 at 5% per annum for 4 years.",
-      "options": [
-        "Rs. 2050",
-        "Rs. 2100",
-        "Rs. 2000",
-        "Rs. 1800"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 10000*5*4/100 = 2000."
-    },
-    {
-      "id": "m1_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "250 m",
-        "150 m",
-        "130 m",
-        "200 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
-    },
-    {
-      "id": "m1_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "36",
-        "38",
-        "40",
-        "42"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m1_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 242?",
-      "options": [
-        "118",
-        "103",
-        "128",
-        "108"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 242 = 108."
-    },
-    {
-      "id": "m1_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 290 and sold it at a profit of 10%. Find the selling price.",
-      "options": [
-        "Rs. 329",
-        "Rs. 299",
-        "Rs. 319",
-        "Rs. 333"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 290 + (10% of 290) = 319."
-    },
-    {
-      "id": "m1_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 10 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "5 days",
-        "8 days",
-        "10 days",
-        6
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/10, by B = 1/20. Total = 1/10 + 1/20. Days = 6."
-    },
-    {
-      "id": "m1_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 1000 at 10% per annum for 4 years.",
-      "options": [
-        "Rs. 500",
-        "Rs. 450",
-        "Rs. 200",
-        "Rs. 400"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 1000*10*4/100 = 400."
-    },
-    {
-      "id": "m1_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "300 m",
-        "180 m",
-        "250 m",
-        "200 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 20 = 200m."
-    },
-    {
-      "id": "m1_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "6",
-        "8",
-        "10",
-        "4"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m1_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 757?",
-      "options": [
-        "284",
-        "259",
-        "264",
-        "274"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 757 = 264."
-    },
-    {
-      "id": "m1_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 200 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 250",
-        "Rs. 220",
-        "Rs. 250",
-        "Rs. 240"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 200 + (20% of 200) = 240."
-    },
-    {
-      "id": "m1_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "7 days",
-        "12 days",
-        "10 days",
-        8
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/30. Total = 1/12 + 1/30. Days = 8."
-    },
-    {
-      "id": "m1_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q131] Find the error in the sentence: 'Sentence part 130.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 130",
-        "Error in noun"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 130."
-    },
-    {
-      "id": "m1_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q25] Select the synonym of: WORD_24",
-      "options": [
-        "Antonym_24",
-        "Random_24",
-        "Synonym_24",
-        "Unrelated_24"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_24."
-    },
-    {
-      "id": "m1_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q155] Find the error in the sentence: 'Sentence part 154.'",
-      "options": [
-        "Error in verb",
-        "No error",
-        "Error in noun",
-        "Error in part 154"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 154."
-    },
-    {
-      "id": "m1_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q47] Find the error in the sentence: 'Sentence part 46.'",
-      "options": [
-        "Error in verb",
-        "Error in noun",
-        "Error in part 46",
-        "No error"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 46."
-    },
-    {
-      "id": "m1_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q63] Find the error in the sentence: 'Sentence part 62.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "No error",
-        "Error in part 62"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 62."
-    },
-    {
-      "id": "m1_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q65] Select the synonym of: WORD_64",
-      "options": [
-        "Unrelated_64",
-        "Antonym_64",
-        "Synonym_64",
-        "Random_64"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_64."
-    },
-    {
-      "id": "m1_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q30] Select the antonym of: WORD_29",
-      "options": [
-        "Synonym_29",
-        "Antonym_29",
-        "Unrelated_29",
-        "Random_29"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_29."
-    },
-    {
-      "id": "m1_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q187] Find the error in the sentence: 'Sentence part 186.'",
-      "options": [
-        "No error",
-        "Error in noun",
-        "Error in part 186",
-        "Error in verb"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 186."
-    },
-    {
-      "id": "m1_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q238] Select the antonym of: WORD_237",
-      "options": [
-        "Unrelated_237",
-        "Random_237",
-        "Antonym_237",
-        "Synonym_237"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_237."
-    },
-    {
-      "id": "m1_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q166] Select the antonym of: WORD_165",
-      "options": [
-        "Unrelated_165",
-        "Antonym_165",
-        "Synonym_165",
-        "Random_165"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_165."
-    },
-    {
-      "id": "m1_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q99] Find the error in the sentence: 'Sentence part 98.'",
-      "options": [
-        "Error in part 98",
-        "No error",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 98."
-    },
-    {
-      "id": "m1_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q185] Select the synonym of: WORD_184",
-      "options": [
-        "Unrelated_184",
-        "Random_184",
-        "Synonym_184",
-        "Antonym_184"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_184."
-    },
-    {
-      "id": "m1_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q126] Select the antonym of: WORD_125",
-      "options": [
-        "Synonym_125",
-        "Unrelated_125",
-        "Antonym_125",
-        "Random_125"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_125."
-    },
-    {
-      "id": "m1_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q93] Select the synonym of: WORD_92",
-      "options": [
-        "Antonym_92",
-        "Unrelated_92",
-        "Random_92",
-        "Synonym_92"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_92."
-    },
-    {
-      "id": "m1_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q248] Meaning of idiom: IDIOM_247",
-      "options": [
-        "Wrong meaning B",
-        "Correct meaning 247",
-        "Wrong meaning C",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 247."
-    },
-    {
-      "id": "m1_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q20] Meaning of idiom: IDIOM_19",
-      "options": [
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 19",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 19."
-    },
-    {
-      "id": "m1_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q111] Find the error in the sentence: 'Sentence part 110.'",
-      "options": [
-        "Error in verb",
-        "No error",
-        "Error in noun",
-        "Error in part 110"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 110."
-    },
-    {
-      "id": "m1_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q202] Select the antonym of: WORD_201",
-      "options": [
-        "Unrelated_201",
-        "Random_201",
-        "Synonym_201",
-        "Antonym_201"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_201."
-    },
-    {
-      "id": "m1_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q193] Select the synonym of: WORD_192",
-      "options": [
-        "Synonym_192",
-        "Random_192",
-        "Antonym_192",
-        "Unrelated_192"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_192."
-    },
-    {
-      "id": "m1_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q171] Find the error in the sentence: 'Sentence part 170.'",
-      "options": [
-        "Error in verb",
-        "Error in noun",
-        "No error",
-        "Error in part 170"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 170."
-    },
-    {
-      "id": "m1_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q212] Meaning of idiom: IDIOM_211",
-      "options": [
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Correct meaning 211"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 211."
-    },
-    {
-      "id": "m1_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q120] Meaning of idiom: IDIOM_119",
-      "options": [
-        "Wrong meaning B",
-        "Correct meaning 119",
-        "Wrong meaning A",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 119."
-    },
-    {
-      "id": "m1_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q241] Select the synonym of: WORD_240",
-      "options": [
-        "Synonym_240",
-        "Unrelated_240",
-        "Antonym_240",
-        "Random_240"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_240."
-    },
-    {
-      "id": "m1_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q96] Meaning of idiom: IDIOM_95",
-      "options": [
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Correct meaning 95"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 95."
-    },
-    {
-      "id": "m1_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q105] Select the synonym of: WORD_104",
-      "options": [
-        "Random_104",
-        "Unrelated_104",
-        "Synonym_104",
-        "Antonym_104"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_104."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-02",
-  "title": "SSC CGL Tier-1 Full Mock 02 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #02. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m2_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 4 + 3 = ?",
-      "options": [
-        "154",
-        "77",
-        "75",
-        "82"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 4 - 3 = 77."
-    },
-    {
-      "id": "m2_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 8, 10, 12, ?",
-      "options": [
-        "15",
-        "12",
-        "16",
-        "14"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m2_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT2' is written as 'HPWU2', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m2_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 3 + 5 = ?",
-      "options": [
-        "52",
-        "104",
-        "57",
-        "50"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 3 - 5 = 52."
-    },
-    {
-      "id": "m2_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 9, 12, 15, ?",
-      "options": [
-        "19",
-        "21",
-        "16",
-        "18"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m2_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM2' is written as 'FYBN2', how is the code shifted?",
-      "options": [
-        "Forward by 1",
-        "Backward by 0",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m2_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 2 + 2 = ?",
-      "options": [
-        "24",
-        "31",
-        "52",
-        "26"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 2 - 2 = 26."
-    },
-    {
-      "id": "m2_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 2, 5, 8, 11, ?",
-      "options": [
-        "17",
-        "12",
-        "14",
-        "15"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m2_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'PASS2' is written as 'QBTT2', how is the code shifted?",
-      "options": [
-        "Forward by 1",
-        "Forward by 2",
-        "Backward by 0",
-        "Backward by 1"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m2_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 12 - 5 + 5 = ?",
-      "options": [
-        "110",
-        "60",
-        "53",
-        "55"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 12 * 5 - 5 = 55."
-    },
-    {
-      "id": "m2_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 13, 17, 21, ?",
-      "options": [
-        "25",
-        "23",
-        "26",
-        "29"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m2_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'BANK2' is written as 'CBOL2', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m2_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 3 + 4 = ?",
-      "options": [
-        "61",
-        "56",
-        "54",
-        "112"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 3 - 4 = 56."
-    },
-    {
-      "id": "m2_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 13, 18, 23, ?",
-      "options": [
-        "26",
-        "33",
-        "29",
-        "28"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m2_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT2' is written as 'JRYW2', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Backward by 3",
-        "Forward by 3",
-        "Forward by 4"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m2_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 5 + 5 = ?",
-      "options": [
-        "190",
-        "93",
-        "100",
-        "95"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 5 - 5 = 95."
-    },
-    {
-      "id": "m2_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 4, 9, 14, 19, ?",
-      "options": [
-        "25",
-        "24",
-        "29",
-        "22"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m2_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'SSC2' is written as 'TTD2', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m2_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 13 - 5 + 3 = ?",
-      "options": [
-        "60",
-        "124",
-        "67",
-        "62"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 13 * 5 - 3 = 62."
-    },
-    {
-      "id": "m2_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 8, 11, 14, ?",
-      "options": [
-        "17",
-        "15",
-        "20",
-        "18"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m2_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST2' is written as 'VGUV2', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m2_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 4 + 2 = ?",
-      "options": [
-        "60",
-        "67",
-        "62",
-        "124"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 4 - 2 = 62."
-    },
-    {
-      "id": "m2_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 13, 19, 25, ?",
-      "options": [
-        "32",
-        "37",
-        "29",
-        "31"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m2_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM2' is written as 'FYBN2', how is the code shifted?",
-      "options": [
-        "Backward by 0",
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m2_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 12 - 2 + 3 = ?",
-      "options": [
-        "21",
-        "26",
-        "19",
-        "42"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 12 * 2 - 3 = 21."
-    },
-    {
-      "id": "m2_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q128] Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?",
-      "options": [
-        "Nicaragua",
-        "Chile",
-        "Indonesia",
-        "Ethiopia"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Chile."
-    },
-    {
-      "id": "m2_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 239",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q109] What is centralism?",
-      "options": [
-        "Remaining politically neutral.",
-        "Conforming to one single common political agenda.",
-        " Concentration of power and authority in a central organization.",
-        "The grey area in the spectrum of political left and right."
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is  Concentration of power and authority in a central organization.."
-    },
-    {
-      "id": "m2_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q89] Which is the world's longest river?",
-      "options": [
-        "Missouri",
-        "Nile",
-        "Amazon",
-        "Yangtze"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Nile."
-    },
-    {
-      "id": "m2_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q11] What does CPR, the emergency procedure to assist someone who has suffered cardiac arrest, stand for?",
-      "options": [
-        "Cancer pain release",
-        "Contraceptive prevalence rate",
-        "Chronic pain relief",
-        "Cardiopulmonary resuscitation"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Cardiopulmonary resuscitation."
-    },
-    {
-      "id": "m2_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 178",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q125] Who was South Africa's first Black President?",
-      "options": [
-        "Nelson Mandela",
-        "Mangosuthu Buthelezi",
-        "Steve Biko ",
-        "Bishop Tutu"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Nelson Mandela."
-    },
-    {
-      "id": "m2_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q41] What is the \"powerhouse\" of the Eukaryotic animal cell?",
-      "options": [
-        "Chloroplast",
-        "Endoplasmic Reticulum",
-        "Nucleus",
-        "Mitochondria"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Mitochondria."
-    },
-    {
-      "id": "m2_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 209",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q92] What is the capital of Belarus?",
-      "options": [
-        "Kiev",
-        "Vilnius",
-        "Warsaw",
-        "Minsk"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Minsk."
-    },
-    {
-      "id": "m2_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 169",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q114] Who is the only US president to serve two non-consecutive terms in office?",
-      "options": [
-        "Grover Cleveland",
-        "Franklin D. Roosevelt",
-        "Thomas Jefferson",
-        "James K. Polk"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Grover Cleveland."
-    },
-    {
-      "id": "m2_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q19] A positron is an antiparticle of a what?",
-      "options": [
-        "Proton",
-        "Neutron",
-        "Electron",
-        "Photon"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Electron."
-    },
-    {
-      "id": "m2_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q38] The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
-      "options": [
-        "low, some",
-        "low, all",
-        "high, all",
-        "high, some"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is low, all."
-    },
-    {
-      "id": "m2_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 220",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 246",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q51] What's the first National Park designated in the United States?",
-      "options": [
-        "Yellowstone",
-        "Yosemite",
-        "Rocky Mountain",
-        "Sequoia "
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Yellowstone."
-    },
-    {
-      "id": "m2_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q18] How many baby/milk teeth does a human child have in total?",
-      "options": [
-        "10",
-        "20",
-        "15",
-        "25"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 20."
-    },
-    {
-      "id": "m2_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q138] What year did Gerald Ford Become President?",
-      "options": [
-        "1973",
-        "1974",
-        "1969",
-        "1977"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 1974."
-    },
-    {
-      "id": "m2_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q46] What is Hypernatremia?",
-      "options": [
-        "Decrease in blood iron",
-        "Increase in blood sodium",
-        "Decrease in blood potassium",
-        "Increase in blood glucose"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Increase in blood sodium."
-    },
-    {
-      "id": "m2_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q31] The human right lung has how many lobes?",
-      "options": [
-        "1",
-        "2",
-        "4",
-        "3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 3."
-    },
-    {
-      "id": "m2_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q84] Bridgetown is the capital of which island country in the Carribean?",
-      "options": [
-        "Cuba",
-        "Dominica",
-        "Barbados",
-        "Jamaica\u200e"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Barbados."
-    },
-    {
-      "id": "m2_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 157",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q124] What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?",
-      "options": [
-        "The Oracle",
-        "The Champ",
-        "The Kingfish",
-        "The Hoot Owl"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The Kingfish."
-    },
-    {
-      "id": "m2_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 179",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m2_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 7000 at 10% per annum for 3 years.",
-      "options": [
-        "Rs. 2200",
-        "Rs. 1900",
-        "Rs. 2150",
-        "Rs. 2100"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 7000*10*3/100 = 2100."
-    },
-    {
-      "id": "m2_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "300 m",
-        "250 m",
-        "350 m",
-        "230 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 10 = 250m."
-    },
-    {
-      "id": "m2_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "27",
-        "31",
-        "29",
-        "25"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m2_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 616?",
-      "options": [
-        "225",
-        "215",
-        "235",
-        "210"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 616 = 215."
-    },
-    {
-      "id": "m2_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 350 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 400",
-        "Rs. 437",
-        "Rs. 420",
-        "Rs. 430"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 350 + (20% of 350) = 420."
-    },
-    {
-      "id": "m2_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "16 days",
-        12,
-        "11 days",
-        "14 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/30. Total = 1/20 + 1/30. Days = 12."
-    },
-    {
-      "id": "m2_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 6000 at 15% per annum for 4 years.",
-      "options": [
-        "Rs. 3400",
-        "Rs. 3600",
-        "Rs. 3700",
-        "Rs. 3650"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 6000*15*4/100 = 3600."
-    },
-    {
-      "id": "m2_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "475 m",
-        "425 m",
-        "355 m",
-        "375 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 15 = 375m."
-    },
-    {
-      "id": "m2_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 3, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "11",
-        "15",
-        "13",
-        "9"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 3\u00b2 - 2 = 11."
-    },
-    {
-      "id": "m2_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 25% of 258?",
-      "options": [
-        "64",
-        "59",
-        "84",
-        "74"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "25/100 * 258 = 64."
-    },
-    {
-      "id": "m2_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 230 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 299",
-        "Rs. 310",
-        "Rs. 279",
-        "Rs. 309"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 230 + (30% of 230) = 299."
-    },
-    {
-      "id": "m2_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        "12 days",
-        10,
-        "9 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/60. Total = 1/12 + 1/60. Days = 10."
-    },
-    {
-      "id": "m2_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 7000 at 5% per annum for 2 years.",
-      "options": [
-        "Rs. 800",
-        "Rs. 700",
-        "Rs. 750",
-        "Rs. 500"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 7000*5*2/100 = 700."
-    },
-    {
-      "id": "m2_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "300 m",
-        "280 m",
-        "350 m",
-        "400 m"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 15 = 300m."
-    },
-    {
-      "id": "m2_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 3, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "9",
-        "13",
-        "11",
-        "15"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 3\u00b2 - 2 = 11."
-    },
-    {
-      "id": "m2_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 781?",
-      "options": [
-        "137",
-        "112",
-        "117",
-        "127"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 781 = 117."
-    },
-    {
-      "id": "m2_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 180 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 216",
-        "Rs. 226",
-        "Rs. 196",
-        "Rs. 225"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 180 + (20% of 180) = 216."
-    },
-    {
-      "id": "m2_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        8,
-        "12 days",
-        "10 days",
-        "7 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/20. Total = 1/15 + 1/20. Days = 8."
-    },
-    {
-      "id": "m2_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 8000 at 15% per annum for 2 years.",
-      "options": [
-        "Rs. 2500",
-        "Rs. 2450",
-        "Rs. 2200",
-        "Rs. 2400"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 8000*15*2/100 = 2400."
-    },
-    {
-      "id": "m2_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "280 m",
-        "300 m",
-        "350 m",
-        "400 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 20 = 300m."
-    },
-    {
-      "id": "m2_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "22",
-        "18",
-        "16",
-        "20"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
-    },
-    {
-      "id": "m2_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 25% of 215?",
-      "options": [
-        "63",
-        "53",
-        "73",
-        "48"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "25/100 * 215 = 53."
-    },
-    {
-      "id": "m2_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 260 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 292",
-        "Rs. 322",
-        "Rs. 325",
-        "Rs. 312"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 260 + (20% of 260) = 312."
-    },
-    {
-      "id": "m2_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "9 days",
-        7,
-        "6 days",
-        "11 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/20. Total = 1/12 + 1/20. Days = 7."
-    },
-    {
-      "id": "m2_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 6000 at 5% per annum for 4 years.",
-      "options": [
-        "Rs. 1250",
-        "Rs. 1000",
-        "Rs. 1200",
-        "Rs. 1300"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 6000*5*4/100 = 1200."
-    },
-    {
-      "id": "m2_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q167] Find the error in the sentence: 'Sentence part 166.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 166",
-        "Error in noun"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 166."
-    },
-    {
-      "id": "m2_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q186] Select the antonym of: WORD_185",
-      "options": [
-        "Unrelated_185",
-        "Synonym_185",
-        "Random_185",
-        "Antonym_185"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_185."
-    },
-    {
-      "id": "m2_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q56] Meaning of idiom: IDIOM_55",
-      "options": [
-        "Wrong meaning B",
-        "Correct meaning 55",
-        "Wrong meaning A",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 55."
-    },
-    {
-      "id": "m2_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q220] Meaning of idiom: IDIOM_219",
-      "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Correct meaning 219",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 219."
-    },
-    {
-      "id": "m2_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q146] Select the antonym of: WORD_145",
-      "options": [
-        "Random_145",
-        "Synonym_145",
-        "Unrelated_145",
-        "Antonym_145"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_145."
-    },
-    {
-      "id": "m2_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q162] Select the antonym of: WORD_161",
-      "options": [
-        "Random_161",
-        "Unrelated_161",
-        "Antonym_161",
-        "Synonym_161"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_161."
-    },
-    {
-      "id": "m2_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q49] Select the synonym of: WORD_48",
-      "options": [
-        "Synonym_48",
-        "Antonym_48",
-        "Unrelated_48",
-        "Random_48"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_48."
-    },
-    {
-      "id": "m2_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q104] Meaning of idiom: IDIOM_103",
-      "options": [
-        "Wrong meaning C",
-        "Correct meaning 103",
-        "Wrong meaning A",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 103."
-    },
-    {
-      "id": "m2_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q221] Select the synonym of: WORD_220",
-      "options": [
-        "Random_220",
-        "Antonym_220",
-        "Synonym_220",
-        "Unrelated_220"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_220."
-    },
-    {
-      "id": "m2_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q152] Meaning of idiom: IDIOM_151",
-      "options": [
-        "Wrong meaning B",
-        "Correct meaning 151",
-        "Wrong meaning C",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 151."
-    },
-    {
-      "id": "m2_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q234] Select the antonym of: WORD_233",
-      "options": [
-        "Synonym_233",
-        "Antonym_233",
-        "Unrelated_233",
-        "Random_233"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_233."
-    },
-    {
-      "id": "m2_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q115] Find the error in the sentence: 'Sentence part 114.'",
-      "options": [
-        "Error in noun",
-        "Error in part 114",
-        "Error in verb",
-        "No error"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 114."
-    },
-    {
-      "id": "m2_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q213] Select the synonym of: WORD_212",
-      "options": [
-        "Antonym_212",
-        "Unrelated_212",
-        "Synonym_212",
-        "Random_212"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_212."
-    },
-    {
-      "id": "m2_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q217] Select the synonym of: WORD_216",
-      "options": [
-        "Unrelated_216",
-        "Random_216",
-        "Synonym_216",
-        "Antonym_216"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_216."
-    },
-    {
-      "id": "m2_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q170] Select the antonym of: WORD_169",
-      "options": [
-        "Unrelated_169",
-        "Synonym_169",
-        "Random_169",
-        "Antonym_169"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_169."
-    },
-    {
-      "id": "m2_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q244] Meaning of idiom: IDIOM_243",
-      "options": [
-        "Wrong meaning C",
-        "Correct meaning 243",
-        "Wrong meaning A",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 243."
-    },
-    {
-      "id": "m2_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q177] Select the synonym of: WORD_176",
-      "options": [
-        "Antonym_176",
-        "Unrelated_176",
-        "Random_176",
-        "Synonym_176"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_176."
-    },
-    {
-      "id": "m2_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q180] Meaning of idiom: IDIOM_179",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 179"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 179."
-    },
-    {
-      "id": "m2_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q97] Select the synonym of: WORD_96",
-      "options": [
-        "Unrelated_96",
-        "Synonym_96",
-        "Antonym_96",
-        "Random_96"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_96."
-    },
-    {
-      "id": "m2_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q140] Meaning of idiom: IDIOM_139",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Correct meaning 139",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 139."
-    },
-    {
-      "id": "m2_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q44] Meaning of idiom: IDIOM_43",
-      "options": [
-        "Correct meaning 43",
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 43."
-    },
-    {
-      "id": "m2_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q21] Select the synonym of: WORD_20",
-      "options": [
-        "Synonym_20",
-        "Antonym_20",
-        "Unrelated_20",
-        "Random_20"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_20."
-    },
-    {
-      "id": "m2_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q37] Select the synonym of: WORD_36",
-      "options": [
-        "Random_36",
-        "Antonym_36",
-        "Synonym_36",
-        "Unrelated_36"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_36."
-    },
-    {
-      "id": "m2_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q165] Select the synonym of: WORD_164",
-      "options": [
-        "Synonym_164",
-        "Antonym_164",
-        "Unrelated_164",
-        "Random_164"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_164."
-    },
-    {
-      "id": "m2_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q153] Select the synonym of: WORD_152",
-      "options": [
-        "Antonym_152",
-        "Unrelated_152",
-        "Synonym_152",
-        "Random_152"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_152."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-03",
-  "title": "SSC CGL Tier-1 Full Mock 03 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #03. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m3_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
-      "options": [
-        "18",
-        "19",
-        "15",
-        "17"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m3_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'BANK3' is written as 'EDQN3', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Backward by 3",
-        "Forward by 4",
-        "Forward by 3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m3_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 5 + 5 = ?",
-      "options": [
-        "180",
-        "90",
-        "95",
-        "88"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 5 - 5 = 90."
-    },
-    {
-      "id": "m3_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 16, 22, 28, ?",
-      "options": [
-        "35",
-        "40",
-        "32",
-        "34"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m3_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL3' is written as 'TCKN3', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 1",
-        "Backward by 2",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m3_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 3 + 3 = ?",
-      "options": [
-        "44",
-        "37",
-        "78",
-        "39"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 3 - 3 = 39."
-    },
-    {
-      "id": "m3_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 11, 16, 21, ?",
-      "options": [
-        "26",
-        "24",
-        "27",
-        "31"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m3_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL3' is written as 'TCKN3', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 3",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m3_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 13 - 2 + 3 = ?",
-      "options": [
-        "23",
-        "28",
-        "46",
-        "21"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 13 * 2 - 3 = 23."
-    },
-    {
-      "id": "m3_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 10, 12, 14, ?",
-      "options": [
-        "18",
-        "14",
-        "16",
-        "17"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m3_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT3' is written as 'JRYW3', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Forward by 4",
-        "Backward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m3_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 12 - 2 + 2 = ?",
-      "options": [
-        "20",
-        "22",
-        "44",
-        "27"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 12 * 2 - 2 = 22."
-    },
-    {
-      "id": "m3_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 12, 15, 18, ?",
-      "options": [
-        "22",
-        "21",
-        "24",
-        "19"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m3_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM3' is written as 'HADP3', how is the code shifted?",
-      "options": [
-        "Forward by 4",
-        "Backward by 3",
-        "Forward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m3_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 12 - 3 + 3 = ?",
-      "options": [
-        "31",
-        "66",
-        "38",
-        "33"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 12 * 3 - 3 = 33."
-    },
-    {
-      "id": "m3_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 10, 13, 16, ?",
-      "options": [
-        "19",
-        "17",
-        "22",
-        "20"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m3_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL3' is written as 'UDLO3', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Backward by 3",
-        "Forward by 4",
-        "Forward by 3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m3_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 12 - 3 + 3 = ?",
-      "options": [
-        "33",
-        "38",
-        "66",
-        "31"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 12 * 3 - 3 = 33."
-    },
-    {
-      "id": "m3_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 11, 17, 23, ?",
-      "options": [
-        "30",
-        "35",
-        "29",
-        "27"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m3_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK3' is written as 'OQEM3', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 3",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m3_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 4 + 3 = ?",
-      "options": [
-        "51",
-        "53",
-        "58",
-        "106"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 4 - 3 = 53."
-    },
-    {
-      "id": "m3_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 8, 10, 12, ?",
-      "options": [
-        "15",
-        "16",
-        "12",
-        "14"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m3_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK3' is written as 'NPDL3', how is the code shifted?",
-      "options": [
-        "Backward by 0",
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 1"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m3_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 11 - 3 + 5 = ?",
-      "options": [
-        "56",
-        "28",
-        "33",
-        "26"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 11 * 3 - 5 = 28."
-    },
-    {
-      "id": "m3_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 4, 10, 16, 22, ?",
-      "options": [
-        "29",
-        "26",
-        "28",
-        "34"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m3_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q90] The towns of Brugelette, Arlon and Ath are located in which country?",
-      "options": [
-        "Luxembourg",
-        "Belgium",
-        "Andorra",
-        "France"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Belgium."
-    },
-    {
-      "id": "m3_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 159",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q82] What country has a horizontal bicolor red and white flag?",
-      "options": [
-        "Malta",
-        "Monaco",
-        "Bahrain",
-        "Liechenstein"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Monaco."
-    },
-    {
-      "id": "m3_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 230",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 243",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q133] Who was the 45th President of the United States?",
-      "options": [
-        "Donald Trump",
-        "Bill Clinton",
-        "George Bush",
-        "Barack Obama"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Donald Trump."
-    },
-    {
-      "id": "m3_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q15] Which color cannot be produced in Roses, even through genetic alteration?",
-      "options": [
-        "Brown",
-        "Black",
-        "Blue",
-        "Orange"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Blue."
-    },
-    {
-      "id": "m3_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q40] Which of these Elements is a metalloid?",
-      "options": [
-        "Tin",
-        "Rubidium",
-        "Antimony",
-        "Bromine"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antimony."
-    },
-    {
-      "id": "m3_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q63] Which ocean borders the west coast of the United States?",
-      "options": [
-        "Pacific",
-        "Arctic",
-        "Indian",
-        "Atlantic"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Pacific."
-    },
-    {
-      "id": "m3_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 155",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q4] What is the scientific term for 'taste'?",
-      "options": [
-        "Olfaction",
-        "Somatosensation",
-        "Auditory Perception",
-        "Gustatory Perception"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Gustatory Perception."
-    },
-    {
-      "id": "m3_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q83] How many countries does Mexico border?",
-      "options": [
-        "2",
-        "1",
-        "3",
-        "4"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 3."
-    },
-    {
-      "id": "m3_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q115] Who was the 40th President of the USA?",
-      "options": [
-        "Jimmy Carter",
-        "Richard Nixon",
-        "Ronald Reagan",
-        "Bill Clinton"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Ronald Reagan."
-    },
-    {
-      "id": "m3_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 207",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 160",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q143] Former United States President Bill Clinton famously played which instrument?",
-      "options": [
-        "Saxophone",
-        "Violin",
-        "Baritone horn",
-        "Piano"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Saxophone."
-    },
-    {
-      "id": "m3_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 161",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 191",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 240",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q9] An organic compound is considered an alcohol if it has what functional group?",
-      "options": [
-        "Hydroxyl",
-        "Carbonyl",
-        "Alkyl",
-        "Aldehyde"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Hydroxyl."
-    },
-    {
-      "id": "m3_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q135] What year did the effort to deploy the Common Core State Standards (CCSS) in the US begin?",
-      "options": [
-        "2012",
-        "2006",
-        "1997",
-        "2009"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 2009."
-    },
-    {
-      "id": "m3_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 226",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q1] Which constellation contains the center of the Milky Way?",
-      "options": [
-        "Capricornus",
-        "Ophiuchus",
-        "Sagittarius",
-        "Scorpius"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Sagittarius."
-    },
-    {
-      "id": "m3_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 167",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m3_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q43] How many types of quarks are there in the standard model of physics?",
-      "options": [
-        "3",
-        "4",
-        "6",
-        "2"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 6."
-    },
-    {
-      "id": "m3_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "205 m",
-        "225 m",
-        "325 m",
-        "275 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 15 = 225m."
-    },
-    {
-      "id": "m3_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "40",
-        "38",
-        "42",
-        "36"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m3_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 508?",
-      "options": [
-        "86",
-        "96",
-        "76",
-        "71"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 508 = 76."
-    },
-    {
-      "id": "m3_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 120 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 130",
-        "Rs. 150",
-        "Rs. 160",
-        "Rs. 156"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 120 + (25% of 120) = 150."
-    },
-    {
-      "id": "m3_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        12,
-        "14 days",
-        "16 days",
-        "11 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/60. Total = 1/15 + 1/60. Days = 12."
-    },
-    {
-      "id": "m3_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 2000 at 5% per annum for 3 years.",
-      "options": [
-        "Rs. 350",
-        "Rs. 100",
-        "Rs. 400",
-        "Rs. 300"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 2000*5*3/100 = 300."
-    },
-    {
-      "id": "m3_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "280 m",
-        "350 m",
-        "300 m",
-        "400 m"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 20 = 300m."
-    },
-    {
-      "id": "m3_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "25",
-        "29",
-        "31",
-        "27"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m3_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 543?",
-      "options": [
-        "81",
-        "91",
-        "101",
-        "76"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 543 = 81."
-    },
-    {
-      "id": "m3_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 450 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 607",
-        "Rs. 585",
-        "Rs. 595",
-        "Rs. 565"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 450 + (30% of 450) = 585."
-    },
-    {
-      "id": "m3_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "12 days",
-        8,
-        "7 days",
-        "10 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/20. Total = 1/15 + 1/20. Days = 8."
-    },
-    {
-      "id": "m3_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 9000 at 15% per annum for 2 years.",
-      "options": [
-        "Rs. 2800",
-        "Rs. 2500",
-        "Rs. 2750",
-        "Rs. 2700"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 9000*15*2/100 = 2700."
-    },
-    {
-      "id": "m3_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "150 m",
-        "200 m",
-        "130 m",
-        "250 m"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
-    },
-    {
-      "id": "m3_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "36",
-        "42",
-        "38",
-        "40"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m3_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 730?",
-      "options": [
-        "129",
-        "109",
-        "104",
-        "119"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 730 = 109."
-    },
-    {
-      "id": "m3_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 470 and sold it at a profit of 10%. Find the selling price.",
-      "options": [
-        "Rs. 540",
-        "Rs. 497",
-        "Rs. 527",
-        "Rs. 517"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 470 + (10% of 470) = 517."
-    },
-    {
-      "id": "m3_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        12,
-        "16 days",
-        "11 days",
-        "14 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/60. Total = 1/15 + 1/60. Days = 12."
-    },
-    {
-      "id": "m3_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 7000 at 5% per annum for 3 years.",
-      "options": [
-        "Rs. 1050",
-        "Rs. 850",
-        "Rs. 1100",
-        "Rs. 1150"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 7000*5*3/100 = 1050."
-    },
-    {
-      "id": "m3_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "225 m",
-        "275 m",
-        "205 m",
-        "325 m"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 15 = 225m."
-    },
-    {
-      "id": "m3_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "10",
-        "6",
-        "8",
-        "4"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m3_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 467?",
-      "options": [
-        "210",
-        "230",
-        "220",
-        "205"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 467 = 210."
-    },
-    {
-      "id": "m3_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 140 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 185",
-        "Rs. 182",
-        "Rs. 175",
-        "Rs. 155"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 140 + (25% of 140) = 175."
-    },
-    {
-      "id": "m3_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "10 days",
-        "7 days",
-        "12 days",
-        8
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/20. Total = 1/15 + 1/20. Days = 8."
-    },
-    {
-      "id": "m3_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 4000 at 15% per annum for 4 years.",
-      "options": [
-        "Rs. 2400",
-        "Rs. 2500",
-        "Rs. 2200",
-        "Rs. 2450"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 4000*15*4/100 = 2400."
-    },
-    {
-      "id": "m3_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "130 m",
-        "150 m",
-        "200 m",
-        "250 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 15 = 150m."
-    },
-    {
-      "id": "m3_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q67] Find the error in the sentence: 'Sentence part 66.'",
-      "options": [
-        "No error",
-        "Error in part 66",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 66."
-    },
-    {
-      "id": "m3_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q194] Select the antonym of: WORD_193",
-      "options": [
-        "Synonym_193",
-        "Antonym_193",
-        "Random_193",
-        "Unrelated_193"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_193."
-    },
-    {
-      "id": "m3_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q23] Find the error in the sentence: 'Sentence part 22.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "No error",
-        "Error in part 22"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 22."
-    },
-    {
-      "id": "m3_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q98] Select the antonym of: WORD_97",
-      "options": [
-        "Unrelated_97",
-        "Antonym_97",
-        "Synonym_97",
-        "Random_97"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_97."
-    },
-    {
-      "id": "m3_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q27] Find the error in the sentence: 'Sentence part 26.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "Error in part 26",
-        "No error"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 26."
-    },
-    {
-      "id": "m3_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q143] Find the error in the sentence: 'Sentence part 142.'",
-      "options": [
-        "No error",
-        "Error in part 142",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 142."
-    },
-    {
-      "id": "m3_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q233] Select the synonym of: WORD_232",
-      "options": [
-        "Random_232",
-        "Antonym_232",
-        "Synonym_232",
-        "Unrelated_232"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_232."
-    },
-    {
-      "id": "m3_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q195] Find the error in the sentence: 'Sentence part 194.'",
-      "options": [
-        "Error in part 194",
-        "Error in verb",
-        "No error",
-        "Error in noun"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 194."
-    },
-    {
-      "id": "m3_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q203] Find the error in the sentence: 'Sentence part 202.'",
-      "options": [
-        "Error in part 202",
-        "Error in noun",
-        "No error",
-        "Error in verb"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 202."
-    },
-    {
-      "id": "m3_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q76] Meaning of idiom: IDIOM_75",
-      "options": [
-        "Wrong meaning B",
-        "Correct meaning 75",
-        "Wrong meaning C",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 75."
-    },
-    {
-      "id": "m3_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q1] Select the synonym of: WORD_0",
-      "options": [
-        "Synonym_0",
-        "Unrelated_0",
-        "Antonym_0",
-        "Random_0"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_0."
-    },
-    {
-      "id": "m3_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q91] Find the error in the sentence: 'Sentence part 90.'",
-      "options": [
-        "Error in verb",
-        "Error in part 90",
-        "Error in noun",
-        "No error"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 90."
-    },
-    {
-      "id": "m3_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q243] Find the error in the sentence: 'Sentence part 242.'",
-      "options": [
-        "Error in noun",
-        "No error",
-        "Error in part 242",
-        "Error in verb"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 242."
-    },
-    {
-      "id": "m3_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q189] Select the synonym of: WORD_188",
-      "options": [
-        "Random_188",
-        "Antonym_188",
-        "Synonym_188",
-        "Unrelated_188"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_188."
-    },
-    {
-      "id": "m3_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q2] Select the antonym of: WORD_1",
-      "options": [
-        "Unrelated_1",
-        "Antonym_1",
-        "Random_1",
-        "Synonym_1"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_1."
-    },
-    {
-      "id": "m3_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q26] Select the antonym of: WORD_25",
-      "options": [
-        "Unrelated_25",
-        "Antonym_25",
-        "Random_25",
-        "Synonym_25"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_25."
-    },
-    {
-      "id": "m3_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q110] Select the antonym of: WORD_109",
-      "options": [
-        "Antonym_109",
-        "Unrelated_109",
-        "Synonym_109",
-        "Random_109"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_109."
-    },
-    {
-      "id": "m3_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q39] Find the error in the sentence: 'Sentence part 38.'",
-      "options": [
-        "Error in part 38",
-        "No error",
-        "Error in verb",
-        "Error in noun"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 38."
-    },
-    {
-      "id": "m3_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q118] Select the antonym of: WORD_117",
-      "options": [
-        "Unrelated_117",
-        "Random_117",
-        "Antonym_117",
-        "Synonym_117"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_117."
-    },
-    {
-      "id": "m3_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q58] Select the antonym of: WORD_57",
-      "options": [
-        "Antonym_57",
-        "Synonym_57",
-        "Random_57",
-        "Unrelated_57"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_57."
-    },
-    {
-      "id": "m3_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q112] Meaning of idiom: IDIOM_111",
-      "options": [
-        "Wrong meaning A",
-        "Correct meaning 111",
-        "Wrong meaning C",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 111."
-    },
-    {
-      "id": "m3_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q31] Find the error in the sentence: 'Sentence part 30.'",
-      "options": [
-        "No error",
-        "Error in noun",
-        "Error in verb",
-        "Error in part 30"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 30."
-    },
-    {
-      "id": "m3_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q232] Meaning of idiom: IDIOM_231",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 231",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 231."
-    },
-    {
-      "id": "m3_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q157] Select the synonym of: WORD_156",
-      "options": [
-        "Antonym_156",
-        "Random_156",
-        "Synonym_156",
-        "Unrelated_156"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_156."
-    },
-    {
-      "id": "m3_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q15] Find the error in the sentence: 'Sentence part 14.'",
-      "options": [
-        "Error in noun",
-        "Error in part 14",
-        "Error in verb",
-        "No error"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 14."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-04",
-  "title": "SSC CGL Tier-1 Full Mock 04 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #04. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m4_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'PASS4' is written as 'QBTT4', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m4_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 17 - 5 + 5 = ?",
-      "options": [
-        "80",
-        "85",
-        "160",
-        "78"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 17 * 5 - 5 = 80."
-    },
-    {
-      "id": "m4_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 3, 6, 9, 12, ?",
-      "options": [
-        "16",
-        "15",
-        "13",
-        "18"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m4_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL4' is written as 'TCKN4', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 3",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m4_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 3 + 3 = ?",
-      "options": [
-        "90",
-        "43",
-        "50",
-        "45"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 3 - 3 = 45."
-    },
-    {
-      "id": "m4_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 15, 20, 25, ?",
-      "options": [
-        "35",
-        "31",
-        "28",
-        "30"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m4_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'PASS4' is written as 'SDVV4', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 4",
-        "Forward by 3",
-        "Backward by 3"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m4_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 13 - 2 + 2 = ?",
-      "options": [
-        "22",
-        "24",
-        "48",
-        "29"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 13 * 2 - 2 = 24."
-    },
-    {
-      "id": "m4_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 12, 18, 24, ?",
-      "options": [
-        "36",
-        "28",
-        "31",
-        "30"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m4_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST4' is written as 'VGUV4', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m4_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 10 - 5 + 2 = ?",
-      "options": [
-        "96",
-        "46",
-        "53",
-        "48"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 10 * 5 - 2 = 48."
-    },
-    {
-      "id": "m4_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 13, 18, 23, ?",
-      "options": [
-        "29",
-        "33",
-        "26",
-        "28"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m4_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST4' is written as 'WHVW4', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Forward by 4",
-        "Backward by 3"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m4_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 5 + 3 = ?",
-      "options": [
-        "97",
-        "184",
-        "92",
-        "90"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 5 - 3 = 92."
-    },
-    {
-      "id": "m4_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 14, 19, 24, ?",
-      "options": [
-        "27",
-        "34",
-        "29",
-        "30"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m4_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL4' is written as 'SBJM4', how is the code shifted?",
-      "options": [
-        "Backward by 1",
-        "Backward by 0",
-        "Forward by 2",
-        "Forward by 1"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m4_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 2 + 2 = ?",
-      "options": [
-        "36",
-        "34",
-        "72",
-        "41"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 2 - 2 = 36."
-    },
-    {
-      "id": "m4_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 12, 14, 16, ?",
-      "options": [
-        "20",
-        "16",
-        "18",
-        "19"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m4_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM4' is written as 'FYBN4', how is the code shifted?",
-      "options": [
-        "Forward by 1",
-        "Backward by 0",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m4_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 4 + 2 = ?",
-      "options": [
-        "68",
-        "70",
-        "140",
-        "75"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 4 - 2 = 70."
-    },
-    {
-      "id": "m4_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 9, 11, 13, ?",
-      "options": [
-        "16",
-        "15",
-        "13",
-        "17"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m4_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT4' is written as 'IQXV4', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 2",
-        "Forward by 3",
-        "Backward by 1"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m4_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 11 - 3 + 2 = ?",
-      "options": [
-        "29",
-        "62",
-        "36",
-        "31"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 11 * 3 - 2 = 31."
-    },
-    {
-      "id": "m4_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 12, 17, 22, ?",
-      "options": [
-        "32",
-        "28",
-        "27",
-        "25"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m4_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM4' is written as 'GZCO4', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Backward by 1",
-        "Forward by 3",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m4_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q131] Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
-      "options": [
-        "Tonga",
-        "Kiribati",
-        "Palau",
-        "Fiji"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Tonga."
-    },
-    {
-      "id": "m4_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q105] Which letter do you need to have on a European driver license in order to ride any motorbikes?",
-      "options": [
-        "B",
-        "A",
-        "D",
-        "X"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is A."
-    },
-    {
-      "id": "m4_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 214",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 170",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q65] Which area of Eastern Europe is famous for its association with vampires?",
-      "options": [
-        "Transylvania",
-        "Slovakia",
-        "Silesia",
-        "Macedonia"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Transylvania."
-    },
-    {
-      "id": "m4_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 200",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 228",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 182",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 187",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q70] Santorini is an island belonging to what European Country?",
-      "options": [
-        "Italy",
-        "Greece",
-        "Spain",
-        "Turkey"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Greece."
-    },
-    {
-      "id": "m4_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q88] What was the African nation of Zimbabwe formerly known as?",
-      "options": [
-        "Rhodesia",
-        " Bulawayo",
-        "Mozambique",
-        "Zambia"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Rhodesia."
-    },
-    {
-      "id": "m4_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q67] Where is the fast food chain \"Panda Express\" headquartered?",
-      "options": [
-        "Sacramento, California",
-        "San Diego, California",
-        "Rosemead, California",
-        "Fresno, California"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Rosemead, California."
-    },
-    {
-      "id": "m4_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 184",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 156",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q27] What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
-      "options": [
-        "Freud-Hall effect",
-        "Meyers-Briggs effect",
-        "M\u00fcller-Lyer effect",
-        "Dunning-Kruger effect"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Dunning-Kruger effect."
-    },
-    {
-      "id": "m4_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q99] Where is Hadrian's Wall located?",
-      "options": [
-        "Dublin, Ireland",
-        "Carlisle, England",
-        "Rome, Italy",
-        "Alexandria, Egypt"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Carlisle, England."
-    },
-    {
-      "id": "m4_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q62] What national museum will you find in Cooperstown, New York?",
-      "options": [
-        "National Baseball Hall of Fame",
-        "Metropolitan Museum of Art",
-        "Museum of Modern Art",
-        "National Toy Hall of Fame"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is National Baseball Hall of Fame."
-    },
-    {
-      "id": "m4_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 162",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 158",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q100] Greenland is a part of which kingdom?",
-      "options": [
-        "Denmark",
-        "Norway",
-        "Sweden",
-        "United Kingdom"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Denmark."
-    },
-    {
-      "id": "m4_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q116] Who is one of the co-princes of Andorra?",
-      "options": [
-        "The president of France",
-        "The monarch of the UK",
-        "The Pope",
-        "No-one (the position is vacant)"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The president of France."
-    },
-    {
-      "id": "m4_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q32] How many bones are in the human body?",
-      "options": [
-        "209",
-        "200",
-        "203",
-        "206"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 206."
-    },
-    {
-      "id": "m4_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 189",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 238",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m4_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q108] Starting from 2000, China banned manufacturing and sales of all video game consoles. On which year was this ban lifted?",
-      "options": [
-        "2015",
-        "2008",
-        "2012",
-        "2017"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 2015."
-    },
-    {
-      "id": "m4_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "42",
-        "36",
-        "40",
-        "38"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m4_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 442?",
-      "options": [
-        "61",
-        "66",
-        "76",
-        "86"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 442 = 66."
-    },
-    {
-      "id": "m4_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 250 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 325",
-        "Rs. 312",
-        "Rs. 292",
-        "Rs. 322"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 250 + (25% of 250) = 312."
-    },
-    {
-      "id": "m4_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        10,
-        "14 days",
-        "12 days",
-        "9 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/30. Total = 1/15 + 1/30. Days = 10."
-    },
-    {
-      "id": "m4_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 7000 at 10% per annum for 2 years.",
-      "options": [
-        "Rs. 1450",
-        "Rs. 1200",
-        "Rs. 1400",
-        "Rs. 1500"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 7000*10*2/100 = 1400."
-    },
-    {
-      "id": "m4_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "250 m",
-        "200 m",
-        "150 m",
-        "130 m"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
-    },
-    {
-      "id": "m4_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "10",
-        "4",
-        "8",
-        "6"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m4_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 536?",
-      "options": [
-        "241",
-        "261",
-        "251",
-        "236"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 536 = 241."
-    },
-    {
-      "id": "m4_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 280 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 374",
-        "Rs. 378",
-        "Rs. 364",
-        "Rs. 344"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 280 + (30% of 280) = 364."
-    },
-    {
-      "id": "m4_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        10,
-        "12 days",
-        "9 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/60. Total = 1/12 + 1/60. Days = 10."
-    },
-    {
-      "id": "m4_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 5000 at 15% per annum for 4 years.",
-      "options": [
-        "Rs. 3050",
-        "Rs. 2800",
-        "Rs. 3000",
-        "Rs. 3100"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 5000*15*4/100 = 3000."
-    },
-    {
-      "id": "m4_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "500 m",
-        "480 m",
-        "600 m",
-        "550 m"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 20 = 500m."
-    },
-    {
-      "id": "m4_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "29",
-        "27",
-        "31",
-        "25"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m4_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 247?",
-      "options": [
-        "121",
-        "106",
-        "111",
-        "131"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 247 = 111."
-    },
-    {
-      "id": "m4_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 420 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 546",
-        "Rs. 567",
-        "Rs. 556",
-        "Rs. 526"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 420 + (30% of 420) = 546."
-    },
-    {
-      "id": "m4_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "9 days",
-        "12 days",
-        10,
-        "14 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/60. Total = 1/12 + 1/60. Days = 10."
-    },
-    {
-      "id": "m4_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 10000 at 10% per annum for 4 years.",
-      "options": [
-        "Rs. 4000",
-        "Rs. 3800",
-        "Rs. 4050",
-        "Rs. 4100"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 10000*10*4/100 = 4000."
-    },
-    {
-      "id": "m4_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "180 m",
-        "250 m",
-        "300 m",
-        "200 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 10 = 200m."
-    },
-    {
-      "id": "m4_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 3, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "15",
-        "13",
-        "9",
-        "11"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 3\u00b2 - 2 = 11."
-    },
-    {
-      "id": "m4_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 25% of 375?",
-      "options": [
-        "103",
-        "93",
-        "88",
-        "113"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "25/100 * 375 = 93."
-    },
-    {
-      "id": "m4_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 100 and sold it at a profit of 10%. Find the selling price.",
-      "options": [
-        "Rs. 120",
-        "Rs. 110",
-        "Rs. 90",
-        "Rs. 114"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 100 + (10% of 100) = 110."
-    },
-    {
-      "id": "m4_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        "16 days",
-        "11 days",
-        12
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/60. Total = 1/15 + 1/60. Days = 12."
-    },
-    {
-      "id": "m4_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 5% per annum for 2 years.",
-      "options": [
-        "Rs. 400",
-        "Rs. 100",
-        "Rs. 300",
-        "Rs. 350"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*5*2/100 = 300."
-    },
-    {
-      "id": "m4_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "380 m",
-        "450 m",
-        "500 m",
-        "400 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 20 = 400m."
-    },
-    {
-      "id": "m4_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "31",
-        "29",
-        "25",
-        "27"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m4_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q224] Meaning of idiom: IDIOM_223",
-      "options": [
-        "Correct meaning 223",
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 223."
-    },
-    {
-      "id": "m4_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q216] Meaning of idiom: IDIOM_215",
-      "options": [
-        "Correct meaning 215",
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 215."
-    },
-    {
-      "id": "m4_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q240] Meaning of idiom: IDIOM_239",
-      "options": [
-        "Correct meaning 239",
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 239."
-    },
-    {
-      "id": "m4_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q70] Select the antonym of: WORD_69",
-      "options": [
-        "Random_69",
-        "Unrelated_69",
-        "Antonym_69",
-        "Synonym_69"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_69."
-    },
-    {
-      "id": "m4_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q92] Meaning of idiom: IDIOM_91",
-      "options": [
-        "Wrong meaning A",
-        "Correct meaning 91",
-        "Wrong meaning B",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 91."
-    },
-    {
-      "id": "m4_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q3] Find the error in the sentence: 'Sentence part 2.'",
-      "options": [
-        "Error in noun",
-        "Error in part 2",
-        "No error",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 2."
-    },
-    {
-      "id": "m4_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q82] Select the antonym of: WORD_81",
-      "options": [
-        "Antonym_81",
-        "Synonym_81",
-        "Random_81",
-        "Unrelated_81"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_81."
-    },
-    {
-      "id": "m4_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q137] Select the synonym of: WORD_136",
-      "options": [
-        "Synonym_136",
-        "Unrelated_136",
-        "Random_136",
-        "Antonym_136"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_136."
-    },
-    {
-      "id": "m4_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q208] Meaning of idiom: IDIOM_207",
-      "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 207"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 207."
-    },
-    {
-      "id": "m4_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q33] Select the synonym of: WORD_32",
-      "options": [
-        "Random_32",
-        "Unrelated_32",
-        "Synonym_32",
-        "Antonym_32"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_32."
-    },
-    {
-      "id": "m4_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q45] Select the synonym of: WORD_44",
-      "options": [
-        "Synonym_44",
-        "Unrelated_44",
-        "Random_44",
-        "Antonym_44"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_44."
-    },
-    {
-      "id": "m4_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q101] Select the synonym of: WORD_100",
-      "options": [
-        "Random_100",
-        "Unrelated_100",
-        "Synonym_100",
-        "Antonym_100"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_100."
-    },
-    {
-      "id": "m4_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q48] Meaning of idiom: IDIOM_47",
-      "options": [
-        "Wrong meaning A",
-        "Correct meaning 47",
-        "Wrong meaning B",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 47."
-    },
-    {
-      "id": "m4_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q87] Find the error in the sentence: 'Sentence part 86.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "No error",
-        "Error in part 86"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 86."
-    },
-    {
-      "id": "m4_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q141] Select the synonym of: WORD_140",
-      "options": [
-        "Synonym_140",
-        "Unrelated_140",
-        "Antonym_140",
-        "Random_140"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_140."
-    },
-    {
-      "id": "m4_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q223] Find the error in the sentence: 'Sentence part 222.'",
-      "options": [
-        "Error in verb",
-        "Error in noun",
-        "No error",
-        "Error in part 222"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 222."
-    },
-    {
-      "id": "m4_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q4] Meaning of idiom: IDIOM_3",
-      "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 3."
-    },
-    {
-      "id": "m4_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q103] Find the error in the sentence: 'Sentence part 102.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "Error in part 102",
-        "No error"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 102."
-    },
-    {
-      "id": "m4_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q74] Select the antonym of: WORD_73",
-      "options": [
-        "Random_73",
-        "Unrelated_73",
-        "Synonym_73",
-        "Antonym_73"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_73."
-    },
-    {
-      "id": "m4_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q123] Find the error in the sentence: 'Sentence part 122.'",
-      "options": [
-        "No error",
-        "Error in part 122",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 122."
-    },
-    {
-      "id": "m4_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q173] Select the synonym of: WORD_172",
-      "options": [
-        "Antonym_172",
-        "Synonym_172",
-        "Random_172",
-        "Unrelated_172"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_172."
-    },
-    {
-      "id": "m4_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q100] Meaning of idiom: IDIOM_99",
-      "options": [
-        "Correct meaning 99",
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 99."
-    },
-    {
-      "id": "m4_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q163] Find the error in the sentence: 'Sentence part 162.'",
-      "options": [
-        "Error in noun",
-        "No error",
-        "Error in part 162",
-        "Error in verb"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 162."
-    },
-    {
-      "id": "m4_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q9] Select the synonym of: WORD_8",
-      "options": [
-        "Unrelated_8",
-        "Random_8",
-        "Synonym_8",
-        "Antonym_8"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_8."
-    },
-    {
-      "id": "m4_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q13] Select the synonym of: WORD_12",
-      "options": [
-        "Random_12",
-        "Unrelated_12",
-        "Antonym_12",
-        "Synonym_12"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_12."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-05",
-  "title": "SSC CGL Tier-1 Full Mock 05 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #05. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m5_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 5 + 2 = ?",
-      "options": [
-        "73",
-        "136",
-        "66",
-        "68"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 5 - 2 = 68."
-    },
-    {
-      "id": "m5_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 10, 14, 18, ?",
-      "options": [
-        "22",
-        "23",
-        "26",
-        "20"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m5_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL5' is written as 'UDLO5', how is the code shifted?",
-      "options": [
-        "Backward by 3",
-        "Backward by 2",
-        "Forward by 3",
-        "Forward by 4"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m5_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 3 + 2 = ?",
-      "options": [
-        "51",
-        "44",
-        "46",
-        "92"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 3 - 2 = 46."
-    },
-    {
-      "id": "m5_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 16, 22, 28, ?",
-      "options": [
-        "34",
-        "32",
-        "40",
-        "35"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m5_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST5' is written as 'WHVW5', how is the code shifted?",
-      "options": [
-        "Forward by 4",
-        "Backward by 3",
-        "Backward by 2",
-        "Forward by 3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m5_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 5 + 4 = ?",
-      "options": [
-        "192",
-        "101",
-        "96",
-        "94"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 5 - 4 = 96."
-    },
-    {
-      "id": "m5_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
-      "options": [
-        "18",
-        "17",
-        "15",
-        "19"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m5_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL5' is written as 'UDLO5', how is the code shifted?",
-      "options": [
-        "Backward by 3",
-        "Forward by 4",
-        "Forward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m5_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 15 - 2 + 5 = ?",
-      "options": [
-        "23",
-        "30",
-        "50",
-        "25"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 15 * 2 - 5 = 25."
-    },
-    {
-      "id": "m5_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 11, 14, 17, ?",
-      "options": [
-        "21",
-        "18",
-        "23",
-        "20"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m5_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'BANK5' is written as 'CBOL5', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 0",
-        "Forward by 1",
-        "Backward by 1"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m5_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 13 - 4 + 2 = ?",
-      "options": [
-        "55",
-        "50",
-        "48",
-        "100"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 13 * 4 - 2 = 50."
-    },
-    {
-      "id": "m5_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
-      "options": [
-        "17",
-        "15",
-        "18",
-        "19"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m5_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'PASS5' is written as 'RCUU5', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 2",
-        "Forward by 3",
-        "Backward by 1"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m5_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 10 - 4 + 4 = ?",
-      "options": [
-        "41",
-        "36",
-        "34",
-        "72"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 10 * 4 - 4 = 36."
-    },
-    {
-      "id": "m5_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 2, 5, 8, 11, ?",
-      "options": [
-        "14",
-        "15",
-        "12",
-        "17"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m5_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT5' is written as 'HPWU5', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Backward by 0",
-        "Forward by 1"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m5_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 13 - 4 + 5 = ?",
-      "options": [
-        "94",
-        "45",
-        "47",
-        "52"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 13 * 4 - 5 = 47."
-    },
-    {
-      "id": "m5_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 11, 16, 21, ?",
-      "options": [
-        "27",
-        "24",
-        "31",
-        "26"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m5_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'SSC5' is written as 'VVF5', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 3",
-        "Backward by 3",
-        "Forward by 4"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m5_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 17 - 5 + 5 = ?",
-      "options": [
-        "85",
-        "78",
-        "80",
-        "160"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 17 * 5 - 5 = 80."
-    },
-    {
-      "id": "m5_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 10, 15, 20, ?",
-      "options": [
-        "23",
-        "25",
-        "26",
-        "30"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m5_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM5' is written as 'FYBN5', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m5_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 17 - 5 + 3 = ?",
-      "options": [
-        "164",
-        "87",
-        "82",
-        "80"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 17 * 5 - 3 = 82."
-    },
-    {
-      "id": "m5_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 210",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 222",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 171",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q113] Which United Nations principal organ has been suspended since 1994?",
-      "options": [
-        "General Assembly",
-        "Trusteeship Council",
-        "Economic and Social Council",
-        "Secretariat"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Trusteeship Council."
-    },
-    {
-      "id": "m5_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q61] The formerly East-Prussian city of K\u00f6nigsberg is known as which Russian City today?",
-      "options": [
-        "Kazan",
-        "Kaliningrad",
-        "Kursk",
-        "Krasnodar"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Kaliningrad."
-    },
-    {
-      "id": "m5_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 150",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 212",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q52] On a London Underground map, what colour is the Circle Line?",
-      "options": [
-        "Blue",
-        "Green",
-        "Yellow",
-        "Red"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Yellow."
-    },
-    {
-      "id": "m5_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q103] What candidate won the 2012 US Presidential Election?",
-      "options": [
-        "Barack Obama",
-        "Ross Perot",
-        "Mitt Romney",
-        "Bob Hope"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Barack Obama."
-    },
-    {
-      "id": "m5_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q139] What is the primary purpose of the Fourth Amendment to the US Constitution?",
-      "options": [
-        "Protecting the right to keep and bear arms",
-        "Protecting against imprisonment without due process of law",
-        "Preventing cruel and unusual punishments",
-        "Preventing unreasonable searches and seizures"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Preventing unreasonable searches and seizures."
-    },
-    {
-      "id": "m5_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q81] What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
-      "options": [
-        "Grand Banks",
-        "Great Barrier Reef",
-        "Mariana Trench",
-        "Hudson Bay"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Grand Banks."
-    },
-    {
-      "id": "m5_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q101] Which former US president was nicknamed \"Teddy\" after he refused to shoot a defenseless black bear?",
-      "options": [
-        "Theodore Roosevelt",
-        "Woodrow Wilson",
-        "Andrew Jackson",
-        "James F. Fielder"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Theodore Roosevelt."
-    },
-    {
-      "id": "m5_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 203",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q80] The Gambia is a nation found on which continent?",
-      "options": [
-        "South America",
-        "Asia",
-        "Europe",
-        "Africa"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Africa."
-    },
-    {
-      "id": "m5_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 221",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q146] The largest consumer market in 2015 was...",
-      "options": [
-        "United Kingdom",
-        "The United States of America",
-        "Germany",
-        "Japan"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The United States of America."
-    },
-    {
-      "id": "m5_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q112] Which major bank's collapse was notable as one of the causes of the Financal Crisis of 2008?",
-      "options": [
-        "Barclays",
-        "Lloyds",
-        "HSBC",
-        "Lehman Brothers"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Lehman Brothers."
-    },
-    {
-      "id": "m5_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q144] How many people are in the U.S. House of Representatives?",
-      "options": [
-        "415",
-        "50",
-        "435",
-        "260"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 435."
-    },
-    {
-      "id": "m5_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 235",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q97] How many countries are larger than Australia?",
-      "options": [
-        "3",
-        "5",
-        "6",
-        "4"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 5."
-    },
-    {
-      "id": "m5_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q48] What is considered the rarest form of color blindness?",
-      "options": [
-        "Green",
-        "Blue",
-        "Purple",
-        "Red"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Blue."
-    },
-    {
-      "id": "m5_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q22] At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?",
-      "options": [
-        "15 Feet / 5 Meters",
-        "75 Feet / 23 Meters",
-        "50 Feet / 15 Meters",
-        "25 Feet / 7.5 Meters"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 15 Feet / 5 Meters."
-    },
-    {
-      "id": "m5_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 195",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 183",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 197",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m5_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 429?",
-      "options": [
-        "213",
-        "193",
-        "188",
-        "203"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 429 = 193."
-    },
-    {
-      "id": "m5_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 250 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 312",
-        "Rs. 322",
-        "Rs. 292",
-        "Rs. 325"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 250 + (25% of 250) = 312."
-    },
-    {
-      "id": "m5_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 10 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "6 days",
-        "11 days",
-        7,
-        "9 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/10, by B = 1/30. Total = 1/10 + 1/30. Days = 7."
-    },
-    {
-      "id": "m5_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 1000 at 15% per annum for 3 years.",
-      "options": [
-        "Rs. 250",
-        "Rs. 500",
-        "Rs. 550",
-        "Rs. 450"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 1000*15*3/100 = 450."
-    },
-    {
-      "id": "m5_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "130 m",
-        "250 m",
-        "200 m",
-        "150 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
-    },
-    {
-      "id": "m5_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "36",
-        "40",
-        "42",
-        "38"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m5_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 25% of 481?",
-      "options": [
-        "130",
-        "115",
-        "140",
-        "120"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "25/100 * 481 = 120."
-    },
-    {
-      "id": "m5_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 290 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 372",
-        "Rs. 377",
-        "Rs. 362",
-        "Rs. 342"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 290 + (25% of 290) = 362."
-    },
-    {
-      "id": "m5_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "7 days",
-        8,
-        "10 days",
-        "12 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/20. Total = 1/15 + 1/20. Days = 8."
-    },
-    {
-      "id": "m5_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 6000 at 5% per annum for 2 years.",
-      "options": [
-        "Rs. 600",
-        "Rs. 700",
-        "Rs. 650",
-        "Rs. 400"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 6000*5*2/100 = 600."
-    },
-    {
-      "id": "m5_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "250 m",
-        "150 m",
-        "130 m",
-        "200 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
-    },
-    {
-      "id": "m5_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 3, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "11",
-        "15",
-        "9",
-        "13"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 3\u00b2 - 2 = 11."
-    },
-    {
-      "id": "m5_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 513?",
-      "options": [
-        "174",
-        "189",
-        "199",
-        "179"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 513 = 179."
-    },
-    {
-      "id": "m5_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 110 and sold it at a profit of 10%. Find the selling price.",
-      "options": [
-        "Rs. 121",
-        "Rs. 131",
-        "Rs. 101",
-        "Rs. 126"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 110 + (10% of 110) = 121."
-    },
-    {
-      "id": "m5_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        10,
-        "14 days",
-        "12 days",
-        "9 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/30. Total = 1/15 + 1/30. Days = 10."
-    },
-    {
-      "id": "m5_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 10% per annum for 2 years.",
-      "options": [
-        "Rs. 400",
-        "Rs. 700",
-        "Rs. 600",
-        "Rs. 650"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*10*2/100 = 600."
-    },
-    {
-      "id": "m5_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "300 m",
-        "180 m",
-        "200 m",
-        "250 m"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 20 = 200m."
-    },
-    {
-      "id": "m5_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "20",
-        "18",
-        "16",
-        "22"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
-    },
-    {
-      "id": "m5_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 430?",
-      "options": [
-        "203",
-        "188",
-        "193",
-        "213"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 430 = 193."
-    },
-    {
-      "id": "m5_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 160 and sold it at a profit of 10%. Find the selling price.",
-      "options": [
-        "Rs. 176",
-        "Rs. 156",
-        "Rs. 186",
-        "Rs. 184"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 160 + (10% of 160) = 176."
-    },
-    {
-      "id": "m5_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "12 days",
-        10,
-        "9 days",
-        "14 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/20. Total = 1/20 + 1/20. Days = 10."
-    },
-    {
-      "id": "m5_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 5000 at 5% per annum for 3 years.",
-      "options": [
-        "Rs. 800",
-        "Rs. 850",
-        "Rs. 750",
-        "Rs. 550"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 5000*5*3/100 = 750."
-    },
-    {
-      "id": "m5_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "400 m",
-        "500 m",
-        "450 m",
-        "380 m"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 20 = 400m."
-    },
-    {
-      "id": "m5_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "29",
-        "27",
-        "31",
-        "25"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m5_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 471?",
-      "options": [
-        "231",
-        "221",
-        "206",
-        "211"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 471 = 211."
-    },
-    {
-      "id": "m5_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q178] Select the antonym of: WORD_177",
-      "options": [
-        "Random_177",
-        "Unrelated_177",
-        "Antonym_177",
-        "Synonym_177"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_177."
-    },
-    {
-      "id": "m5_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q68] Meaning of idiom: IDIOM_67",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Correct meaning 67",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 67."
-    },
-    {
-      "id": "m5_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q121] Select the synonym of: WORD_120",
-      "options": [
-        "Antonym_120",
-        "Unrelated_120",
-        "Random_120",
-        "Synonym_120"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_120."
-    },
-    {
-      "id": "m5_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q136] Meaning of idiom: IDIOM_135",
-      "options": [
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Correct meaning 135",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 135."
-    },
-    {
-      "id": "m5_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q7] Find the error in the sentence: 'Sentence part 6.'",
-      "options": [
-        "Error in verb",
-        "Error in part 6",
-        "No error",
-        "Error in noun"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 6."
-    },
-    {
-      "id": "m5_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q154] Select the antonym of: WORD_153",
-      "options": [
-        "Random_153",
-        "Synonym_153",
-        "Antonym_153",
-        "Unrelated_153"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_153."
-    },
-    {
-      "id": "m5_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q129] Select the synonym of: WORD_128",
-      "options": [
-        "Random_128",
-        "Synonym_128",
-        "Antonym_128",
-        "Unrelated_128"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_128."
-    },
-    {
-      "id": "m5_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q43] Find the error in the sentence: 'Sentence part 42.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 42",
-        "Error in noun"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 42."
-    },
-    {
-      "id": "m5_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q198] Select the antonym of: WORD_197",
-      "options": [
-        "Random_197",
-        "Unrelated_197",
-        "Antonym_197",
-        "Synonym_197"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_197."
-    },
-    {
-      "id": "m5_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q88] Meaning of idiom: IDIOM_87",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 87",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 87."
-    },
-    {
-      "id": "m5_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q161] Select the synonym of: WORD_160",
-      "options": [
-        "Synonym_160",
-        "Random_160",
-        "Antonym_160",
-        "Unrelated_160"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_160."
-    },
-    {
-      "id": "m5_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q207] Find the error in the sentence: 'Sentence part 206.'",
-      "options": [
-        "Error in part 206",
-        "Error in verb",
-        "No error",
-        "Error in noun"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 206."
-    },
-    {
-      "id": "m5_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q77] Select the synonym of: WORD_76",
-      "options": [
-        "Antonym_76",
-        "Unrelated_76",
-        "Synonym_76",
-        "Random_76"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_76."
-    },
-    {
-      "id": "m5_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q127] Find the error in the sentence: 'Sentence part 126.'",
-      "options": [
-        "Error in part 126",
-        "No error",
-        "Error in verb",
-        "Error in noun"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 126."
-    },
-    {
-      "id": "m5_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q134] Select the antonym of: WORD_133",
-      "options": [
-        "Antonym_133",
-        "Unrelated_133",
-        "Synonym_133",
-        "Random_133"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_133."
-    },
-    {
-      "id": "m5_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q176] Meaning of idiom: IDIOM_175",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 175",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 175."
-    },
-    {
-      "id": "m5_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q151] Find the error in the sentence: 'Sentence part 150.'",
-      "options": [
-        "No error",
-        "Error in part 150",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 150."
-    },
-    {
-      "id": "m5_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q86] Select the antonym of: WORD_85",
-      "options": [
-        "Antonym_85",
-        "Random_85",
-        "Unrelated_85",
-        "Synonym_85"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_85."
-    },
-    {
-      "id": "m5_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q12] Meaning of idiom: IDIOM_11",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 11",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 11."
-    },
-    {
-      "id": "m5_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q172] Meaning of idiom: IDIOM_171",
-      "options": [
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Correct meaning 171"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 171."
-    },
-    {
-      "id": "m5_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q29] Select the synonym of: WORD_28",
-      "options": [
-        "Random_28",
-        "Antonym_28",
-        "Synonym_28",
-        "Unrelated_28"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_28."
-    },
-    {
-      "id": "m5_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q61] Select the synonym of: WORD_60",
-      "options": [
-        "Random_60",
-        "Antonym_60",
-        "Unrelated_60",
-        "Synonym_60"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_60."
-    },
-    {
-      "id": "m5_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q139] Find the error in the sentence: 'Sentence part 138.'",
-      "options": [
-        "Error in verb",
-        "No error",
-        "Error in part 138",
-        "Error in noun"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 138."
-    },
-    {
-      "id": "m5_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q130] Select the antonym of: WORD_129",
-      "options": [
-        "Unrelated_129",
-        "Synonym_129",
-        "Antonym_129",
-        "Random_129"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_129."
-    },
-    {
-      "id": "m5_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q17] Select the synonym of: WORD_16",
-      "options": [
-        "Random_16",
-        "Synonym_16",
-        "Antonym_16",
-        "Unrelated_16"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_16."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-06",
-  "title": "SSC CGL Tier-1 Full Mock 06 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #06. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m6_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 10, 12, 14, ?",
-      "options": [
-        "18",
-        "14",
-        "17",
-        "16"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m6_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL6' is written as 'UDLO6', how is the code shifted?",
-      "options": [
-        "Backward by 3",
-        "Forward by 3",
-        "Forward by 4",
-        "Backward by 2"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m6_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 4 + 2 = ?",
-      "options": [
-        "70",
-        "75",
-        "140",
-        "68"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 4 - 2 = 70."
-    },
-    {
-      "id": "m6_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
-      "options": [
-        "19",
-        "18",
-        "15",
-        "17"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m6_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM6' is written as 'FYBN6', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m6_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 5 + 4 = ?",
-      "options": [
-        "66",
-        "64",
-        "132",
-        "71"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 5 - 4 = 66."
-    },
-    {
-      "id": "m6_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 14, 19, 24, ?",
-      "options": [
-        "34",
-        "27",
-        "29",
-        "30"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m6_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL6' is written as 'UDLO6', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 4",
-        "Backward by 3",
-        "Forward by 3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m6_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 13 - 3 + 5 = ?",
-      "options": [
-        "32",
-        "39",
-        "68",
-        "34"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 13 * 3 - 5 = 34."
-    },
-    {
-      "id": "m6_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 11, 15, 19, ?",
-      "options": [
-        "27",
-        "24",
-        "23",
-        "21"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m6_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL6' is written as 'TCKN6', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m6_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 4 + 5 = ?",
-      "options": [
-        "150",
-        "73",
-        "80",
-        "75"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 4 - 5 = 75."
-    },
-    {
-      "id": "m6_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 8, 10, 12, ?",
-      "options": [
-        "15",
-        "12",
-        "14",
-        "16"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m6_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK6' is written as 'PRFN6', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Forward by 4",
-        "Backward by 3"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m6_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 15 - 2 + 5 = ?",
-      "options": [
-        "50",
-        "30",
-        "23",
-        "25"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 15 * 2 - 5 = 25."
-    },
-    {
-      "id": "m6_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 10, 14, 18, ?",
-      "options": [
-        "20",
-        "22",
-        "23",
-        "26"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m6_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT6' is written as 'HPWU6', how is the code shifted?",
-      "options": [
-        "Backward by 0",
-        "Backward by 1",
-        "Forward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m6_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 2 + 2 = ?",
-      "options": [
-        "30",
-        "28",
-        "35",
-        "60"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 2 - 2 = 30."
-    },
-    {
-      "id": "m6_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 11, 16, 21, ?",
-      "options": [
-        "24",
-        "27",
-        "31",
-        "26"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m6_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'SSC6' is written as 'VVF6', how is the code shifted?",
-      "options": [
-        "Forward by 4",
-        "Backward by 2",
-        "Forward by 3",
-        "Backward by 3"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m6_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 4 + 5 = ?",
-      "options": [
-        "142",
-        "71",
-        "76",
-        "69"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 4 - 5 = 71."
-    },
-    {
-      "id": "m6_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 3, 9, 15, 21, ?",
-      "options": [
-        "25",
-        "27",
-        "28",
-        "33"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m6_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT6' is written as 'IQXV6', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 3"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m6_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 4 + 3 = ?",
-      "options": [
-        "122",
-        "66",
-        "61",
-        "59"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 4 - 3 = 61."
-    },
-    {
-      "id": "m6_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 11, 17, 23, ?",
-      "options": [
-        "30",
-        "29",
-        "35",
-        "27"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m6_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 248",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q127] Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
-      "options": [
-        "Yomba Shoshone Tribe",
-        "Kiowa Tribe of Oklahoma",
-        "Pawnee Nation of Oklahoma",
-        "Standing Rock Sioux Tribe"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Yomba Shoshone Tribe."
-    },
-    {
-      "id": "m6_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q123] Who was the only president to not be in office in Washington D.C?",
-      "options": [
-        "Richard Nixon",
-        "Thomas Jefferson",
-        "Abraham Lincoln",
-        "George Washington"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is George Washington."
-    },
-    {
-      "id": "m6_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 174",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q26] In the Scoville scale, what is the hottest chemical?",
-      "options": [
-        "Dihydrocapsaicin",
-        "Tinyatoxin",
-        "Resiniferatoxin",
-        "Capsaicin"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Resiniferatoxin."
-    },
-    {
-      "id": "m6_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q111] What is the name of Niccol\u00f2 Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
-      "options": [
-        "Love's Labours Lost",
-        "Will to Power",
-        "The Rape of Lucrece",
-        "The Prince"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The Prince."
-    },
-    {
-      "id": "m6_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 236",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q118] Who was elected leader of the UK Labour Party in September 2015?",
-      "options": [
-        "David Cameron",
-        "Jeremy Corbyn",
-        "Theresa May",
-        "Ed Miliband"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Jeremy Corbyn."
-    },
-    {
-      "id": "m6_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 215",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q106] Before 2011, \"True Capitalist Radio\" was known by a different name. What was that name?",
-      "options": [
-        "Texan Capitalist Radio",
-        "True Republican Radio",
-        "True Conservative Radio",
-        "United Capitalists"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is True Conservative Radio."
-    },
-    {
-      "id": "m6_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q104] Before 2016, in which other year did Donald Trump run for President?",
-      "options": [
-        "2008",
-        "1988",
-        "2012",
-        "2000"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 2000."
-    },
-    {
-      "id": "m6_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 151",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q13] What are the smallest blood vessels in the human body?",
-      "options": [
-        "Lymphatics",
-        "Arterioles",
-        "Veinules",
-        "Capillaries"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Capillaries."
-    },
-    {
-      "id": "m6_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 211",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q34] Which psychological term refers to the stress of holding contrasting beliefs?",
-      "options": [
-        "Split-Brain",
-        "Cognitive Dissonance",
-        "Blind Sight",
-        "Flip-Flop Syndrome"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Cognitive Dissonance."
-    },
-    {
-      "id": "m6_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 190",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 227",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q17] Approximately how long is a year on Uranus?",
-      "options": [
-        "109 Earth years",
-        "84 Earth years",
-        "47 Earth years",
-        "62 Earth years"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 84 Earth years."
-    },
-    {
-      "id": "m6_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 229",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q55] What is the capital of Wisconsin, USA?",
-      "options": [
-        "Wisconsin Dells",
-        "Milwaukee",
-        "Madison",
-        "Green Bay"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Madison."
-    },
-    {
-      "id": "m6_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 165",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 208",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 201",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 247",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 224",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m6_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 180 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 226",
-        "Rs. 225",
-        "Rs. 196",
-        "Rs. 216"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 180 + (20% of 180) = 216."
-    },
-    {
-      "id": "m6_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        12,
-        "16 days",
-        "14 days",
-        "11 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/60. Total = 1/15 + 1/60. Days = 12."
-    },
-    {
-      "id": "m6_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 2000 at 15% per annum for 3 years.",
-      "options": [
-        "Rs. 700",
-        "Rs. 950",
-        "Rs. 1000",
-        "Rs. 900"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 2000*15*3/100 = 900."
-    },
-    {
-      "id": "m6_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "325 m",
-        "225 m",
-        "205 m",
-        "275 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 15 = 225m."
-    },
-    {
-      "id": "m6_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "25",
-        "27",
-        "29",
-        "31"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m6_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 511?",
-      "options": [
-        "173",
-        "198",
-        "188",
-        "178"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 511 = 178."
-    },
-    {
-      "id": "m6_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 170 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 201",
-        "Rs. 221",
-        "Rs. 231",
-        "Rs. 229"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 170 + (30% of 170) = 221."
-    },
-    {
-      "id": "m6_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        8,
-        "12 days",
-        "10 days",
-        "7 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/30. Total = 1/12 + 1/30. Days = 8."
-    },
-    {
-      "id": "m6_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 8000 at 15% per annum for 3 years.",
-      "options": [
-        "Rs. 3600",
-        "Rs. 3400",
-        "Rs. 3650",
-        "Rs. 3700"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 8000*15*3/100 = 3600."
-    },
-    {
-      "id": "m6_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "300 m",
-        "200 m",
-        "250 m",
-        "180 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 10 = 200m."
-    },
-    {
-      "id": "m6_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "4",
-        "10",
-        "6",
-        "8"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m6_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 612?",
-      "options": [
-        "209",
-        "224",
-        "214",
-        "234"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 612 = 214."
-    },
-    {
-      "id": "m6_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 300 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 340",
-        "Rs. 370",
-        "Rs. 375",
-        "Rs. 360"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 300 + (20% of 300) = 360."
-    },
-    {
-      "id": "m6_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "7 days",
-        "12 days",
-        8,
-        "10 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/30. Total = 1/12 + 1/30. Days = 8."
-    },
-    {
-      "id": "m6_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 10% per annum for 3 years.",
-      "options": [
-        "Rs. 900",
-        "Rs. 700",
-        "Rs. 1000",
-        "Rs. 950"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*10*3/100 = 900."
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 15 = 375 m."
     },
     {
       "id": "m6_q_66",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
+      "question": "An amount of Rs. 126 is divided between P and Q in the ratio 5:4. What is P's share?",
       "options": [
-        "300 m",
-        "200 m",
-        "180 m",
-        "250 m"
+        "Rs. 70",
+        "Rs. 56",
+        "Rs. 80",
+        "Rs. 50"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 20 = 200m."
+      "explanation": "P's share = 126 * (5/9) = 70."
     },
     {
       "id": "m6_q_67",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "18",
-        "16",
-        "22",
-        "20"
+        "30\u00b0",
+        "90\u00b0",
+        "60\u00b0",
+        "45\u00b0"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
     },
     {
       "id": "m6_q_68",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 35% of 767?",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
       "options": [
-        "268",
-        "263",
-        "288",
-        "278"
+        "234",
+        "228",
+        "236",
+        "240"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "35/100 * 767 = 268."
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
     },
     {
       "id": "m6_q_69",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 490 and sold it at a profit of 30%. Find the selling price.",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
       "options": [
-        "Rs. 647",
-        "Rs. 661",
-        "Rs. 617",
-        "Rs. 637"
+        "22 cm",
+        "20 cm",
+        "9 cm",
+        "18 cm"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 490 + (30% of 490) = 637."
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 4\u00b2) = 18 cm."
     },
     {
       "id": "m6_q_70",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 30 days. If they work together, how many days will they take?",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 10%. Find his profit percentage.",
       "options": [
-        "10 days",
-        "12 days",
-        8,
-        "7 days"
+        "14.5%",
+        "11.5%",
+        "17.5%",
+        "12.5%"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/30. Total = 1/12 + 1/30. Days = 8."
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 10 - (25*10)/100 = 12.5%."
     },
     {
       "id": "m6_q_71",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 10000 at 10% per annum for 2 years.",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "Rs. 2050",
-        "Rs. 2100",
-        "Rs. 2000",
-        "Rs. 1800"
+        "8 days",
+        "5 days",
+        "6 days",
+        "10 days"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 10000*10*2/100 = 2000."
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
     },
     {
       "id": "m6_q_72",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 10% per annum. What will be the total amount after 3 years?",
       "options": [
-        "230 m",
-        "250 m",
-        "300 m",
-        "350 m"
+        "Rs. 5400",
+        "Rs. 5700",
+        "Rs. 5200",
+        "Rs. 5050"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 10 = 250m."
+      "explanation": "SI = P*R*T/100 = 1200. Amount = P + SI = 4000 + 1200 = 5200."
     },
     {
       "id": "m6_q_73",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
       "options": [
-        "22",
-        "18",
-        "20",
-        "16"
+        "300 m",
+        "400 m",
+        "280 m",
+        "350 m"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 15 = 300 m."
     },
     {
       "id": "m6_q_74",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 25% of 599?",
+      "question": "An amount of Rs. 270 is divided between P and Q in the ratio 5:4. What is P's share?",
       "options": [
-        "159",
-        "144",
-        "149",
-        "169"
+        "Rs. 120",
+        "Rs. 150",
+        "Rs. 160",
+        "Rs. 130"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "25/100 * 599 = 149."
+      "explanation": "P's share = 270 * (5/9) = 150."
     },
     {
       "id": "m6_q_75",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 190 and sold it at a profit of 30%. Find the selling price.",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "Rs. 256",
-        "Rs. 227",
-        "Rs. 257",
-        "Rs. 247"
+        "90\u00b0",
+        "60\u00b0",
+        "30\u00b0",
+        "75\u00b0"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 190 + (30% of 190) = 247."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
     },
     {
       "id": "m6_e_76",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q211] Find the error in the sentence: 'Sentence part 210.'",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Candid",
       "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 210",
-        "Error in noun"
+        "Deceitful",
+        "Irrelevant",
+        "Secret",
+        "Frank"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 210."
+      "explanation": "Candid means frank."
     },
     {
       "id": "m6_e_77",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q24] Meaning of idiom: IDIOM_23",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Hostile",
       "options": [
-        "Correct meaning 23",
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C"
+        "Aggressive",
+        "Irrelevant",
+        "Bitter",
+        "Friendly"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 23."
+      "explanation": "The opposite of Hostile is friendly."
     },
     {
       "id": "m6_e_78",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q52] Meaning of idiom: IDIOM_51",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
       "options": [
-        "Correct meaning 51",
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C"
+        "Avoid the main topic",
+        "To be extremely happy",
+        "To act aggressively",
+        "To cook food"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 51."
+      "explanation": "'Beat around the bush' means avoid the main topic."
     },
     {
       "id": "m6_e_79",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q51] Find the error in the sentence: 'Sentence part 50.'",
+      "question": "[Q4] Select the correctly spelt word.",
       "options": [
-        "Error in verb",
-        "Error in part 50",
-        "No error",
-        "Error in noun"
+        "Fascinate",
+        "Fassinate",
+        "Facinate",
+        "Fascinnate"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 50."
+      "explanation": "The correct spelling is Fascinate."
     },
     {
       "id": "m6_e_80",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q138] Select the antonym of: WORD_137",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Synonym_137",
-        "Unrelated_137",
-        "Random_137",
-        "Antonym_137"
+        "did not went",
+        "He",
+        "to the store",
+        "today"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_137."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m6_e_81",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q196] Meaning of idiom: IDIOM_195",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Candid",
       "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 195",
-        "Wrong meaning C"
+        "Secret",
+        "Deceitful",
+        "Irrelevant",
+        "Frank"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 195."
+      "explanation": "Candid means frank."
     },
     {
       "id": "m6_e_82",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q73] Select the synonym of: WORD_72",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Obsolete",
       "options": [
-        "Random_72",
-        "Synonym_72",
-        "Antonym_72",
-        "Unrelated_72"
+        "Irrelevant",
+        "Outdated",
+        "Modern",
+        "Ancient"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_72."
+      "explanation": "The opposite of Obsolete is modern."
     },
     {
       "id": "m6_e_83",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q228] Meaning of idiom: IDIOM_227",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
       "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Correct meaning 227",
-        "Wrong meaning B"
+        "To act aggressively",
+        "To reveal a secret",
+        "To cook food",
+        "To be extremely happy"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 227."
+      "explanation": "'Spill the beans' means to reveal a secret."
     },
     {
       "id": "m6_e_84",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q209] Select the synonym of: WORD_208",
+      "question": "[Q9] Select the correctly spelt word.",
       "options": [
-        "Antonym_208",
-        "Synonym_208",
-        "Unrelated_208",
-        "Random_208"
+        "Fascinnate",
+        "Fascinate",
+        "Facinate",
+        "Fassinate"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_208."
+      "explanation": "The correct spelling is Fascinate."
     },
     {
       "id": "m6_e_85",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q42] Select the antonym of: WORD_41",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Synonym_41",
-        "Unrelated_41",
-        "Antonym_41",
-        "Random_41"
+        "today",
+        "He",
+        "did not went",
+        "to the store"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_41."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m6_e_86",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q184] Meaning of idiom: IDIOM_183",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Diligent",
       "options": [
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Correct meaning 183",
-        "Wrong meaning A"
+        "Irrelevant",
+        "Hardworking",
+        "Lazy",
+        "Lethargic"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 183."
+      "explanation": "Diligent means hardworking."
     },
     {
       "id": "m6_e_87",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q14] Select the antonym of: WORD_13",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Hostile",
       "options": [
-        "Antonym_13",
-        "Unrelated_13",
-        "Random_13",
-        "Synonym_13"
+        "Irrelevant",
+        "Bitter",
+        "Friendly",
+        "Aggressive"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_13."
+      "explanation": "The opposite of Hostile is friendly."
     },
     {
       "id": "m6_e_88",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q188] Meaning of idiom: IDIOM_187",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
       "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 187",
-        "Wrong meaning C"
+        "To act aggressively",
+        "To endure a painful situation",
+        "To cook food",
+        "To be extremely happy"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 187."
+      "explanation": "'Bite the bullet' means to endure a painful situation."
     },
     {
       "id": "m6_e_89",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q231] Find the error in the sentence: 'Sentence part 230.'",
+      "question": "[Q14] Select the correctly spelt word.",
       "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 230",
-        "Error in noun"
+        "Accomodate",
+        "Acccomodate",
+        "Acommodate",
+        "Accommodate"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 230."
+      "explanation": "The correct spelling is Accommodate."
     },
     {
       "id": "m6_e_90",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q83] Find the error in the sentence: 'Sentence part 82.'",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Error in noun",
-        "Error in verb",
-        "No error",
-        "Error in part 82"
+        "to the store",
+        "He",
+        "did not went",
+        "today"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 82."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m6_e_91",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q107] Find the error in the sentence: 'Sentence part 106.'",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Abundant",
       "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 106",
-        "Error in noun"
+        "Rare",
+        "Scarce",
+        "Plentiful",
+        "Irrelevant"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 106."
+      "explanation": "Abundant means plentiful."
     },
     {
       "id": "m6_e_92",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q245] Select the synonym of: WORD_244",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Obsolete",
       "options": [
-        "Unrelated_244",
-        "Antonym_244",
-        "Random_244",
-        "Synonym_244"
+        "Ancient",
+        "Irrelevant",
+        "Outdated",
+        "Modern"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_244."
+      "explanation": "The opposite of Obsolete is modern."
     },
     {
       "id": "m6_e_93",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q250] Select the antonym of: WORD_249",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
       "options": [
-        "Random_249",
-        "Antonym_249",
-        "Synonym_249",
-        "Unrelated_249"
+        "To endure a painful situation",
+        "To cook food",
+        "To be extremely happy",
+        "To act aggressively"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_249."
+      "explanation": "'Bite the bullet' means to endure a painful situation."
     },
     {
       "id": "m6_e_94",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q135] Find the error in the sentence: 'Sentence part 134.'",
+      "question": "[Q19] Select the correctly spelt word.",
       "options": [
-        "Error in verb",
-        "No error",
-        "Error in part 134",
-        "Error in noun"
+        "Fascinnate",
+        "Fascinate",
+        "Facinate",
+        "Fassinate"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 134."
+      "explanation": "The correct spelling is Fascinate."
     },
     {
       "id": "m6_e_95",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q79] Find the error in the sentence: 'Sentence part 78.'",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Error in verb",
-        "Error in noun",
-        "No error",
-        "Error in part 78"
+        "He",
+        "did not went",
+        "to the store",
+        "today"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 78."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m6_e_96",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q246] Select the antonym of: WORD_245",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
       "options": [
-        "Unrelated_245",
-        "Antonym_245",
-        "Synonym_245",
-        "Random_245"
+        "Irrelevant",
+        "Deceitful",
+        "Secret",
+        "Frank"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_245."
+      "explanation": "Candid means frank."
     },
     {
       "id": "m6_e_97",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q71] Find the error in the sentence: 'Sentence part 70.'",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Hostile",
       "options": [
-        "Error in part 70",
-        "Error in verb",
-        "No error",
-        "Error in noun"
+        "Friendly",
+        "Irrelevant",
+        "Aggressive",
+        "Bitter"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 70."
+      "explanation": "The opposite of Hostile is friendly."
     },
     {
       "id": "m6_e_98",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q190] Select the antonym of: WORD_189",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Under the weather'",
       "options": [
-        "Unrelated_189",
-        "Random_189",
-        "Synonym_189",
-        "Antonym_189"
+        "To be extremely happy",
+        "To cook food",
+        "Feeling ill",
+        "To act aggressively"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_189."
+      "explanation": "'Under the weather' means feeling ill."
     },
     {
       "id": "m6_e_99",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q80] Meaning of idiom: IDIOM_79",
+      "question": "[Q24] Select the correctly spelt word.",
       "options": [
-        "Wrong meaning A",
-        "Correct meaning 79",
-        "Wrong meaning B",
-        "Wrong meaning C"
+        "Acccomodate",
+        "Accomodate",
+        "Accommodate",
+        "Acommodate"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 79."
+      "explanation": "The correct spelling is Accommodate."
     },
     {
       "id": "m6_e_100",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q201] Select the synonym of: WORD_200",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Random_200",
-        "Unrelated_200",
-        "Antonym_200",
-        "Synonym_200"
+        "did not went",
+        "to the store",
+        "He",
+        "today"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_200."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     }
   ]
 },
 {
   "id": "ssc-cgl-tier1-mock-07",
-  "title": "SSC CGL Tier-1 Full Mock 07 (API Sourced)",
+  "title": "SSC CGL TIER-1 MOCK 07",
   "category": "Tier-1 Full Length",
   "durationMinutes": 60,
   "totalQuestions": 100,
   "totalMarks": 200,
   "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #07. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #07. 100 questions spanning Reasoning, GA, Quant, and English.",
   "questions": [
     {
       "id": "m7_r_1",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'MOCK7' is written as 'PRFN7', how is the code shifted?",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
       "options": [
-        "Backward by 2",
-        "Forward by 3",
-        "Forward by 4",
-        "Backward by 3"
+        "54",
+        "47",
+        49,
+        "50"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
     },
     {
       "id": "m7_r_2",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 2 + 2 = ?",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
       "options": [
-        "31",
-        "24",
-        "52",
-        "26"
+        "RBPFDQ",
+        "SZQFDS",
+        "UCSFGU",
+        "VCTIGV"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 2 - 2 = 26."
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m7_r_3",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 7, 12, 17, 22, ?",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
       "options": [
-        "25",
-        "28",
-        "27",
-        "32"
+        "Irrelevant 2",
+        "Tokyo",
+        "Irrelevant 1",
+        "Kyoto"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
+      "explanation": "The relationship is India -> New Delhi."
     },
     {
       "id": "m7_r_4",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'EXAM7' is written as 'GZCO7', how is the code shifted?",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "Backward by 1",
-        "Backward by 2",
-        "Forward by 2",
-        "Forward by 3"
+        "Father",
+        "Uncle",
+        "Brother",
+        "Cousin"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m7_r_5",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 3 + 3 = ?",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "54",
-        "59",
-        "108",
-        "52"
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 3 - 3 = 54."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m7_r_6",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 2, 6, 10, 14, ?",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
       "options": [
-        "22",
-        "18",
-        "16",
-        "19"
+        "79",
+        81,
+        "82",
+        "86"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
     },
     {
       "id": "m7_r_7",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'SSC7' is written as 'UUE7', how is the code shifted?",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
       "options": [
-        "Backward by 2",
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 3"
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ",
+        "SZQFDS"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m7_r_8",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 4 + 4 = ?",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
       "options": [
-        "68",
-        "136",
-        "66",
-        "73"
+        "Pressure",
+        "Irrelevant 2",
+        "Humidity",
+        "Irrelevant 1"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 4 - 4 = 68."
+      "explanation": "The relationship is Thermometer -> Temperature."
     },
     {
       "id": "m7_r_9",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 3, 7, 11, 15, ?",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "20",
-        "23",
-        "17",
-        "19"
+        "Father",
+        "Cousin",
+        "Brother",
+        "Uncle"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m7_r_10",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'SSC7' is written as 'TTD7', how is the code shifted?",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "Backward by 0",
-        "Backward by 1",
-        "Forward by 1",
-        "Forward by 2"
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m7_r_11",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 4 + 2 = ?",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
       "options": [
-        "108",
-        "59",
-        "54",
-        "52"
+        "50",
+        49,
+        "47",
+        "54"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 4 - 2 = 54."
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
     },
     {
       "id": "m7_r_12",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 8, 12, 16, 20, ?",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
       "options": [
-        "25",
-        "28",
-        "22",
-        "24"
+        "UBSHFU",
+        "SZQFDS",
+        "RBPFDQ",
+        "UCSFGU"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
     },
     {
       "id": "m7_r_13",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'MOCK7' is written as 'OQEM7', how is the code shifted?",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
       "options": [
-        "Forward by 2",
-        "Forward by 3",
-        "Backward by 1",
-        "Backward by 2"
+        "Pressure",
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Humidity"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "The relationship is Thermometer -> Temperature."
     },
     {
       "id": "m7_r_14",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 2 + 3 = ?",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "70",
-        "33",
-        "35",
-        "40"
+        "Uncle",
+        "Father",
+        "Cousin",
+        "Brother"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 2 - 3 = 35."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m7_r_15",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 8, 12, 16, 20, ?",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "22",
-        "24",
-        "28",
-        "25"
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m7_r_16",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'SSC7' is written as 'VVF7', how is the code shifted?",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "Backward by 2",
-        "Backward by 3",
-        "Forward by 3",
-        "Forward by 4"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m7_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 15 - 5 + 3 = ?",
-      "options": [
-        "70",
-        "144",
-        "77",
-        "72"
+        "65",
+        "69",
+        "62",
+        64
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 15 * 5 - 3 = 72."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m7_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m7_r_18",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 10, 12, 14, 16, ?",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
       "options": [
-        "20",
-        "16",
-        "18",
-        "19"
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Pressure",
+        "Humidity"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
+      "explanation": "The relationship is Thermometer -> Temperature."
     },
     {
       "id": "m7_r_19",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'PASS7' is written as 'QBTT7', how is the code shifted?",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "Backward by 1",
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m7_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 2 + 4 = ?",
-      "options": [
-        "64",
-        "30",
-        "32",
-        "37"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 2 - 4 = 32."
-    },
-    {
-      "id": "m7_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 12, 16, 20, ?",
-      "options": [
-        "28",
-        "22",
-        "24",
-        "25"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m7_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT7' is written as 'IQXV7', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 1",
-        "Forward by 2",
-        "Backward by 2"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m7_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 10 - 3 + 3 = ?",
-      "options": [
-        "27",
-        "32",
-        "54",
-        "25"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 10 * 3 - 3 = 27."
-    },
-    {
-      "id": "m7_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 10, 13, 16, ?",
-      "options": [
-        "20",
-        "19",
-        "22",
-        "17"
+        "Cousin",
+        "Father",
+        "Uncle",
+        "Brother"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
-      "id": "m7_r_25",
-      "section": "General Intelligence & Reasoning",
+      "id": "m7_r_20",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'GOVT7' is written as 'JRYW7', how is the code shifted?",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "Backward by 3",
-        "Backward by 2",
-        "Forward by 4",
-        "Forward by 3"
+        "Neither I nor II follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m7_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "62",
+        "69",
+        64,
+        "65"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m7_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "VCTIGV",
+        "RBPFDQ",
+        "UCSFGU"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m7_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
+      "options": [
+        "Irrelevant 2",
+        "Irrelevant 1",
+        "Kyoto",
+        "Tokyo"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "The relationship is India -> New Delhi."
+    },
+    {
+      "id": "m7_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Uncle",
+        "Brother",
+        "Father"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m7_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m7_ga_26",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q71] Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?",
+      "question": "The book 'Discovery of India' was written by? (Set 3)",
       "options": [
-        "Spain",
-        "Portugal",
-        "France",
-        "United Kingdom"
+        "Sardar Patel",
+        "B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is United Kingdom."
+      "explanation": "The correct answer is Jawaharlal Nehru."
     },
     {
       "id": "m7_ga_27",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q94] What is the largest hot desert in the world?",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution?",
       "options": [
-        "Kalahari",
-        "Sahara",
-        "Gobi",
-        "Mojave"
+        "8th Schedule",
+        "9th Schedule",
+        "7th Schedule",
+        "10th Schedule"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Sahara."
+      "explanation": "The correct answer is 8th Schedule."
     },
     {
       "id": "m7_ga_28",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q117] Which of these is NOT one of Donald Trump's children?",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 1)",
       "options": [
-        "Julius",
-        "Ivanka",
-        "Eric",
-        "Donald Jr."
+        "7th Schedule",
+        "8th Schedule",
+        "10th Schedule",
+        "9th Schedule"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Julius."
+      "explanation": "The correct answer is 8th Schedule."
     },
     {
       "id": "m7_ga_29",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q25] All the following metal elements are liquids at or near room temperature EXCEPT:",
+      "question": "Which Indian state has the longest coastline? (Set 2)",
       "options": [
-        "Caesium",
-        "Mercury",
-        "Gallium",
-        "Beryllium"
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Gujarat"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Beryllium."
+      "explanation": "The correct answer is Gujarat."
     },
     {
       "id": "m7_ga_30",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q136] \"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+      "question": "The red colour of human blood is due to? (Set 6)",
       "options": [
-        "Al Gore",
-        "George W. Bush",
-        "Barack Obama",
-        "John Kerry"
+        "Haemoglobin",
+        "Plasma",
+        "Myoglobin",
+        "Platelets"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is George W. Bush."
+      "explanation": "The correct answer is Haemoglobin."
     },
     {
       "id": "m7_ga_31",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q2] On the periodic table of elements, what is the symbol for Tin?",
+      "question": "Where is the headquarters of UNESCO located? (Set 3)",
       "options": [
-        "Sn",
-        "Na",
-        "Ni",
-        "Ti"
+        "Geneva",
+        "London",
+        "Paris",
+        "New York"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Sn."
+      "explanation": "The correct answer is Paris."
     },
     {
       "id": "m7_ga_32",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q129] What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 9)",
       "options": [
-        "Soviet Union",
-        "Poland",
-        "United States of America",
-        "India"
+        "10",
+        "12",
+        "2",
+        "14"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is India."
+      "explanation": "The correct answer is 12."
     },
     {
       "id": "m7_ga_33",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 217",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 2)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 231",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q75] Which is the largest freshwater lake in the world?",
-      "options": [
-        "Lake Michigan",
-        "Lake Superior ",
-        "Caspian Sea",
-        "Lake Huron"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Lake Superior ."
-    },
-    {
-      "id": "m7_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 172",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q8] Which one of these is scientific term for \"Brain Freeze\"?",
-      "options": [
-        "Amblyomma Americanum",
-        "Amaranthus Retroflexus",
-        "Hyacinthoides Italica",
-        "Sphenopalatine Ganglioneuralgia"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Sphenopalatine Ganglioneuralgia."
-    },
-    {
-      "id": "m7_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 218",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 199",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q39] In human biology, a circadium rhythm relates to a period of roughly how many hours?",
-      "options": [
-        "32",
-        "8",
-        "24",
-        "16"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 24."
-    },
-    {
-      "id": "m7_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q33] What was the category of the 2005 hurricane, Hurricane Katrina, in the Saffir-Simpson hurricane wind scale?",
-      "options": [
-        "Category 2",
-        "Category 5",
-        "Category 4",
-        "Category 1"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Category 5."
-    },
-    {
-      "id": "m7_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q141] In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
-      "options": [
-        "United States of America",
-        "Qatar",
-        "Bahrain",
-        "Russia"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Qatar."
-    },
-    {
-      "id": "m7_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 152",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 233",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 166",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 223",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 206",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m7_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q37] Along with Oxygen, which element is primarily responsible for the sky appearing blue?",
-      "options": [
-        "Hydrogen",
-        "Helium",
+        "Oxygen",
+        "Carbon Dioxide",
         "Nitrogen",
-        "Carbon"
+        "Argon"
       ],
       "correctAnswer": 2,
       "marks": 2,
@@ -10450,1862 +10210,3730 @@ const SAMPLE_MOCK_TESTS = [
       "explanation": "The correct answer is Nitrogen."
     },
     {
-      "id": "m7_ga_49",
+      "id": "m7_ga_34",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q150] Due to the Nagoya Resolution, China agreed to allow Taiwan to compete separately in international sporting events under what name?",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in?",
       "options": [
-        "Chinese Taipei",
-        "Republic of Taiwan",
-        "Republic of Taipei ",
-        "Chinese Taiwan"
+        "Chennai",
+        "Mumbai",
+        "New Delhi",
+        "Kolkata"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m7_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 4)",
+      "options": [
+        "9",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8."
+    },
+    {
+      "id": "m7_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to? (Set 1)",
+      "options": [
+        "Platelets",
+        "Haemoglobin",
+        "Myoglobin",
+        "Plasma"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m7_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Indian National Congress was founded in? (Set 3)",
+      "options": [
+        "1857",
+        "1905",
+        "1919",
+        "1885"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1885."
+    },
+    {
+      "id": "m7_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year? (Set 7)",
+      "options": [
+        "1526",
+        "1191",
+        "1556",
+        "1761"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Chinese Taipei."
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m7_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 5)",
+      "options": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m7_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 4)",
+      "options": [
+        "12",
+        "2",
+        "14",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m7_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire? (Set 2)",
+      "options": [
+        "Bindusara",
+        "Bimbisara",
+        "Ashoka",
+        "Chandragupta Maurya"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m7_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 3)",
+      "options": [
+        "2",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m7_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year? (Set 3)",
+      "options": [
+        "1556",
+        "1761",
+        "1191",
+        "1526"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m7_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 4)",
+      "options": [
+        "Anemometer",
+        "Hygrometer",
+        "Barometer",
+        "Lactometer"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m7_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to?",
+      "options": [
+        "Myoglobin",
+        "Plasma",
+        "Haemoglobin",
+        "Platelets"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m7_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which pass connects Srinagar to Leh? (Set 8)",
+      "options": [
+        "Zoji La",
+        "Nathu La",
+        "Rohtang Pass",
+        "Shipki La"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Zoji La."
+    },
+    {
+      "id": "m7_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who founded the Maurya Empire? (Set 3)",
+      "options": [
+        "Bindusara",
+        "Chandragupta Maurya",
+        "Bimbisara",
+        "Ashoka"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Chandragupta Maurya."
+    },
+    {
+      "id": "m7_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The book 'Discovery of India' was written by? (Set 7)",
+      "options": [
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar",
+        "Mahatma Gandhi",
+        "Sardar Patel"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Jawaharlal Nehru."
+    },
+    {
+      "id": "m7_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 7)",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Argon",
+        "Nitrogen"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
     },
     {
       "id": "m7_ga_50",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q79] Which one of these countries borders with Poland?",
+      "question": "The Indian National Congress was founded in? (Set 1)",
       "options": [
-        "France",
-        "Norway",
-        "Netherlands",
-        "Lithuania"
+        "1905",
+        "1857",
+        "1885",
+        "1919"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Lithuania."
+      "explanation": "The correct answer is 1885."
     },
     {
       "id": "m7_q_51",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 60 days. If they work together, how many days will they take?",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "14 days",
-        "9 days",
-        10,
-        "12 days"
+        "45\u00b0",
+        "60\u00b0",
+        "45\u00b0",
+        "90\u00b0"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/60. Total = 1/12 + 1/60. Days = 10."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
     },
     {
       "id": "m7_q_52",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 10% per annum for 4 years.",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
       "options": [
-        "Rs. 1000",
-        "Rs. 1250",
-        "Rs. 1300",
-        "Rs. 1200"
+        "228",
+        "236",
+        "240",
+        "234"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*10*4/100 = 1200."
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
     },
     {
       "id": "m7_q_53",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
       "options": [
-        "150 m",
-        "130 m",
-        "250 m",
-        "200 m"
+        "26 cm",
+        "12 cm",
+        "24 cm",
+        "28 cm"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 15 = 150m."
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 5\u00b2) = 24 cm."
     },
     {
       "id": "m7_q_54",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "A trader marks his goods 20% above CP and allows a discount of 20%. Find his profit percentage.",
       "options": [
-        "25",
-        "31",
-        "27",
-        "29"
+        "-5.0%",
+        "-4.0%",
+        "-2.0%",
+        "1.0%"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 20 - 20 - (20*20)/100 = -3.9999999999999973%."
     },
     {
       "id": "m7_q_55",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 25% of 417?",
+      "question": "A can complete a task in 15 days, and B in 30 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "104",
-        "114",
-        "124",
-        "99"
+        "10 days",
+        "14 days",
+        "9 days",
+        "12 days"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "25/100 * 417 = 104."
+      "explanation": "Total days = (A*B)/(A+B) = (15*30)/(15+30) = 10 days."
     },
     {
       "id": "m7_q_56",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 420 and sold it at a profit of 25%. Find the selling price.",
+      "question": "A sum of Rs. 6000 is invested at simple interest of 10% per annum. What will be the total amount after 4 years?",
       "options": [
-        "Rs. 535",
-        "Rs. 525",
-        "Rs. 546",
-        "Rs. 505"
+        "Rs. 8600",
+        "Rs. 8900",
+        "Rs. 8400",
+        "Rs. 8250"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 420 + (25% of 420) = 525."
+      "explanation": "SI = P*R*T/100 = 2400. Amount = P + SI = 6000 + 2400 = 8400."
     },
     {
       "id": "m7_q_57",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 30 days. If they work together, how many days will they take?",
+      "question": "A train travelling at 108 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
       "options": [
-        "14 days",
-        "16 days",
-        12,
-        "11 days"
+        "410 m",
+        "340 m",
+        "360 m",
+        "460 m"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/30. Total = 1/20 + 1/30. Days = 12."
+      "explanation": "Speed in m/s = 108 * (5/18) = 30 m/s. Length = Speed * Time = 30 * 12 = 360 m."
     },
     {
       "id": "m7_q_58",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 2000 at 10% per annum for 3 years.",
-      "options": [
-        "Rs. 600",
-        "Rs. 700",
-        "Rs. 650",
-        "Rs. 400"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 2000*10*3/100 = 600."
-    },
-    {
-      "id": "m7_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "250 m",
-        "300 m",
-        "180 m",
-        "200 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 20 = 200m."
-    },
-    {
-      "id": "m7_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 3, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "11",
-        "15",
-        "9",
-        "13"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 3\u00b2 - 2 = 11."
-    },
-    {
-      "id": "m7_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 539?",
-      "options": [
-        "252",
-        "242",
-        "262",
-        "237"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 539 = 242."
-    },
-    {
-      "id": "m7_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 450 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 565",
-        "Rs. 607",
-        "Rs. 585",
-        "Rs. 595"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 450 + (30% of 450) = 585."
-    },
-    {
-      "id": "m7_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "10 days",
-        8,
-        "12 days",
-        "7 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/30. Total = 1/12 + 1/30. Days = 8."
-    },
-    {
-      "id": "m7_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 9000 at 5% per annum for 3 years.",
-      "options": [
-        "Rs. 1150",
-        "Rs. 1450",
-        "Rs. 1400",
-        "Rs. 1350"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 9000*5*3/100 = 1350."
-    },
-    {
-      "id": "m7_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "350 m",
-        "280 m",
-        "300 m",
-        "400 m"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 15 = 300m."
-    },
-    {
-      "id": "m7_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "20",
-        "16",
-        "18",
-        "22"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
-    },
-    {
-      "id": "m7_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 603?",
-      "options": [
-        "110",
-        "85",
-        "100",
-        "90"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 603 = 90."
-    },
-    {
-      "id": "m7_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 170 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 212",
-        "Rs. 214",
-        "Rs. 204",
-        "Rs. 184"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 170 + (20% of 170) = 204."
-    },
-    {
-      "id": "m7_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "17 days",
-        "19 days",
-        15,
-        "14 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/60. Total = 1/20 + 1/60. Days = 15."
-    },
-    {
-      "id": "m7_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 10000 at 15% per annum for 4 years.",
-      "options": [
-        "Rs. 6000",
-        "Rs. 5800",
-        "Rs. 6100",
-        "Rs. 6050"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 10000*15*4/100 = 6000."
-    },
-    {
-      "id": "m7_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "400 m",
-        "300 m",
-        "350 m",
-        "280 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 15 = 300m."
-    },
-    {
-      "id": "m7_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "31",
-        "27",
-        "29",
-        "25"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m7_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 782?",
-      "options": [
-        "351",
-        "361",
-        "346",
-        "371"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 782 = 351."
-    },
-    {
-      "id": "m7_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 110 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 117",
-        "Rs. 143",
-        "Rs. 137",
-        "Rs. 147"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 110 + (25% of 110) = 137."
-    },
-    {
-      "id": "m7_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 10 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "6 days",
-        7,
-        "9 days",
-        "11 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/10, by B = 1/30. Total = 1/10 + 1/30. Days = 7."
-    },
-    {
-      "id": "m7_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q10] Select the antonym of: WORD_9",
-      "options": [
-        "Unrelated_9",
-        "Random_9",
-        "Antonym_9",
-        "Synonym_9"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_9."
-    },
-    {
-      "id": "m7_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q119] Find the error in the sentence: 'Sentence part 118.'",
-      "options": [
-        "Error in part 118",
-        "Error in verb",
-        "Error in noun",
-        "No error"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 118."
-    },
-    {
-      "id": "m7_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q215] Find the error in the sentence: 'Sentence part 214.'",
-      "options": [
-        "Error in verb",
-        "No error",
-        "Error in noun",
-        "Error in part 214"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 214."
-    },
-    {
-      "id": "m7_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q149] Select the synonym of: WORD_148",
-      "options": [
-        "Random_148",
-        "Unrelated_148",
-        "Antonym_148",
-        "Synonym_148"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_148."
-    },
-    {
-      "id": "m7_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q75] Find the error in the sentence: 'Sentence part 74.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 74",
-        "Error in noun"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 74."
-    },
-    {
-      "id": "m7_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q210] Select the antonym of: WORD_209",
-      "options": [
-        "Antonym_209",
-        "Unrelated_209",
-        "Synonym_209",
-        "Random_209"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_209."
-    },
-    {
-      "id": "m7_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q84] Meaning of idiom: IDIOM_83",
-      "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 83"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 83."
-    },
-    {
-      "id": "m7_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q179] Find the error in the sentence: 'Sentence part 178.'",
-      "options": [
-        "Error in part 178",
-        "No error",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 178."
-    },
-    {
-      "id": "m7_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q133] Select the synonym of: WORD_132",
-      "options": [
-        "Unrelated_132",
-        "Synonym_132",
-        "Random_132",
-        "Antonym_132"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_132."
-    },
-    {
-      "id": "m7_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q81] Select the synonym of: WORD_80",
-      "options": [
-        "Synonym_80",
-        "Unrelated_80",
-        "Antonym_80",
-        "Random_80"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_80."
-    },
-    {
-      "id": "m7_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q95] Find the error in the sentence: 'Sentence part 94.'",
-      "options": [
-        "Error in verb",
-        "Error in noun",
-        "No error",
-        "Error in part 94"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 94."
-    },
-    {
-      "id": "m7_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q57] Select the synonym of: WORD_56",
-      "options": [
-        "Antonym_56",
-        "Unrelated_56",
-        "Synonym_56",
-        "Random_56"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_56."
-    },
-    {
-      "id": "m7_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q160] Meaning of idiom: IDIOM_159",
-      "options": [
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Correct meaning 159"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 159."
-    },
-    {
-      "id": "m7_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q69] Select the synonym of: WORD_68",
-      "options": [
-        "Synonym_68",
-        "Unrelated_68",
-        "Random_68",
-        "Antonym_68"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_68."
-    },
-    {
-      "id": "m7_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q219] Find the error in the sentence: 'Sentence part 218.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in part 218",
-        "Error in noun"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 218."
-    },
-    {
-      "id": "m7_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q147] Find the error in the sentence: 'Sentence part 146.'",
-      "options": [
-        "No error",
-        "Error in part 146",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 146."
-    },
-    {
-      "id": "m7_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q19] Find the error in the sentence: 'Sentence part 18.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in noun",
-        "Error in part 18"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 18."
-    },
-    {
-      "id": "m7_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q114] Select the antonym of: WORD_113",
-      "options": [
-        "Synonym_113",
-        "Antonym_113",
-        "Unrelated_113",
-        "Random_113"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_113."
-    },
-    {
-      "id": "m7_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q128] Meaning of idiom: IDIOM_127",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 127"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 127."
-    },
-    {
-      "id": "m7_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q64] Meaning of idiom: IDIOM_63",
-      "options": [
-        "Correct meaning 63",
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 63."
-    },
-    {
-      "id": "m7_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q124] Meaning of idiom: IDIOM_123",
-      "options": [
-        "Correct meaning 123",
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 123."
-    },
-    {
-      "id": "m7_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q89] Select the synonym of: WORD_88",
-      "options": [
-        "Random_88",
-        "Unrelated_88",
-        "Antonym_88",
-        "Synonym_88"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_88."
-    },
-    {
-      "id": "m7_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q239] Find the error in the sentence: 'Sentence part 238.'",
-      "options": [
-        "Error in verb",
-        "Error in part 238",
-        "No error",
-        "Error in noun"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 238."
-    },
-    {
-      "id": "m7_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q54] Select the antonym of: WORD_53",
-      "options": [
-        "Random_53",
-        "Antonym_53",
-        "Unrelated_53",
-        "Synonym_53"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_53."
-    },
-    {
-      "id": "m7_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q38] Select the antonym of: WORD_37",
-      "options": [
-        "Random_37",
-        "Unrelated_37",
-        "Synonym_37",
-        "Antonym_37"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_37."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-08",
-  "title": "SSC CGL Tier-1 Full Mock 08 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #08. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m8_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 10 - 2 + 2 = ?",
-      "options": [
-        "23",
-        "36",
-        "16",
-        "18"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 10 * 2 - 2 = 18."
-    },
-    {
-      "id": "m8_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 2, 4, 6, 8, ?",
-      "options": [
-        "8",
-        "10",
-        "12",
-        "11"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m8_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST8' is written as 'VGUV8', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Backward by 1",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m8_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 4 + 3 = ?",
-      "options": [
-        "58",
-        "53",
-        "51",
-        "106"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 4 - 3 = 53."
-    },
-    {
-      "id": "m8_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 10, 14, 18, ?",
-      "options": [
-        "22",
-        "26",
-        "23",
-        "20"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m8_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT8' is written as 'IQXV8', how is the code shifted?",
-      "options": [
-        "Backward by 1",
-        "Forward by 2",
-        "Forward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m8_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 2 + 2 = ?",
-      "options": [
-        "28",
-        "35",
-        "60",
-        "30"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 2 - 2 = 30."
-    },
-    {
-      "id": "m8_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 16, 22, 28, ?",
-      "options": [
-        "32",
-        "40",
-        "34",
-        "35"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m8_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT8' is written as 'IQXV8', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 2",
-        "Forward by 3",
-        "Backward by 1"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m8_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 5 + 3 = ?",
-      "options": [
-        "97",
-        "92",
-        "90",
-        "184"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 5 - 3 = 92."
-    },
-    {
-      "id": "m8_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 7, 13, 19, 25, ?",
-      "options": [
-        "37",
-        "32",
-        "31",
-        "29"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
-    },
-    {
-      "id": "m8_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST8' is written as 'VGUV8', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Forward by 2",
-        "Backward by 1",
-        "Backward by 2"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m8_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 4 + 2 = ?",
-      "options": [
-        "59",
-        "52",
-        "54",
-        "108"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 4 - 2 = 54."
-    },
-    {
-      "id": "m8_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 7, 9, 11, ?",
-      "options": [
-        "14",
-        "15",
-        "11",
-        "13"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m8_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT8' is written as 'JRYW8', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 4",
-        "Backward by 3",
-        "Forward by 3"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m8_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 15 - 4 + 3 = ?",
-      "options": [
-        "55",
-        "114",
-        "62",
-        "57"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 15 * 4 - 3 = 57."
-    },
-    {
-      "id": "m8_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 5, 7, 9, 11, ?",
-      "options": [
-        "15",
-        "14",
-        "11",
-        "13"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m8_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'BANK8' is written as 'DCPM8', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Forward by 2",
-        "Backward by 1"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m8_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 15 - 5 + 4 = ?",
-      "options": [
-        "69",
-        "76",
-        "71",
-        "142"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 15 * 5 - 4 = 71."
-    },
-    {
-      "id": "m8_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 4, 7, 10, 13, ?",
-      "options": [
-        "19",
-        "14",
-        "17",
-        "16"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m8_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL8' is written as 'UDLO8', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Forward by 4",
-        "Backward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m8_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 2 + 2 = ?",
-      "options": [
-        "24",
-        "31",
-        "26",
-        "52"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 2 - 2 = 26."
-    },
-    {
-      "id": "m8_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 14, 18, 22, ?",
-      "options": [
-        "27",
-        "26",
-        "24",
-        "30"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m8_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL8' is written as 'TCKN8', how is the code shifted?",
-      "options": [
-        "Forward by 3",
-        "Backward by 1",
-        "Backward by 2",
-        "Forward by 2"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m8_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 17 - 2 + 3 = ?",
-      "options": [
-        "29",
-        "31",
-        "36",
-        "62"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 17 * 2 - 3 = 31."
-    },
-    {
-      "id": "m8_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 181",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q42] What element on the periodic table has 92 electrons?",
-      "options": [
-        "Hydrogen",
-        "Uranium",
-        "Sulfur",
-        "Iron"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Uranium."
-    },
-    {
-      "id": "m8_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 237",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 245",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 232",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q110] Which of the following United States senators is known for performing a 24-hour long filibuster?",
-      "options": [
-        "Strom Thurmond",
-        "John Barrasso",
-        "Chuck Schumer",
-        "Roy Blunt"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Strom Thurmond."
-    },
-    {
-      "id": "m8_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 164",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q107] Which former US president used \"Let's Make America Great Again\" as his campaign slogan before Donald Trump's campaign?",
-      "options": [
-        "Gerald Ford",
-        "Jimmy Carter",
-        "Richard Nixon",
-        "Ronald Reagan"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Ronald Reagan."
-    },
-    {
-      "id": "m8_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q149] Which city is the seat of government of the Netherlands?",
-      "options": [
-        "Rotterdam",
-        "The Hague",
-        "Utrecht",
-        "Amsterdam"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The Hague."
-    },
-    {
-      "id": "m8_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 192",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 188",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q134] What is former United States President Bill Clinton's full name?",
-      "options": [
-        "William Truman Clinton",
-        "William Lincoln Clinton",
-        "William Roosevelt Clinton",
-        "William Jefferson Clinton"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is William Jefferson Clinton."
-    },
-    {
-      "id": "m8_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q7] This element, when overcome with extreme heat and pressure, creates diamonds.",
-      "options": [
-        "Oxygen",
-        "Carbon",
-        "Hydrogen",
-        "Nitrogen"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Carbon."
-    },
-    {
-      "id": "m8_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q24] Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
-      "options": [
-        "Cough",
-        "Sneeze",
-        "Hiccup",
-        "Yawn"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Sneeze."
-    },
-    {
-      "id": "m8_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q142] Who was the British Prime Minister at the outbreak of the Second World War?",
-      "options": [
-        "Stanley Baldwin",
-        "Clement Attlee",
-        "Neville Chamberlain",
-        "Winston Churchill"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Neville Chamberlain."
-    },
-    {
-      "id": "m8_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 194",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 213",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q121] Which of these was an official candidate in the 2017 British General Election?",
-      "options": [
-        "Sir Crumpetsby",
-        "Lord Buckethead",
-        "Robert Wimbledon",
-        "James Francis"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Lord Buckethead."
-    },
-    {
-      "id": "m8_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q50] An organism described as \"heliotropic\" has a tendancy to move towards which of these things?",
-      "options": [
-        "Pollen",
-        "Water",
-        "Light",
-        "Trees"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Light."
-    },
-    {
-      "id": "m8_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 154",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q77] Which of these Japanese islands is the largest by area?",
-      "options": [
-        "Shikoku",
-        "Okinawa",
-        "Iki",
-        "Odaiba"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Shikoku."
-    },
-    {
-      "id": "m8_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q59] Which of these countries is the smallest by population?",
-      "options": [
-        "Hong Kong",
-        "Slovakia",
-        "Norway",
-        "Finland"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Norway."
-    },
-    {
-      "id": "m8_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q30] Muscle fiber is constructed of bundles small long organelles called what?",
-      "options": [
-        "Myocardium",
-        "Myofibrils",
-        "Myofiaments",
-        "Epimysium"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Myofibrils."
-    },
-    {
-      "id": "m8_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 185",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 177",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m8_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 7000 at 5% per annum for 2 years.",
-      "options": [
-        "Rs. 750",
-        "Rs. 700",
-        "Rs. 500",
-        "Rs. 800"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 7000*5*2/100 = 700."
-    },
-    {
-      "id": "m8_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "230 m",
-        "350 m",
-        "300 m",
-        "250 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 10 = 250m."
-    },
-    {
-      "id": "m8_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "36",
-        "42",
-        "40",
-        "38"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m8_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 678?",
-      "options": [
-        "300",
-        "325",
-        "315",
-        "305"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 678 = 305."
-    },
-    {
-      "id": "m8_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 210 and sold it at a profit of 10%. Find the selling price.",
-      "options": [
-        "Rs. 241",
-        "Rs. 231",
-        "Rs. 211",
-        "Rs. 241"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 210 + (10% of 210) = 231."
-    },
-    {
-      "id": "m8_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        10,
-        "9 days",
-        "12 days"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/30. Total = 1/15 + 1/30. Days = 10."
-    },
-    {
-      "id": "m8_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 10% per annum for 4 years.",
-      "options": [
-        "Rs. 1000",
-        "Rs. 1300",
-        "Rs. 1200",
-        "Rs. 1250"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*10*4/100 = 1200."
-    },
-    {
-      "id": "m8_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
-      "options": [
-        "300 m",
-        "180 m",
-        "250 m",
-        "200 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 20 = 200m."
-    },
-    {
-      "id": "m8_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 3, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "15",
-        "13",
-        "11",
-        "9"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 3\u00b2 - 2 = 11."
-    },
-    {
-      "id": "m8_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 25% of 308?",
-      "options": [
-        "97",
-        "72",
-        "77",
-        "87"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "25/100 * 308 = 77."
-    },
-    {
-      "id": "m8_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 100 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 130",
-        "Rs. 125",
-        "Rs. 135",
+      "question": "An amount of Rs. 189 is divided between P and Q in the ratio 4:5. What is P's share?",
+      "options": [
+        "Rs. 94",
+        "Rs. 84",
+        "Rs. 64",
         "Rs. 105"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 100 + (25% of 100) = 125."
+      "explanation": "P's share = 189 * (4/9) = 84."
+    },
+    {
+      "id": "m7_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "30\u00b0",
+        "60\u00b0",
+        "75\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
+    },
+    {
+      "id": "m7_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "78",
+        "76",
+        "80",
+        "72"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m7_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
+      "options": [
+        "28 cm",
+        "12 cm",
+        "24 cm",
+        "26 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 5\u00b2) = 24 cm."
+    },
+    {
+      "id": "m7_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "14.5%",
+        "17.5%",
+        "12.5%",
+        "11.5%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 10 - (25*10)/100 = 12.5%."
+    },
+    {
+      "id": "m7_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "10 days",
+        "8 days",
+        "5 days",
+        "6 days"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m7_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 5000 is invested at simple interest of 10% per annum. What will be the total amount after 3 years?",
+      "options": [
+        "Rs. 7000",
+        "Rs. 6350",
+        "Rs. 6500",
+        "Rs. 6700"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1500. Amount = P + SI = 5000 + 1500 = 6500."
+    },
+    {
+      "id": "m7_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
+      "options": [
+        "240 m",
+        "220 m",
+        "290 m",
+        "340 m"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 12 = 240 m."
+    },
+    {
+      "id": "m7_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 136 is divided between P and Q in the ratio 3:5. What is P's share?",
+      "options": [
+        "Rs. 85",
+        "Rs. 31",
+        "Rs. 51",
+        "Rs. 61"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 136 * (3/8) = 51."
+    },
+    {
+      "id": "m7_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "60\u00b0",
+        "45\u00b0",
+        "90\u00b0",
+        "30\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m7_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "78",
+        "72",
+        "80",
+        "76"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m7_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 5 cm. Find the length of the chord.",
+      "options": [
+        "28 cm",
+        "26 cm",
+        "24 cm",
+        "12 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 5\u00b2) = 24 cm."
+    },
+    {
+      "id": "m7_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "17.0%",
+        "11.0%",
+        "12.0%",
+        "14.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 20 - (40*20)/100 = 12.0%."
+    },
+    {
+      "id": "m7_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "8 days",
+        "10 days",
+        "7 days",
+        "12 days"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
+    },
+    {
+      "id": "m7_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 8000 is invested at simple interest of 10% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 9800",
+        "Rs. 10100",
+        "Rs. 9450",
+        "Rs. 9600"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1600. Amount = P + SI = 8000 + 1600 = 9600."
+    },
+    {
+      "id": "m7_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
+      "options": [
+        "480 m",
+        "600 m",
+        "500 m",
+        "550 m"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 20 = 500 m."
+    },
+    {
+      "id": "m7_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 99 is divided between P and Q in the ratio 4:5. What is P's share?",
+      "options": [
+        "Rs. 54",
+        "Rs. 24",
+        "Rs. 55",
+        "Rs. 44"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 99 * (4/9) = 44."
+    },
+    {
+      "id": "m7_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "90\u00b0",
+        "45\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m7_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Secret",
+        "Frank",
+        "Deceitful",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m7_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Irrelevant",
+        "Empty",
+        "Fertile",
+        "Dry"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m7_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
+      "options": [
+        "To be extremely happy",
+        "To act aggressively",
+        "To reveal a secret",
+        "To cook food"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Spill the beans' means to reveal a secret."
+    },
+    {
+      "id": "m7_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Fascinnate",
+        "Fassinate",
+        "Facinate",
+        "Fascinate"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m7_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "today",
+        "to the store",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m7_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Lazy",
+        "Lethargic",
+        "Irrelevant",
+        "Hardworking"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m7_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Aggressive",
+        "Irrelevant",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m7_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To act aggressively",
+        "To cook food",
+        "To endure a painful situation",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m7_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Embarass",
+        "Emmbarrass",
+        "Embarras",
+        "Embarrass"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m7_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "to the store",
+        "did not went",
+        "He"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m7_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m7_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Empty",
+        "Dry",
+        "Irrelevant",
+        "Fertile"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m7_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Under the weather'",
+      "options": [
+        "Feeling ill",
+        "To cook food",
+        "To act aggressively",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Under the weather' means feeling ill."
+    },
+    {
+      "id": "m7_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Emmbarrass",
+        "Embarrass",
+        "Embarras",
+        "Embarass"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m7_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "to the store",
+        "He",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m7_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Rare",
+        "Plentiful",
+        "Scarce",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m7_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Friendly",
+        "Irrelevant",
+        "Bitter",
+        "Aggressive"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m7_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
+      "options": [
+        "To be extremely happy",
+        "To act aggressively",
+        "Avoid the main topic",
+        "To cook food"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Beat around the bush' means avoid the main topic."
+    },
+    {
+      "id": "m7_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Fascinate",
+        "Facinate",
+        "Fassinate",
+        "Fascinnate"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m7_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "did not went",
+        "to the store",
+        "He"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m7_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Secret",
+        "Frank",
+        "Deceitful",
+        "Irrelevant"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m7_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Irrelevant",
+        "Outdated",
+        "Ancient",
+        "Modern"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m7_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
+      "options": [
+        "To cook food",
+        "To be extremely happy",
+        "To act aggressively",
+        "To reveal a secret"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Spill the beans' means to reveal a secret."
+    },
+    {
+      "id": "m7_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Facinate",
+        "Fassinate",
+        "Fascinate",
+        "Fascinnate"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m7_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "did not went",
+        "He",
+        "to the store"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-08",
+  "title": "SSC CGL TIER-1 MOCK 08",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #08. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m8_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
+      "options": [
+        "98",
+        "101",
+        "105",
+        100
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
+    },
+    {
+      "id": "m8_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "VCTIGV",
+        "SZQFDS",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m8_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 2",
+        "Cub",
+        "Irrelevant 1",
+        "Kitten"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m8_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Cousin",
+        "Brother",
+        "Uncle"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m8_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m8_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
+      "options": [
+        100,
+        "98",
+        "101",
+        "105"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
+    },
+    {
+      "id": "m8_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "SZQFDS",
+        "UCSFGU",
+        "UBSHFU"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m8_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Pressure",
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Humidity"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m8_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Cousin",
+        "Brother",
+        "Uncle"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m8_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m8_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
+      "options": [
+        "86",
+        "79",
+        81,
+        "82"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m8_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "VCTIGV",
+        "SZQFDS",
+        "UCSFGU",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m8_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 1",
+        "Pressure",
+        "Humidity",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m8_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Cousin",
+        "Father",
+        "Brother"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m8_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m8_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        "47",
+        49,
+        "54",
+        "50"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m8_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "SZQFDS",
+        "UBSHFU",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m8_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 1",
+        "Kitten",
+        "Cub",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m8_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Cousin",
+        "Brother"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m8_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m8_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        "54",
+        "50",
+        "47",
+        49
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m8_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "UBSHFU",
+        "RBPFDQ",
+        "SZQFDS"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m8_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Pressure",
+        "Irrelevant 2",
+        "Humidity",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m8_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Brother",
+        "Cousin"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m8_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m8_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 2)",
+      "options": [
+        "8th Schedule",
+        "10th Schedule",
+        "9th Schedule",
+        "7th Schedule"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8th Schedule."
+    },
+    {
+      "id": "m8_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 2)",
+      "options": [
+        "Odissi",
+        "Bharatanatyam",
+        "Kuchipudi",
+        "Kathakali"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m8_ga_28",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 4)",
+      "options": [
+        "Geneva",
+        "Paris",
+        "New York",
+        "London"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m8_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics? (Set 7)",
+      "options": [
+        "Raghuram Rajan",
+        "Amartya Sen",
+        "Dadabhai Naoroji",
+        "Manmohan Singh"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m8_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics? (Set 9)",
+      "options": [
+        "Amartya Sen",
+        "Raghuram Rajan",
+        "Dadabhai Naoroji",
+        "Manmohan Singh"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m8_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 1)",
+      "options": [
+        "USSR",
+        "UK",
+        "USA",
+        "Ireland"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m8_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C? (Set 7)",
+      "options": [
+        "Retinol",
+        "Calciferol",
+        "Thiamine",
+        "Ascorbic Acid"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m8_ga_33",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to? (Set 9)",
+      "options": [
+        "Haemoglobin",
+        "Myoglobin",
+        "Plasma",
+        "Platelets"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m8_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 4)",
+      "options": [
+        "USA",
+        "USSR",
+        "UK",
+        "Ireland"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m8_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 8)",
+      "options": [
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Gujarat",
+        "Tamil Nadu"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m8_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The red colour of human blood is due to? (Set 4)",
+      "options": [
+        "Haemoglobin",
+        "Myoglobin",
+        "Plasma",
+        "Platelets"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Haemoglobin."
+    },
+    {
+      "id": "m8_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year? (Set 9)",
+      "options": [
+        "1761",
+        "1191",
+        "1526",
+        "1556"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m8_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 6)",
+      "options": [
+        "Prime Minister",
+        "Chief of Defence Staff",
+        "President of India",
+        "Minister of Defence"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m8_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 5)",
+      "options": [
+        "Lord Mountbatten",
+        "C. Rajagopalachari",
+        "Lord Dalhousie",
+        "Warren Hastings"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m8_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 8)",
+      "options": [
+        "New York",
+        "Paris",
+        "Geneva",
+        "London"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m8_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 7)",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Watt",
+        "Ohm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m8_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 7)",
+      "options": [
+        "6",
+        "9",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8."
+    },
+    {
+      "id": "m8_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located?",
+      "options": [
+        "London",
+        "Geneva",
+        "Paris",
+        "New York"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m8_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the chemical name of Vitamin C?",
+      "options": [
+        "Ascorbic Acid",
+        "Calciferol",
+        "Retinol",
+        "Thiamine"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ascorbic Acid."
+    },
+    {
+      "id": "m8_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 4)",
+      "options": [
+        "Bharatanatyam",
+        "Kuchipudi",
+        "Odissi",
+        "Kathakali"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m8_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which classical dance form originated in Kerala? (Set 9)",
+      "options": [
+        "Odissi",
+        "Kathakali",
+        "Kuchipudi",
+        "Bharatanatyam"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Kathakali."
+    },
+    {
+      "id": "m8_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 5)",
+      "options": [
+        "New Delhi",
+        "Kolkata",
+        "Mumbai",
+        "Chennai"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m8_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 4)",
+      "options": [
+        "7th Schedule",
+        "9th Schedule",
+        "10th Schedule",
+        "8th Schedule"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 8th Schedule."
+    },
+    {
+      "id": "m8_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Where is the headquarters of UNESCO located? (Set 6)",
+      "options": [
+        "Paris",
+        "London",
+        "New York",
+        "Geneva"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Paris."
+    },
+    {
+      "id": "m8_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 5)",
+      "options": [
+        "USA",
+        "UK",
+        "USSR",
+        "Ireland"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m8_q_51",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "45\u00b0",
+        "60\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m8_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 3, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "39",
+        "33",
+        "36",
+        "38"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 3\u00b3 + 3(3) = 36."
+    },
+    {
+      "id": "m8_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "24 cm",
+        "12 cm",
+        "28 cm",
+        "26 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 3\u00b2) = 24 cm."
+    },
+    {
+      "id": "m8_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "26.0%",
+        "28.0%",
+        "25.0%",
+        "31.0%"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 10 - (40*10)/100 = 25.999999999999986%."
+    },
+    {
+      "id": "m8_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "11 days",
+        "16 days",
+        "14 days",
+        "12 days"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
+    },
+    {
+      "id": "m8_q_56",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 12% per annum. What will be the total amount after 4 years?",
+      "options": [
+        "Rs. 5770",
+        "Rs. 5920",
+        "Rs. 6120",
+        "Rs. 6420"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1920. Amount = P + SI = 4000 + 1920 = 5920."
+    },
+    {
+      "id": "m8_q_57",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 108 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
+      "options": [
+        "600 m",
+        "580 m",
+        "700 m",
+        "650 m"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 108 * (5/18) = 30 m/s. Length = Speed * Time = 30 * 20 = 600 m."
+    },
+    {
+      "id": "m8_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 135 is divided between P and Q in the ratio 4:5. What is P's share?",
+      "options": [
+        "Rs. 60",
+        "Rs. 40",
+        "Rs. 70",
+        "Rs. 75"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 135 * (4/9) = 60."
+    },
+    {
+      "id": "m8_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "60\u00b0",
+        "30\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m8_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "78",
+        "76",
+        "80",
+        "72"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m8_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "10 cm",
+        "4 cm",
+        "12 cm",
+        "8 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 3\u00b2) = 8 cm."
     },
     {
       "id": "m8_q_62",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 30 days. If they work together, how many days will they take?",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
       "options": [
-        "11 days",
-        12,
-        "14 days",
-        "16 days"
+        "21.0%",
+        "18.0%",
+        "24.0%",
+        "19.0%"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/30. Total = 1/20 + 1/30. Days = 12."
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 18.999999999999993%."
     },
     {
       "id": "m8_q_63",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 10000 at 5% per annum for 4 years.",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "Rs. 1800",
-        "Rs. 2100",
-        "Rs. 2000",
-        "Rs. 2050"
+        "12 days",
+        "11 days",
+        "14 days",
+        "16 days"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 10000*5*4/100 = 2000."
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
     },
     {
       "id": "m8_q_64",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
+      "question": "A sum of Rs. 6000 is invested at simple interest of 12% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 7940",
+        "Rs. 7290",
+        "Rs. 7640",
+        "Rs. 7440"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1440. Amount = P + SI = 6000 + 1440 = 7440."
+    },
+    {
+      "id": "m8_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
+      "options": [
+        "475 m",
+        "355 m",
+        "425 m",
+        "375 m"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 15 = 375 m."
+    },
+    {
+      "id": "m8_q_66",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 308 is divided between P and Q in the ratio 3:4. What is P's share?",
+      "options": [
+        "Rs. 132",
+        "Rs. 112",
+        "Rs. 142",
+        "Rs. 176"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 308 * (3/7) = 132."
+    },
+    {
+      "id": "m8_q_67",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "90\u00b0",
+        "60\u00b0",
+        "30\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m8_q_68",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "236",
+        "240",
+        "228",
+        "234"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m8_q_69",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 5 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "8 cm",
+        "4 cm",
+        "12 cm",
+        "10 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(5\u00b2 - 3\u00b2) = 8 cm."
+    },
+    {
+      "id": "m8_q_70",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "28.0%",
+        "25.0%",
+        "31.0%",
+        "26.0%"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 10 - (40*10)/100 = 26.0%."
+    },
+    {
+      "id": "m8_q_71",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "10 days",
+        "8 days",
+        "6 days",
+        "5 days"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
+    },
+    {
+      "id": "m8_q_72",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 3000 is invested at simple interest of 8% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 3330",
+        "Rs. 3480",
+        "Rs. 3980",
+        "Rs. 3680"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 480. Amount = P + SI = 3000 + 480 = 3480."
+    },
+    {
+      "id": "m8_q_73",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
+      "options": [
+        "300 m",
+        "400 m",
+        "280 m",
+        "350 m"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 12 = 300 m."
+    },
+    {
+      "id": "m8_q_74",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 350 is divided between P and Q in the ratio 3:4. What is P's share?",
+      "options": [
+        "Rs. 160",
+        "Rs. 200",
+        "Rs. 150",
+        "Rs. 130"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 350 * (3/7) = 150."
+    },
+    {
+      "id": "m8_q_75",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "30\u00b0",
+        "60\u00b0",
+        "90\u00b0"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m8_e_76",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Abundant",
+      "options": [
+        "Irrelevant",
+        "Scarce",
+        "Plentiful",
+        "Rare"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Abundant means plentiful."
+    },
+    {
+      "id": "m8_e_77",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Ancient",
+        "Outdated",
+        "Modern",
+        "Irrelevant"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m8_e_78",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
+      "options": [
+        "To cook food",
+        "To act aggressively",
+        "Avoid the main topic",
+        "To be extremely happy"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Beat around the bush' means avoid the main topic."
+    },
+    {
+      "id": "m8_e_79",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q4] Select the correctly spelt word.",
+      "options": [
+        "Emmbarrass",
+        "Embarass",
+        "Embarrass",
+        "Embarras"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m8_e_80",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "did not went",
+        "to the store",
+        "He",
+        "today"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m8_e_81",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Diligent",
+      "options": [
+        "Irrelevant",
+        "Lethargic",
+        "Hardworking",
+        "Lazy"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Diligent means hardworking."
+    },
+    {
+      "id": "m8_e_82",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Obsolete",
+      "options": [
+        "Modern",
+        "Ancient",
+        "Outdated",
+        "Irrelevant"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Obsolete is modern."
+    },
+    {
+      "id": "m8_e_83",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To endure a painful situation",
+        "To cook food",
+        "To be extremely happy",
+        "To act aggressively"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m8_e_84",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q9] Select the correctly spelt word.",
+      "options": [
+        "Facinate",
+        "Fascinate",
+        "Fascinnate",
+        "Fassinate"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Fascinate."
+    },
+    {
+      "id": "m8_e_85",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "did not went",
+        "today",
+        "to the store"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m8_e_86",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Irrelevant",
+        "Secret",
+        "Frank",
+        "Deceitful"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m8_e_87",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Irrelevant",
+        "Dry",
+        "Fertile",
+        "Empty"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m8_e_88",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food",
+        "To endure a painful situation"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m8_e_89",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q14] Select the correctly spelt word.",
+      "options": [
+        "Acccomodate",
+        "Acommodate",
+        "Accommodate",
+        "Accomodate"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Accommodate."
+    },
+    {
+      "id": "m8_e_90",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "did not went",
+        "to the store",
+        "today"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m8_e_91",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Irrelevant",
+        "Deceitful",
+        "Secret",
+        "Frank"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m8_e_92",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Barren",
+      "options": [
+        "Fertile",
+        "Irrelevant",
+        "Empty",
+        "Dry"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Barren is fertile."
+    },
+    {
+      "id": "m8_e_93",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
+      "options": [
+        "To be extremely happy",
+        "To endure a painful situation",
+        "To act aggressively",
+        "To cook food"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Bite the bullet' means to endure a painful situation."
+    },
+    {
+      "id": "m8_e_94",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q19] Select the correctly spelt word.",
+      "options": [
+        "Embarras",
+        "Emmbarrass",
+        "Embarass",
+        "Embarrass"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m8_e_95",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "today",
+        "to the store",
+        "He",
+        "did not went"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    },
+    {
+      "id": "m8_e_96",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Candid",
+      "options": [
+        "Secret",
+        "Irrelevant",
+        "Frank",
+        "Deceitful"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Candid means frank."
+    },
+    {
+      "id": "m8_e_97",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Hostile",
+      "options": [
+        "Bitter",
+        "Aggressive",
+        "Irrelevant",
+        "Friendly"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The opposite of Hostile is friendly."
+    },
+    {
+      "id": "m8_e_98",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
+      "options": [
+        "To reveal a secret",
+        "To be extremely happy",
+        "To cook food",
+        "To act aggressively"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Spill the beans' means to reveal a secret."
+    },
+    {
+      "id": "m8_e_99",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q24] Select the correctly spelt word.",
+      "options": [
+        "Emmbarrass",
+        "Embarass",
+        "Embarras",
+        "Embarrass"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct spelling is Embarrass."
+    },
+    {
+      "id": "m8_e_100",
+      "section": "English Comprehension",
+      "type": "single",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
+      "options": [
+        "He",
+        "did not went",
+        "today",
+        "to the store"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
+    }
+  ]
+},
+{
+  "id": "ssc-cgl-tier1-mock-09",
+  "title": "SSC CGL TIER-1 MOCK 09",
+  "category": "Tier-1 Full Length",
+  "durationMinutes": 60,
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "negativeMarking": true,
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #09. 100 questions spanning Reasoning, GA, Quant, and English.",
+  "questions": [
+    {
+      "id": "m9_r_1",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        "50",
+        "54",
+        49,
+        "47"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m9_r_2",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "UCSFGU",
+        "RBPFDQ",
+        "UBSHFU"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m9_r_3",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Cub",
+        "Irrelevant 1",
+        "Kitten",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m9_r_4",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Cousin",
+        "Brother",
+        "Uncle"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m9_r_5",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows",
+        "Only conclusion II follows"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m9_r_6",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 4, 9, 16, 25, ?",
+      "options": [
+        36,
+        "34",
+        "41",
+        "37"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 2\u00b2, 3\u00b2, 4\u00b2, etc."
+    },
+    {
+      "id": "m9_r_7",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "UCSFGU",
+        "VCTIGV",
+        "SZQFDS"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m9_r_8",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 1",
+        "Cub",
+        "Irrelevant 2",
+        "Kitten"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m9_r_9",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Brother",
+        "Uncle",
+        "Cousin"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m9_r_10",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion I follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m9_r_11",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "65",
+        "62",
+        "69",
+        64
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m9_r_12",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "RBPFDQ",
+        "SZQFDS",
+        "UCSFGU",
+        "UBSHFU"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m9_r_13",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Kitten",
+        "Irrelevant 1",
+        "Cub",
+        "Irrelevant 2"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m9_r_14",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Father",
+        "Brother",
+        "Cousin"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m9_r_15",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m9_r_16",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 9, 16, 25, 36, ?",
+      "options": [
+        "50",
+        49,
+        "47",
+        "54"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 3\u00b2, 4\u00b2, 5\u00b2, etc."
+    },
+    {
+      "id": "m9_r_17",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "UBSHFU",
+        "SZQFDS",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
+    },
+    {
+      "id": "m9_r_18",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 2",
+        "Pressure",
+        "Humidity",
+        "Irrelevant 1"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m9_r_19",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Father",
+        "Uncle",
+        "Brother",
+        "Cousin"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m9_r_20",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion II follows"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m9_r_21",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
+      "options": [
+        "62",
+        "69",
+        64,
+        "65"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
+    },
+    {
+      "id": "m9_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "UCSFGU",
+        "SZQFDS",
+        "VCTIGV",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m9_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
+      "options": [
+        "Irrelevant 1",
+        "Irrelevant 2",
+        "Humidity",
+        "Pressure"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Thermometer -> Temperature."
+    },
+    {
+      "id": "m9_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Cousin",
+        "Brother",
+        "Father",
+        "Uncle"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m9_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Only conclusion II follows",
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Neither I nor II follows"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
+    },
+    {
+      "id": "m9_ga_26",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 7)",
+      "options": [
+        "Chief of Defence Staff",
+        "President of India",
+        "Minister of Defence",
+        "Prime Minister"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m9_ga_27",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Lactometer",
+        "Anemometer"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Barometer."
+    },
+    {
+      "id": "m9_ga_28",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha?",
+      "options": [
+        "2",
+        "14",
+        "12",
+        "10"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m9_ga_29",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Indian state has the longest coastline? (Set 1)",
+      "options": [
+        "Tamil Nadu",
+        "Maharashtra",
+        "Gujarat",
+        "Andhra Pradesh"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Gujarat."
+    },
+    {
+      "id": "m9_ga_30",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which gas is most abundant in the Earth's atmosphere? (Set 1)",
+      "options": [
+        "Argon",
+        "Carbon Dioxide",
+        "Oxygen",
+        "Nitrogen"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Nitrogen."
+    },
+    {
+      "id": "m9_ga_31",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 4)",
+      "options": [
+        "Ampere",
+        "Ohm",
+        "Watt",
+        "Volt"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m9_ga_32",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 9)",
+      "options": [
+        "Article 17",
+        "Article 32",
+        "Article 19",
+        "Article 14"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m9_ga_33",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year? (Set 8)",
+      "options": [
+        "1761",
+        "1556",
+        "1191",
+        "1526"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m9_ga_34",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 8)",
+      "options": [
+        "New Delhi",
+        "Chennai",
+        "Kolkata",
+        "Mumbai"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Mumbai."
+    },
+    {
+      "id": "m9_ga_35",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which is the longest river in Peninsular India? (Set 8)",
+      "options": [
+        "Kaveri",
+        "Godavari",
+        "Mahanadi",
+        "Krishna"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Godavari."
+    },
+    {
+      "id": "m9_ga_36",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 8)",
+      "options": [
+        "2",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m9_ga_37",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality?",
+      "options": [
+        "Article 32",
+        "Article 14",
+        "Article 19",
+        "Article 17"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m9_ga_38",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "How many members can be nominated by the President to the Rajya Sabha? (Set 7)",
+      "options": [
+        "12",
+        "2",
+        "14",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 12."
+    },
+    {
+      "id": "m9_ga_39",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 6)",
+      "options": [
+        "Lord Dalhousie",
+        "Lord Mountbatten",
+        "Warren Hastings",
+        "C. Rajagopalachari"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m9_ga_40",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces?",
+      "options": [
+        "Chief of Defence Staff",
+        "President of India",
+        "Prime Minister",
+        "Minister of Defence"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m9_ga_41",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The First Battle of Panipat was fought in the year? (Set 6)",
+      "options": [
+        "1191",
+        "1526",
+        "1761",
+        "1556"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is 1526."
+    },
+    {
+      "id": "m9_ga_42",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 3)",
+      "options": [
+        "USSR",
+        "Ireland",
+        "UK",
+        "USA"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m9_ga_43",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who was the first Governor-General of independent India? (Set 1)",
+      "options": [
+        "Lord Mountbatten",
+        "Lord Dalhousie",
+        "C. Rajagopalachari",
+        "Warren Hastings"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Lord Mountbatten."
+    },
+    {
+      "id": "m9_ga_44",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 9)",
+      "options": [
+        "Indus",
+        "Brahmaputra",
+        "Teesta",
+        "Ganga"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m9_ga_45",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 3)",
+      "options": [
+        "Article 14",
+        "Article 19",
+        "Article 32",
+        "Article 17"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Article 14."
+    },
+    {
+      "id": "m9_ga_46",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 7)",
+      "options": [
+        "USSR",
+        "UK",
+        "Ireland",
+        "USA"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ireland."
+    },
+    {
+      "id": "m9_ga_47",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is the supreme commander of the Indian Armed Forces? (Set 4)",
+      "options": [
+        "President of India",
+        "Chief of Defence Staff",
+        "Minister of Defence",
+        "Prime Minister"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is President of India."
+    },
+    {
+      "id": "m9_ga_48",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "Who is known as the Father of Indian Economics? (Set 1)",
+      "options": [
+        "Raghuram Rajan",
+        "Amartya Sen",
+        "Dadabhai Naoroji",
+        "Manmohan Singh"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Dadabhai Naoroji."
+    },
+    {
+      "id": "m9_ga_49",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 5)",
+      "options": [
+        "Indus",
+        "Teesta",
+        "Brahmaputra",
+        "Ganga"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Brahmaputra."
+    },
+    {
+      "id": "m9_ga_50",
+      "section": "General Awareness",
+      "type": "single",
+      "question": "What is the SI unit of electrical resistance? (Set 9)",
+      "options": [
+        "Ohm",
+        "Watt",
+        "Ampere",
+        "Volt"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The correct answer is Ohm."
+    },
+    {
+      "id": "m9_q_51",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "90\u00b0",
+        "30\u00b0",
+        "45\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m9_q_52",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "236",
+        "228",
+        "234",
+        "240"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m9_q_53",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "9 cm",
+        "20 cm",
+        "22 cm",
+        "18 cm"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 4\u00b2) = 18 cm."
+    },
+    {
+      "id": "m9_q_54",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 20%. Find his profit percentage.",
+      "options": [
+        "-1.0%",
+        "2.0%",
+        "5.0%",
+        "0.0%"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 20 - (25*20)/100 = 0.0%."
+    },
+    {
+      "id": "m9_q_55",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 15 days, and B in 30 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "14 days",
+        "12 days",
+        "10 days",
+        "9 days"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (15*30)/(15+30) = 10 days."
+    },
+    {
+      "id": "m9_q_56",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 4000 is invested at simple interest of 12% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 5160",
+        "Rs. 4960",
+        "Rs. 4810",
+        "Rs. 5460"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 960. Amount = P + SI = 4000 + 960 = 4960."
+    },
+    {
+      "id": "m9_q_57",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 15 seconds. What is the length of the train?",
+      "options": [
+        "475 m",
+        "375 m",
+        "425 m",
+        "355 m"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 15 = 375 m."
+    },
+    {
+      "id": "m9_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 310 is divided between P and Q in the ratio 4:6. What is P's share?",
+      "options": [
+        "Rs. 134",
+        "Rs. 124",
+        "Rs. 104",
+        "Rs. 186"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 310 * (4/10) = 124."
+    },
+    {
+      "id": "m9_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "60\u00b0",
+        "30\u00b0",
+        "90\u00b0",
+        "45\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
+    },
+    {
+      "id": "m9_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "228",
+        "234",
+        "240",
+        "236"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
+    },
+    {
+      "id": "m9_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 10 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
+      "options": [
+        "22 cm",
+        "20 cm",
+        "18 cm",
+        "9 cm"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(10\u00b2 - 4\u00b2) = 18 cm."
+    },
+    {
+      "id": "m9_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 10%. Find his profit percentage.",
+      "options": [
+        "12.5%",
+        "11.5%",
+        "14.5%",
+        "17.5%"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 10 - (25*10)/100 = 12.5%."
+    },
+    {
+      "id": "m9_q_63",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
+      "options": [
+        "7 days",
+        "10 days",
+        "12 days",
+        "8 days"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
+    },
+    {
+      "id": "m9_q_64",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A sum of Rs. 6000 is invested at simple interest of 10% per annum. What will be the total amount after 2 years?",
+      "options": [
+        "Rs. 7400",
+        "Rs. 7200",
+        "Rs. 7050",
+        "Rs. 7700"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "SI = P*R*T/100 = 1200. Amount = P + SI = 6000 + 1200 = 7200."
+    },
+    {
+      "id": "m9_q_65",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
       "options": [
         "200 m",
         "250 m",
@@ -12315,3189 +13943,1481 @@ const SAMPLE_MOCK_TESTS = [
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 20 = 200m."
-    },
-    {
-      "id": "m8_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "42",
-        "38",
-        "40",
-        "36"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m8_q_66",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 352?",
-      "options": [
-        "123",
-        "118",
-        "143",
-        "133"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 352 = 123."
-    },
-    {
-      "id": "m8_q_67",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 190 and sold it at a profit of 20%. Find the selling price.",
-      "options": [
-        "Rs. 237",
-        "Rs. 238",
-        "Rs. 228",
-        "Rs. 208"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 190 + (20% of 190) = 228."
-    },
-    {
-      "id": "m8_q_68",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 15 days, and B can do it in 30 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        "12 days",
-        "9 days",
-        10
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/15, by B = 1/30. Total = 1/15 + 1/30. Days = 10."
-    },
-    {
-      "id": "m8_q_69",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 9000 at 5% per annum for 4 years.",
-      "options": [
-        "Rs. 1900",
-        "Rs. 1800",
-        "Rs. 1600",
-        "Rs. 1850"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 9000*5*4/100 = 1800."
-    },
-    {
-      "id": "m8_q_70",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "280 m",
-        "300 m",
-        "350 m",
-        "400 m"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 15 = 300m."
-    },
-    {
-      "id": "m8_q_71",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "16",
-        "22",
-        "18",
-        "20"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
-    },
-    {
-      "id": "m8_q_72",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 45% of 354?",
-      "options": [
-        "179",
-        "159",
-        "169",
-        "154"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "45/100 * 354 = 159."
-    },
-    {
-      "id": "m8_q_73",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 310 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 383",
-        "Rs. 403",
-        "Rs. 413",
-        "Rs. 418"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 310 + (30% of 310) = 403."
-    },
-    {
-      "id": "m8_q_74",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 12 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        7,
-        "6 days",
-        "9 days",
-        "11 days"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/12, by B = 1/20. Total = 1/12 + 1/20. Days = 7."
-    },
-    {
-      "id": "m8_q_75",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 4000 at 15% per annum for 4 years.",
-      "options": [
-        "Rs. 2450",
-        "Rs. 2200",
-        "Rs. 2500",
-        "Rs. 2400"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 4000*15*4/100 = 2400."
-    },
-    {
-      "id": "m8_e_76",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q225] Select the synonym of: WORD_224",
-      "options": [
-        "Unrelated_224",
-        "Random_224",
-        "Antonym_224",
-        "Synonym_224"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_224."
-    },
-    {
-      "id": "m8_e_77",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q182] Select the antonym of: WORD_181",
-      "options": [
-        "Antonym_181",
-        "Random_181",
-        "Unrelated_181",
-        "Synonym_181"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_181."
-    },
-    {
-      "id": "m8_e_78",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q109] Select the synonym of: WORD_108",
-      "options": [
-        "Synonym_108",
-        "Antonym_108",
-        "Random_108",
-        "Unrelated_108"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_108."
-    },
-    {
-      "id": "m8_e_79",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q242] Select the antonym of: WORD_241",
-      "options": [
-        "Random_241",
-        "Unrelated_241",
-        "Antonym_241",
-        "Synonym_241"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_241."
-    },
-    {
-      "id": "m8_e_80",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q168] Meaning of idiom: IDIOM_167",
-      "options": [
-        "Wrong meaning C",
-        "Correct meaning 167",
-        "Wrong meaning A",
-        "Wrong meaning B"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 167."
-    },
-    {
-      "id": "m8_e_81",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q102] Select the antonym of: WORD_101",
-      "options": [
-        "Random_101",
-        "Unrelated_101",
-        "Antonym_101",
-        "Synonym_101"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_101."
-    },
-    {
-      "id": "m8_e_82",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q227] Find the error in the sentence: 'Sentence part 226.'",
-      "options": [
-        "No error",
-        "Error in verb",
-        "Error in noun",
-        "Error in part 226"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 226."
-    },
-    {
-      "id": "m8_e_83",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q164] Meaning of idiom: IDIOM_163",
-      "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 163",
-        "Wrong meaning C"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 163."
-    },
-    {
-      "id": "m8_e_84",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q222] Select the antonym of: WORD_221",
-      "options": [
-        "Synonym_221",
-        "Antonym_221",
-        "Random_221",
-        "Unrelated_221"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_221."
-    },
-    {
-      "id": "m8_e_85",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q158] Select the antonym of: WORD_157",
-      "options": [
-        "Antonym_157",
-        "Random_157",
-        "Unrelated_157",
-        "Synonym_157"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_157."
-    },
-    {
-      "id": "m8_e_86",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q122] Select the antonym of: WORD_121",
-      "options": [
-        "Synonym_121",
-        "Antonym_121",
-        "Random_121",
-        "Unrelated_121"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_121."
-    },
-    {
-      "id": "m8_e_87",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q247] Find the error in the sentence: 'Sentence part 246.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "Error in part 246",
-        "No error"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 246."
-    },
-    {
-      "id": "m8_e_88",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q11] Find the error in the sentence: 'Sentence part 10.'",
-      "options": [
-        "Error in noun",
-        "Error in verb",
-        "Error in part 10",
-        "No error"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 10."
-    },
-    {
-      "id": "m8_e_89",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q229] Select the synonym of: WORD_228",
-      "options": [
-        "Unrelated_228",
-        "Random_228",
-        "Antonym_228",
-        "Synonym_228"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_228."
-    },
-    {
-      "id": "m8_e_90",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q55] Find the error in the sentence: 'Sentence part 54.'",
-      "options": [
-        "Error in verb",
-        "Error in part 54",
-        "Error in noun",
-        "No error"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 54."
-    },
-    {
-      "id": "m8_e_91",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q191] Find the error in the sentence: 'Sentence part 190.'",
-      "options": [
-        "No error",
-        "Error in noun",
-        "Error in verb",
-        "Error in part 190"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 190."
-    },
-    {
-      "id": "m8_e_92",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q175] Find the error in the sentence: 'Sentence part 174.'",
-      "options": [
-        "No error",
-        "Error in part 174",
-        "Error in noun",
-        "Error in verb"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 174."
-    },
-    {
-      "id": "m8_e_93",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q94] Select the antonym of: WORD_93",
-      "options": [
-        "Synonym_93",
-        "Random_93",
-        "Antonym_93",
-        "Unrelated_93"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_93."
-    },
-    {
-      "id": "m8_e_94",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q46] Select the antonym of: WORD_45",
-      "options": [
-        "Antonym_45",
-        "Unrelated_45",
-        "Synonym_45",
-        "Random_45"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_45."
-    },
-    {
-      "id": "m8_e_95",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q90] Select the antonym of: WORD_89",
-      "options": [
-        "Synonym_89",
-        "Unrelated_89",
-        "Random_89",
-        "Antonym_89"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_89."
-    },
-    {
-      "id": "m8_e_96",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q66] Select the antonym of: WORD_65",
-      "options": [
-        "Unrelated_65",
-        "Random_65",
-        "Antonym_65",
-        "Synonym_65"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_65."
-    },
-    {
-      "id": "m8_e_97",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q156] Meaning of idiom: IDIOM_155",
-      "options": [
-        "Correct meaning 155",
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Wrong meaning A"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 155."
-    },
-    {
-      "id": "m8_e_98",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q113] Select the synonym of: WORD_112",
-      "options": [
-        "Unrelated_112",
-        "Antonym_112",
-        "Synonym_112",
-        "Random_112"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_112."
-    },
-    {
-      "id": "m8_e_99",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q34] Select the antonym of: WORD_33",
-      "options": [
-        "Antonym_33",
-        "Random_33",
-        "Synonym_33",
-        "Unrelated_33"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_33."
-    },
-    {
-      "id": "m8_e_100",
-      "section": "English Comprehension",
-      "type": "single",
-      "question": "[Q106] Select the antonym of: WORD_105",
-      "options": [
-        "Synonym_105",
-        "Antonym_105",
-        "Random_105",
-        "Unrelated_105"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_105."
-    }
-  ]
-},
-{
-  "id": "ssc-cgl-tier1-mock-09",
-  "title": "SSC CGL Tier-1 Full Mock 09 (API Sourced)",
-  "category": "Tier-1 Full Length",
-  "durationMinutes": 60,
-  "totalQuestions": 100,
-  "totalMarks": 200,
-  "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #09. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
-  "questions": [
-    {
-      "id": "m9_r_1",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 4, 7, 10, 13, ?",
-      "options": [
-        "19",
-        "17",
-        "14",
-        "16"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m9_r_2",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK9' is written as 'NPDL9', how is the code shifted?",
-      "options": [
-        "Backward by 1",
-        "Forward by 1",
-        "Backward by 0",
-        "Forward by 2"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m9_r_3",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 2 + 4 = ?",
-      "options": [
-        "64",
-        "37",
-        "32",
-        "30"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 2 - 4 = 32."
-    },
-    {
-      "id": "m9_r_4",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 2, 7, 12, 17, ?",
-      "options": [
-        "20",
-        "27",
-        "22",
-        "23"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m9_r_5",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'GOVT9' is written as 'HPWU9', how is the code shifted?",
-      "options": [
-        "Backward by 0",
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m9_r_6",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 2 + 5 = ?",
-      "options": [
-        "66",
-        "38",
-        "31",
-        "33"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 2 - 5 = 33."
-    },
-    {
-      "id": "m9_r_7",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 15, 20, 25, ?",
-      "options": [
-        "35",
-        "30",
-        "31",
-        "28"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m9_r_8",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK9' is written as 'NPDL9', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1",
-        "Backward by 0"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m9_r_9",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 2 + 5 = ?",
-      "options": [
-        "29",
-        "31",
-        "62",
-        "36"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 2 - 5 = 31."
-    },
-    {
-      "id": "m9_r_10",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
-      "options": [
-        "18",
-        "19",
-        "17",
-        "15"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m9_r_11",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'EXAM9' is written as 'FYBN9', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Backward by 0",
-        "Forward by 1"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m9_r_12",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 2 + 3 = ?",
-      "options": [
-        "35",
-        "37",
-        "74",
-        "42"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 2 - 3 = 37."
-    },
-    {
-      "id": "m9_r_13",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 6, 8, 10, 12, ?",
-      "options": [
-        "14",
-        "16",
-        "12",
-        "15"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m9_r_14",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'TEST9' is written as 'WHVW9', how is the code shifted?",
-      "options": [
-        "Backward by 2",
-        "Forward by 3",
-        "Forward by 4",
-        "Backward by 3"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
-    },
-    {
-      "id": "m9_r_15",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 10 - 4 + 4 = ?",
-      "options": [
-        "41",
-        "72",
-        "34",
-        "36"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 10 * 4 - 4 = 36."
-    },
-    {
-      "id": "m9_r_16",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 10, 15, 20, 25, ?",
-      "options": [
-        "30",
-        "28",
-        "35",
-        "31"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m9_r_17",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'SSC9' is written as 'TTD9', how is the code shifted?",
-      "options": [
-        "Backward by 0",
-        "Backward by 1",
-        "Forward by 2",
-        "Forward by 1"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
-    },
-    {
-      "id": "m9_r_18",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 12 - 4 + 5 = ?",
-      "options": [
-        "86",
-        "41",
-        "43",
-        "48"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 12 * 4 - 5 = 43."
-    },
-    {
-      "id": "m9_r_19",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 11, 14, 17, ?",
-      "options": [
-        "23",
-        "20",
-        "18",
-        "21"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m9_r_20",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'RAIL9' is written as 'TCKN9', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 3",
-        "Backward by 2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m9_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 5 + 3 = ?",
-      "options": [
-        "90",
-        "92",
-        "97",
-        "184"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 5 - 3 = 92."
-    },
-    {
-      "id": "m9_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 3, 8, 13, 18, ?",
-      "options": [
-        "23",
-        "28",
-        "24",
-        "21"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
-    },
-    {
-      "id": "m9_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK9' is written as 'OQEM9', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Forward by 3",
-        "Backward by 2",
-        "Backward by 1"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m9_r_24",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 2 + 3 = ?",
-      "options": [
-        "35",
-        "74",
-        "42",
-        "37"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 2 - 3 = 37."
-    },
-    {
-      "id": "m9_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 8, 12, 16, 20, ?",
-      "options": [
-        "28",
-        "22",
-        "24",
-        "25"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
-    },
-    {
-      "id": "m9_ga_26",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q132] In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?",
-      "options": [
-        "3",
-        "0",
-        "1",
-        "2"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 3."
-    },
-    {
-      "id": "m9_ga_27",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q95] Which of these is NOT a city in Saudi Arabia?",
-      "options": [
-        "Dubai",
-        "Riyadh",
-        "Mecca",
-        "Medina"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Dubai."
-    },
-    {
-      "id": "m9_ga_28",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q85] Which is the largest of these 4 islands?",
-      "options": [
-        "Cuba",
-        "Borneo",
-        "Great Britain",
-        "Madagascar"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Borneo."
-    },
-    {
-      "id": "m9_ga_29",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q122] Which US state was the first to allow women to vote in 1869?",
-      "options": [
-        "Wyoming",
-        "Virginia",
-        "California",
-        "Delaware"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Wyoming."
-    },
-    {
-      "id": "m9_ga_30",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 176",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_31",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q147] Which of the following United States Presidents served the shortest term in office?",
-      "options": [
-        "Warren G. Harding",
-        "Zachary Taylor",
-        "William Henry Harrison",
-        "James A. Garfield"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is William Henry Harrison."
-    },
-    {
-      "id": "m9_ga_32",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q45] Which of the following liquids is least viscous? Assume temperature is 25\u00b0C.",
-      "options": [
-        "Water",
-        "Mercury",
-        "Benzene",
-        "Acetone"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Acetone."
-    },
-    {
-      "id": "m9_ga_33",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 193",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_34",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q68] On which continent/s is the entire country of Spain specifically located when taking into account all of its territory?",
-      "options": [
-        "Europe",
-        "Europe, Africa and Asia",
-        "Europe and Asia",
-        "Europe and Africa"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Europe and Africa."
-    },
-    {
-      "id": "m9_ga_35",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q145] The Watergate Scandal occured in what year?",
-      "options": [
-        "1973",
-        "1974",
-        "1971",
-        "1972"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is 1972."
-    },
-    {
-      "id": "m9_ga_36",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 163",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_37",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 204",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_38",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q28] What is the first element on the periodic table?",
-      "options": [
-        "Helium",
-        "Oxygen",
-        "Hydrogen",
-        "Lithium"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Hydrogen."
-    },
-    {
-      "id": "m9_ga_39",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q119] Who became Prime Minister of the United Kingdom in July 2016?",
-      "options": [
-        "Boris Johnson",
-        "David Cameron",
-        "Tony Blair",
-        "Theresa May"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Theresa May."
-    },
-    {
-      "id": "m9_ga_40",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 219",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_41",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q126] Who was the longest-serving senator in US history, serving from 1959 to 2010?",
-      "options": [
-        "Strom Thurmond",
-        "Joe Biden",
-        "Robert Byrd",
-        "Daniel Inouye"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Robert Byrd."
-    },
-    {
-      "id": "m9_ga_42",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q91] Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?",
-      "options": [
-        "United Arab Emirates",
-        "Jordan",
-        "Qatar",
-        "Kuwait"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Qatar."
-    },
-    {
-      "id": "m9_ga_43",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 180",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_44",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q98] Which of these countries is \"doubly landlocked\" (surrounded entirely by one or more landlocked countries)?",
-      "options": [
-        "Bolivia",
-        "Ethiopia",
-        "Uzbekistan",
-        "Switzerland"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Uzbekistan."
-    },
-    {
-      "id": "m9_ga_45",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q53] Which city is the capital of the United States of America?",
-      "options": [
-        "Seattle",
-        "Albany",
-        "Washington D.C",
-        "Los Angeles"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Washington D.C."
-    },
-    {
-      "id": "m9_ga_46",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "Dummy GK Question 205",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Fallback"
-    },
-    {
-      "id": "m9_ga_47",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q58] Which of these countries is NOT located in Africa?",
-      "options": [
-        "Burkina Faso",
-        "Mozambique",
-        "Algeria",
-        "Suriname"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Suriname."
-    },
-    {
-      "id": "m9_ga_48",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q60] What event led to Liechenstein adding a crown to its flag?",
-      "options": [
-        "Signing of the 1862 Constitution of Liechtenstein",
-        "The 1936 Olympics",
-        "Coronation of Prince Johann I Joseph in 1805",
-        "Charles VI's decree in 1719"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The 1936 Olympics."
-    },
-    {
-      "id": "m9_ga_49",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q87] What is the official national language of Pakistan?",
-      "options": [
-        "Punjabi",
-        "Pashto",
-        "Indian",
-        "Urdu"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is Urdu."
-    },
-    {
-      "id": "m9_ga_50",
-      "section": "General Awareness",
-      "type": "single",
-      "question": "[Q93] The Principality of Sealand is an unrecognized micronation off the coast of what country?",
-      "options": [
-        "Austrailia",
-        "Japan",
-        "The United Kingdom",
-        "Argentina"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The correct answer is The United Kingdom."
-    },
-    {
-      "id": "m9_q_51",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "150 m",
-        "250 m",
-        "130 m",
-        "200 m"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
-    },
-    {
-      "id": "m9_q_52",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "8",
-        "10",
-        "4",
-        "6"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m9_q_53",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 25% of 445?",
-      "options": [
-        "131",
-        "111",
-        "106",
-        "121"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "25/100 * 445 = 111."
-    },
-    {
-      "id": "m9_q_54",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 370 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 481",
-        "Rs. 499",
-        "Rs. 491",
-        "Rs. 461"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 370 + (30% of 370) = 481."
-    },
-    {
-      "id": "m9_q_55",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 20 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        "12 days",
-        10,
-        "9 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/20. Total = 1/20 + 1/20. Days = 10."
-    },
-    {
-      "id": "m9_q_56",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 5000 at 10% per annum for 3 years.",
-      "options": [
-        "Rs. 1550",
-        "Rs. 1600",
-        "Rs. 1300",
-        "Rs. 1500"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 5000*10*3/100 = 1500."
-    },
-    {
-      "id": "m9_q_57",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
-      "options": [
-        "180 m",
-        "300 m",
-        "250 m",
-        "200 m"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 10 = 200m."
-    },
-    {
-      "id": "m9_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "10",
-        "6",
-        "8",
-        "4"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
-    },
-    {
-      "id": "m9_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 15% of 430?",
-      "options": [
-        "84",
-        "74",
-        "59",
-        "64"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "15/100 * 430 = 64."
-    },
-    {
-      "id": "m9_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 130 and sold it at a profit of 25%. Find the selling price.",
-      "options": [
-        "Rs. 169",
-        "Rs. 172",
-        "Rs. 162",
-        "Rs. 142"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 130 + (25% of 130) = 162."
-    },
-    {
-      "id": "m9_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 10 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "7 days",
-        "10 days",
-        "12 days",
-        8
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/10, by B = 1/60. Total = 1/10 + 1/60. Days = 8."
-    },
-    {
-      "id": "m9_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 3000 at 15% per annum for 4 years.",
-      "options": [
-        "Rs. 1850",
-        "Rs. 1800",
-        "Rs. 1900",
-        "Rs. 1600"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 3000*15*4/100 = 1800."
-    },
-    {
-      "id": "m9_q_63",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 36 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
-      "options": [
-        "200 m",
-        "130 m",
-        "150 m",
-        "250 m"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Speed = 36 * 5/18 = 10 m/s. Length = 10 * 15 = 150m."
-    },
-    {
-      "id": "m9_q_64",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "29",
-        "27",
-        "31",
-        "25"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
-    },
-    {
-      "id": "m9_q_65",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 737?",
-      "options": [
-        "277",
-        "252",
-        "267",
-        "257"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 737 = 257."
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 10 = 200 m."
     },
     {
       "id": "m9_q_66",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 110 and sold it at a profit of 30%. Find the selling price.",
+      "question": "An amount of Rs. 120 is divided between P and Q in the ratio 5:3. What is P's share?",
       "options": [
-        "Rs. 148",
-        "Rs. 153",
-        "Rs. 123",
-        "Rs. 143"
+        "Rs. 85",
+        "Rs. 75",
+        "Rs. 45",
+        "Rs. 55"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 110 + (30% of 110) = 143."
+      "explanation": "P's share = 120 * (5/8) = 75."
     },
     {
       "id": "m9_q_67",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 30 days. If they work together, how many days will they take?",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        12,
-        "11 days",
-        "16 days",
-        "14 days"
+        "45\u00b0",
+        "60\u00b0",
+        "45\u00b0",
+        "90\u00b0"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/30. Total = 1/20 + 1/30. Days = 12."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
     },
     {
       "id": "m9_q_68",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 8000 at 10% per annum for 2 years.",
+      "question": "If x - 1/x = 6, then what is the value of x\u00b3 - 1/x\u00b3?",
       "options": [
-        "Rs. 1600",
-        "Rs. 1400",
-        "Rs. 1650",
-        "Rs. 1700"
+        "228",
+        "236",
+        "234",
+        "240"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 8000*10*2/100 = 1600."
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 6\u00b3 + 3(6) = 234."
     },
     {
       "id": "m9_q_69",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
       "options": [
-        "130 m",
-        "200 m",
-        "250 m",
-        "150 m"
+        "26 cm",
+        "12 cm",
+        "24 cm",
+        "28 cm"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 4\u00b2) = 24 cm."
     },
     {
       "id": "m9_q_70",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "A trader marks his goods 40% above CP and allows a discount of 15%. Find his profit percentage.",
       "options": [
-        "42",
-        "36",
-        "40",
-        "38"
+        "19.0%",
+        "21.0%",
+        "18.0%",
+        "24.0%"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 40 - 15 - (40*15)/100 = 19.0%."
     },
     {
       "id": "m9_q_71",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 25% of 529?",
+      "question": "A can complete a task in 10 days, and B in 15 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "127",
-        "142",
-        "132",
-        "152"
+        "10 days",
+        "5 days",
+        "6 days",
+        "8 days"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "25/100 * 529 = 132."
+      "explanation": "Total days = (A*B)/(A+B) = (10*15)/(10+15) = 6 days."
     },
     {
       "id": "m9_q_72",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 390 and sold it at a profit of 25%. Find the selling price.",
+      "question": "A sum of Rs. 3000 is invested at simple interest of 5% per annum. What will be the total amount after 2 years?",
       "options": [
-        "Rs. 507",
-        "Rs. 497",
-        "Rs. 487",
-        "Rs. 467"
+        "Rs. 3500",
+        "Rs. 3150",
+        "Rs. 3800",
+        "Rs. 3300"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 390 + (25% of 390) = 487."
+      "explanation": "SI = P*R*T/100 = 300. Amount = P + SI = 3000 + 300 = 3300."
     },
     {
       "id": "m9_q_73",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 10 days, and B can do it in 20 days. If they work together, how many days will they take?",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
       "options": [
-        "10 days",
-        "8 days",
-        "5 days",
-        6
+        "350 m",
+        "250 m",
+        "230 m",
+        "300 m"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/10, by B = 1/20. Total = 1/10 + 1/20. Days = 6."
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 10 = 250 m."
     },
     {
       "id": "m9_q_74",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 1000 at 5% per annum for 4 years.",
+      "question": "An amount of Rs. 196 is divided between P and Q in the ratio 3:4. What is P's share?",
       "options": [
-        "Rs. 200",
-        "Rs. 250",
-        "Rs. 0",
-        "Rs. 300"
+        "Rs. 112",
+        "Rs. 94",
+        "Rs. 84",
+        "Rs. 64"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 1000*5*4/100 = 200."
+      "explanation": "P's share = 196 * (3/7) = 84."
     },
     {
       "id": "m9_q_75",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 90 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
+      "question": "If sin(\u03b8) = cos(30\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "475 m",
-        "355 m",
-        "425 m",
-        "375 m"
+        "45\u00b0",
+        "90\u00b0",
+        "60\u00b0",
+        "30\u00b0"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 90 * 5/18 = 25 m/s. Length = 25 * 15 = 375m."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 30 => \u03b8 = 60."
     },
     {
       "id": "m9_e_76",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q197] Select the synonym of: WORD_196",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Candid",
       "options": [
-        "Antonym_196",
-        "Synonym_196",
-        "Unrelated_196",
-        "Random_196"
+        "Irrelevant",
+        "Deceitful",
+        "Frank",
+        "Secret"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_196."
+      "explanation": "Candid means frank."
     },
     {
       "id": "m9_e_77",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q8] Meaning of idiom: IDIOM_7",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Barren",
       "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 7",
-        "Wrong meaning C"
+        "Dry",
+        "Empty",
+        "Irrelevant",
+        "Fertile"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 7."
+      "explanation": "The opposite of Barren is fertile."
     },
     {
       "id": "m9_e_78",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q142] Select the antonym of: WORD_141",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Under the weather'",
       "options": [
-        "Synonym_141",
-        "Unrelated_141",
-        "Antonym_141",
-        "Random_141"
+        "To be extremely happy",
+        "To cook food",
+        "Feeling ill",
+        "To act aggressively"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_141."
+      "explanation": "'Under the weather' means feeling ill."
     },
     {
       "id": "m9_e_79",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q78] Select the antonym of: WORD_77",
+      "question": "[Q4] Select the correctly spelt word.",
       "options": [
-        "Unrelated_77",
-        "Antonym_77",
-        "Synonym_77",
-        "Random_77"
+        "Embarras",
+        "Emmbarrass",
+        "Embarass",
+        "Embarrass"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_77."
+      "explanation": "The correct spelling is Embarrass."
     },
     {
       "id": "m9_e_80",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q108] Meaning of idiom: IDIOM_107",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 107",
-        "Wrong meaning A"
+        "to the store",
+        "He",
+        "today",
+        "did not went"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 107."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m9_e_81",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q183] Find the error in the sentence: 'Sentence part 182.'",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Diligent",
       "options": [
-        "Error in verb",
-        "Error in noun",
-        "Error in part 182",
-        "No error"
+        "Lethargic",
+        "Irrelevant",
+        "Hardworking",
+        "Lazy"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 182."
+      "explanation": "Diligent means hardworking."
     },
     {
       "id": "m9_e_82",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q18] Select the antonym of: WORD_17",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Obsolete",
       "options": [
-        "Unrelated_17",
-        "Antonym_17",
-        "Synonym_17",
-        "Random_17"
+        "Ancient",
+        "Irrelevant",
+        "Modern",
+        "Outdated"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_17."
+      "explanation": "The opposite of Obsolete is modern."
     },
     {
       "id": "m9_e_83",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q144] Meaning of idiom: IDIOM_143",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Spill the beans'",
       "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 143"
+        "To act aggressively",
+        "To cook food",
+        "To reveal a secret",
+        "To be extremely happy"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 143."
+      "explanation": "'Spill the beans' means to reveal a secret."
     },
     {
       "id": "m9_e_84",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q199] Find the error in the sentence: 'Sentence part 198.'",
+      "question": "[Q9] Select the correctly spelt word.",
       "options": [
-        "No error",
-        "Error in noun",
-        "Error in verb",
-        "Error in part 198"
+        "Embarrass",
+        "Embarras",
+        "Embarass",
+        "Emmbarrass"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 198."
+      "explanation": "The correct spelling is Embarrass."
     },
     {
       "id": "m9_e_85",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q206] Select the antonym of: WORD_205",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Synonym_205",
-        "Antonym_205",
-        "Unrelated_205",
-        "Random_205"
+        "to the store",
+        "today",
+        "He",
+        "did not went"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_205."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m9_e_86",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q22] Select the antonym of: WORD_21",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Candid",
       "options": [
-        "Antonym_21",
-        "Unrelated_21",
-        "Synonym_21",
-        "Random_21"
+        "Frank",
+        "Irrelevant",
+        "Deceitful",
+        "Secret"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_21."
+      "explanation": "Candid means frank."
     },
     {
       "id": "m9_e_87",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q205] Select the synonym of: WORD_204",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Obsolete",
       "options": [
-        "Synonym_204",
-        "Random_204",
-        "Antonym_204",
-        "Unrelated_204"
+        "Irrelevant",
+        "Modern",
+        "Ancient",
+        "Outdated"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_204."
+      "explanation": "The opposite of Obsolete is modern."
     },
     {
       "id": "m9_e_88",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q226] Select the antonym of: WORD_225",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
       "options": [
-        "Random_225",
-        "Synonym_225",
-        "Antonym_225",
-        "Unrelated_225"
+        "To act aggressively",
+        "To be extremely happy",
+        "Avoid the main topic",
+        "To cook food"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_225."
+      "explanation": "'Beat around the bush' means avoid the main topic."
     },
     {
       "id": "m9_e_89",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q145] Select the synonym of: WORD_144",
+      "question": "[Q14] Select the correctly spelt word.",
       "options": [
-        "Random_144",
-        "Antonym_144",
-        "Unrelated_144",
-        "Synonym_144"
+        "Fascinnate",
+        "Fascinate",
+        "Fassinate",
+        "Facinate"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_144."
+      "explanation": "The correct spelling is Fascinate."
     },
     {
       "id": "m9_e_90",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q32] Meaning of idiom: IDIOM_31",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C",
-        "Correct meaning 31"
+        "to the store",
+        "today",
+        "He",
+        "did not went"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 31."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m9_e_91",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q214] Select the antonym of: WORD_213",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Diligent",
       "options": [
-        "Synonym_213",
-        "Unrelated_213",
-        "Antonym_213",
-        "Random_213"
+        "Lethargic",
+        "Irrelevant",
+        "Lazy",
+        "Hardworking"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_213."
+      "explanation": "Diligent means hardworking."
     },
     {
       "id": "m9_e_92",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q6] Select the antonym of: WORD_5",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
       "options": [
-        "Random_5",
-        "Unrelated_5",
-        "Antonym_5",
-        "Synonym_5"
+        "Friendly",
+        "Irrelevant",
+        "Bitter",
+        "Aggressive"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_5."
+      "explanation": "The opposite of Hostile is friendly."
     },
     {
       "id": "m9_e_93",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q230] Select the antonym of: WORD_229",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
       "options": [
-        "Unrelated_229",
-        "Synonym_229",
-        "Antonym_229",
-        "Random_229"
+        "To act aggressively",
+        "To be extremely happy",
+        "To cook food",
+        "To endure a painful situation"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_229."
+      "explanation": "'Bite the bullet' means to endure a painful situation."
     },
     {
       "id": "m9_e_94",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q218] Select the antonym of: WORD_217",
+      "question": "[Q19] Select the correctly spelt word.",
       "options": [
-        "Random_217",
-        "Antonym_217",
-        "Synonym_217",
-        "Unrelated_217"
+        "Fassinate",
+        "Fascinnate",
+        "Facinate",
+        "Fascinate"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_217."
+      "explanation": "The correct spelling is Fascinate."
     },
     {
       "id": "m9_e_95",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q59] Find the error in the sentence: 'Sentence part 58.'",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Error in part 58",
-        "No error",
-        "Error in verb",
-        "Error in noun"
+        "today",
+        "did not went",
+        "He",
+        "to the store"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 58."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m9_e_96",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q72] Meaning of idiom: IDIOM_71",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Diligent",
       "options": [
-        "Correct meaning 71",
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Wrong meaning C"
+        "Irrelevant",
+        "Hardworking",
+        "Lethargic",
+        "Lazy"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 71."
+      "explanation": "Diligent means hardworking."
     },
     {
       "id": "m9_e_97",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q28] Meaning of idiom: IDIOM_27",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Barren",
       "options": [
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 27",
-        "Wrong meaning C"
+        "Empty",
+        "Dry",
+        "Irrelevant",
+        "Fertile"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 27."
+      "explanation": "The opposite of Barren is fertile."
     },
     {
       "id": "m9_e_98",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q200] Meaning of idiom: IDIOM_199",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
       "options": [
-        "Correct meaning 199",
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Wrong meaning C"
+        "To act aggressively",
+        "To cook food",
+        "To be extremely happy",
+        "To endure a painful situation"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 199."
+      "explanation": "'Bite the bullet' means to endure a painful situation."
     },
     {
       "id": "m9_e_99",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q5] Select the synonym of: WORD_4",
+      "question": "[Q24] Select the correctly spelt word.",
       "options": [
-        "Unrelated_4",
-        "Random_4",
-        "Synonym_4",
-        "Antonym_4"
+        "Acommodate",
+        "Acccomodate",
+        "Accomodate",
+        "Accommodate"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_4."
+      "explanation": "The correct spelling is Accommodate."
     },
     {
       "id": "m9_e_100",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q40] Meaning of idiom: IDIOM_39",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Wrong meaning C",
-        "Correct meaning 39",
-        "Wrong meaning A",
-        "Wrong meaning B"
+        "today",
+        "to the store",
+        "He",
+        "did not went"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 39."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     }
   ]
 },
 {
   "id": "ssc-cgl-tier1-mock-10",
-  "title": "SSC CGL Tier-1 Full Mock 10 (API Sourced)",
+  "title": "SSC CGL TIER-1 MOCK 10",
   "category": "Tier-1 Full Length",
   "durationMinutes": 60,
   "totalQuestions": 100,
   "totalMarks": 200,
   "negativeMarking": true,
-  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #10. 100 distinct questions covering Reasoning, GA (API-sourced), Quant, and English.",
+  "description": "Authentic SSC CGL Tier-1 exam replica. Mock Test #10. 100 questions spanning Reasoning, GA, Quant, and English.",
   "questions": [
     {
       "id": "m10_r_1",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'SSC10' is written as 'TTD10', how is the code shifted?",
+      "question": "[Q1] Select the number that can replace the question mark (?) in the following series: 36, 49, 64, 81, ?",
       "options": [
-        "Backward by 0",
-        "Forward by 2",
-        "Backward by 1",
-        "Forward by 1"
+        100,
+        "98",
+        "105",
+        "101"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
+      "explanation": "The series is the squares of consecutive numbers: 6\u00b2, 7\u00b2, 8\u00b2, etc."
     },
     {
       "id": "m10_r_2",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 2 + 2 = ?",
+      "question": "[Q2] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
       "options": [
-        "41",
-        "34",
-        "72",
-        "36"
+        "SZQFDS",
+        "UCSFGU",
+        "RBPFDQ",
+        "UBSHFU"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 2 - 2 = 36."
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
     },
     {
       "id": "m10_r_3",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 3, 5, 7, 9, ?",
+      "question": "[Q3] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
       "options": [
-        "13",
-        "11",
-        "12",
-        "9"
+        "Kitten",
+        "Cub",
+        "Irrelevant 1",
+        "Irrelevant 2"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
+      "explanation": "The relationship is Dog -> Puppy."
     },
     {
       "id": "m10_r_4",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'MOCK10' is written as 'NPDL10', how is the code shifted?",
+      "question": "[Q4] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "Backward by 0",
-        "Backward by 1",
-        "Forward by 2",
-        "Forward by 1"
+        "Father",
+        "Uncle",
+        "Cousin",
+        "Brother"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m10_r_5",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 15 - 3 + 5 = ?",
+      "question": "[Q5] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "45",
-        "80",
-        "40",
-        "38"
+        "Only conclusion I follows",
+        "Both I and II follow",
+        "Only conclusion II follows",
+        "Neither I nor II follows"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 15 * 3 - 5 = 40."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m10_r_6",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 5, 10, 15, 20, ?",
+      "question": "[Q6] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "30",
-        "26",
-        "25",
-        "23"
+        "65",
+        "69",
+        "62",
+        64
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 5."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
     },
     {
       "id": "m10_r_7",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'TEST10' is written as 'VGUV10', how is the code shifted?",
+      "question": "[Q7] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
       "options": [
-        "Backward by 1",
-        "Forward by 3",
-        "Forward by 2",
-        "Backward by 2"
+        "VCTIGV",
+        "UCSFGU",
+        "RBPFDQ",
+        "SZQFDS"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m10_r_8",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 11 - 4 + 3 = ?",
+      "question": "[Q8] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
       "options": [
-        "41",
-        "46",
-        "82",
-        "39"
+        "Irrelevant 2",
+        "Cub",
+        "Irrelevant 1",
+        "Kitten"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 11 * 4 - 3 = 41."
+      "explanation": "The relationship is Dog -> Puppy."
     },
     {
       "id": "m10_r_9",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 9, 15, 21, 27, ?",
+      "question": "[Q9] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "39",
-        "31",
-        "33",
-        "34"
+        "Uncle",
+        "Father",
+        "Brother",
+        "Cousin"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m10_r_10",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'PASS10' is written as 'RCUU10', how is the code shifted?",
+      "question": "[Q10] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "Backward by 2",
-        "Backward by 1",
-        "Forward by 2",
-        "Forward by 3"
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Both I and II follow"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m10_r_11",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 16 - 5 + 5 = ?",
+      "question": "[Q11] Select the number that can replace the question mark (?) in the following series: 16, 25, 36, 49, ?",
       "options": [
-        "75",
-        "150",
-        "80",
-        "73"
+        "65",
+        "62",
+        "69",
+        64
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 16 * 5 - 5 = 75."
+      "explanation": "The series is the squares of consecutive numbers: 4\u00b2, 5\u00b2, 6\u00b2, etc."
     },
     {
       "id": "m10_r_12",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 10, 16, 22, 28, ?",
+      "question": "[Q12] In a certain code language, 'STRIKE' is written as 'TUSJLF'. How will 'TARGET' be written in that language?",
       "options": [
-        "40",
-        "32",
-        "34",
-        "35"
+        "UCSFGU",
+        "UBSHFU",
+        "SZQFDS",
+        "RBPFDQ"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
+      "explanation": "Each letter is shifted forward by 1 places in the English alphabetical order."
     },
     {
       "id": "m10_r_13",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'MOCK10' is written as 'PRFN10', how is the code shifted?",
+      "question": "[Q13] Select the option that is related to the third word in the same way as the second word is related to the first word.\nIndia : New Delhi :: Japan : ?",
       "options": [
-        "Backward by 3",
-        "Forward by 4",
-        "Forward by 3",
-        "Backward by 2"
+        "Irrelevant 1",
+        "Tokyo",
+        "Kyoto",
+        "Irrelevant 2"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "The relationship is India -> New Delhi."
     },
     {
       "id": "m10_r_14",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 14 - 5 + 3 = ?",
+      "question": "[Q14] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "72",
-        "67",
-        "134",
-        "65"
+        "Uncle",
+        "Cousin",
+        "Brother",
+        "Father"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 14 * 5 - 3 = 67."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m10_r_15",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 8, 12, 16, 20, ?",
+      "question": "[Q15] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "28",
-        "24",
-        "22",
-        "25"
+        "Both I and II follow",
+        "Neither I nor II follows",
+        "Only conclusion II follows",
+        "Only conclusion I follows"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 4."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m10_r_16",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'PASS10' is written as 'QBTT10', how is the code shifted?",
+      "question": "[Q16] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
       "options": [
-        "Forward by 2",
-        "Forward by 1",
-        "Backward by 1",
-        "Backward by 0"
+        "79",
+        "82",
+        81,
+        "86"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 1 positions."
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
     },
     {
       "id": "m10_r_17",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 20 - 2 + 4 = ?",
+      "question": "[Q17] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
       "options": [
-        "34",
-        "41",
-        "36",
-        "72"
+        "VCTIGV",
+        "SZQFDS",
+        "RBPFDQ",
+        "UCSFGU"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 20 * 2 - 4 = 36."
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
     },
     {
       "id": "m10_r_18",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 4, 10, 16, 22, ?",
+      "question": "[Q18] Select the option that is related to the third word in the same way as the second word is related to the first word.\nThermometer : Temperature :: Barometer : ?",
       "options": [
-        "29",
-        "34",
-        "26",
-        "28"
+        "Humidity",
+        "Irrelevant 2",
+        "Pressure",
+        "Irrelevant 1"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 6."
+      "explanation": "The relationship is Thermometer -> Temperature."
     },
     {
       "id": "m10_r_19",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "In a certain code, if 'RAIL10' is written as 'UDLO10', how is the code shifted?",
+      "question": "[Q19] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
       "options": [
-        "Forward by 3",
-        "Backward by 2",
-        "Backward by 3",
-        "Forward by 4"
+        "Father",
+        "Uncle",
+        "Cousin",
+        "Brother"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 3 positions."
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
     },
     {
       "id": "m10_r_20",
-      "section": "General Intelligence & Reasoning",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 18 - 5 + 3 = ?",
+      "question": "[Q20] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
       "options": [
-        "174",
-        "87",
-        "92",
-        "85"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 18 * 5 - 3 = 87."
-    },
-    {
-      "id": "m10_r_21",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "Complete the series: 9, 11, 13, 15, ?",
-      "options": [
-        "18",
-        "17",
-        "15",
-        "19"
-      ],
-      "correctAnswer": 1,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 2."
-    },
-    {
-      "id": "m10_r_22",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'MOCK10' is written as 'OQEM10', how is the code shifted?",
-      "options": [
-        "Backward by 1",
-        "Backward by 2",
-        "Forward by 2",
-        "Forward by 3"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
-    },
-    {
-      "id": "m10_r_23",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "If '+' means '-', '-' means '*', '*' means '/' and '/' means '+', then 19 - 5 + 5 = ?",
-      "options": [
-        "180",
-        "88",
-        "95",
-        "90"
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Neither I nor II follows",
+        "Only conclusion II follows"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Substitute signs: 19 * 5 - 5 = 90."
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
-      "id": "m10_r_24",
-      "section": "General Intelligence & Reasoning",
+      "id": "m10_r_21",
+      "section": "General Intelligence",
       "type": "single",
-      "question": "Complete the series: 6, 9, 12, 15, ?",
+      "question": "[Q21] Select the number that can replace the question mark (?) in the following series: 25, 36, 49, 64, ?",
       "options": [
-        "19",
-        "21",
-        "18",
-        "16"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "The difference between consecutive terms is 3."
-    },
-    {
-      "id": "m10_r_25",
-      "section": "General Intelligence & Reasoning",
-      "type": "single",
-      "question": "In a certain code, if 'PASS10' is written as 'RCUU10', how is the code shifted?",
-      "options": [
-        "Forward by 2",
-        "Backward by 2",
-        "Backward by 1",
-        "Forward by 3"
+        81,
+        "86",
+        "79",
+        "82"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Each letter is shifted forward by 2 positions."
+      "explanation": "The series is the squares of consecutive numbers: 5\u00b2, 6\u00b2, 7\u00b2, etc."
+    },
+    {
+      "id": "m10_r_22",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q22] In a certain code language, 'STRIKE' is written as 'UVTKMG'. How will 'TARGET' be written in that language?",
+      "options": [
+        "SZQFDS",
+        "UCSFGU",
+        "VCTIGV",
+        "RBPFDQ"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Each letter is shifted forward by 2 places in the English alphabetical order."
+    },
+    {
+      "id": "m10_r_23",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q23] Select the option that is related to the third word in the same way as the second word is related to the first word.\nDog : Puppy :: Cat : ?",
+      "options": [
+        "Irrelevant 2",
+        "Kitten",
+        "Irrelevant 1",
+        "Cub"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The relationship is Dog -> Puppy."
+    },
+    {
+      "id": "m10_r_24",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q24] Pointing to a photograph of a boy, Suresh said, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "options": [
+        "Uncle",
+        "Father",
+        "Brother",
+        "Cousin"
+      ],
+      "correctAnswer": 1,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "The 'only son of my mother' is Suresh himself. So, the boy is the son of Suresh. Suresh is the father."
+    },
+    {
+      "id": "m10_r_25",
+      "section": "General Intelligence",
+      "type": "single",
+      "question": "[Q25] Statements:\n1. All cats are dogs.\n2. Some dogs are rats.\nConclusions:\nI. Some cats are rats.\nII. Some rats are dogs.",
+      "options": [
+        "Neither I nor II follows",
+        "Both I and II follow",
+        "Only conclusion I follows",
+        "Only conclusion II follows"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Based on the standard Venn diagram for these premises, only conclusion II is definitely true."
     },
     {
       "id": "m10_ga_26",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q130] Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 6)",
       "options": [
-        "Boris Yeltsin",
-        "Mikhail Gorbachev",
-        "Nikita Khrushchev",
-        "Leonid Brezhnev"
+        "Teesta",
+        "Brahmaputra",
+        "Ganga",
+        "Indus"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Nikita Khrushchev."
+      "explanation": "The correct answer is Brahmaputra."
     },
     {
       "id": "m10_ga_27",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q21] Which continent do sweet potatoes originally come from?",
+      "question": "The Indian National Congress was founded in?",
       "options": [
-        "Africa",
-        "Europe",
-        "South America",
-        "Asia"
+        "1885",
+        "1905",
+        "1919",
+        "1857"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is South America."
+      "explanation": "The correct answer is 1885."
     },
     {
       "id": "m10_ga_28",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q74] What is the capital of Bangladesh?",
+      "question": "Who founded the Maurya Empire? (Set 9)",
       "options": [
-        "Khulna",
-        "Dhaka",
-        "London",
-        "Lahore"
+        "Bimbisara",
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Bindusara"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Dhaka."
+      "explanation": "The correct answer is Chandragupta Maurya."
     },
     {
       "id": "m10_ga_29",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q102] Whose 2016 presidential campaign slogan was \"Make America Great Again\"?",
+      "question": "The Majuli island, the largest river island in the world, is located on which river? (Set 2)",
       "options": [
-        "Marco Rubio",
-        "Donald Trump",
-        "Ted Cruz",
-        "Bernie Sanders"
+        "Teesta",
+        "Brahmaputra",
+        "Ganga",
+        "Indus"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Donald Trump."
+      "explanation": "The correct answer is Brahmaputra."
     },
     {
       "id": "m10_ga_30",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 173",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 3)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Chennai",
+        "New Delhi",
+        "Mumbai",
+        "Kolkata"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Mumbai."
     },
     {
       "id": "m10_ga_31",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 225",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 6)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Article 14",
+        "Article 17",
+        "Article 19",
+        "Article 32"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Article 14."
     },
     {
       "id": "m10_ga_32",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 234",
+      "question": "Which instrument is used to measure atmospheric pressure? (Set 1)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Barometer",
+        "Anemometer",
+        "Lactometer",
+        "Hygrometer"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Barometer."
     },
     {
       "id": "m10_ga_33",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q69] Which of the following landlocked countries is entirely contained within another country?",
+      "question": "The Tropic of Cancer passes through how many Indian states?",
       "options": [
-        "Mongolia",
-        "Luxembourg",
-        "Burkina Faso",
-        "Lesotho"
+        "9",
+        "7",
+        "6",
+        "8"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Lesotho."
+      "explanation": "The correct answer is 8."
     },
     {
       "id": "m10_ga_34",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q29] How many officially recognized dwarf planets in the solar system are named after Polynesian deities?",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 7)",
       "options": [
-        "1",
-        "0",
-        "2",
-        "5"
+        "9th Schedule",
+        "7th Schedule",
+        "10th Schedule",
+        "8th Schedule"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is 2."
+      "explanation": "The correct answer is 8th Schedule."
     },
     {
       "id": "m10_ga_35",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q10] Which of the following is the male pollen-producing reproductive part of a flower?",
+      "question": "The Quit India Movement was launched in which year?",
       "options": [
-        "Petal",
-        "Sepal",
-        "Pistil",
-        "Stamen"
+        "1930",
+        "1947",
+        "1920",
+        "1942"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Stamen."
+      "explanation": "The correct answer is 1942."
     },
     {
       "id": "m10_ga_36",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q64] What is the capital of Burkina Faso?",
+      "question": "Who founded the Maurya Empire? (Set 1)",
       "options": [
-        "Abidjan",
-        "Yamoussoukro",
-        "Yaound\u00e9",
-        "Ouagadougou"
+        "Chandragupta Maurya",
+        "Bimbisara",
+        "Ashoka",
+        "Bindusara"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Ouagadougou."
+      "explanation": "The correct answer is Chandragupta Maurya."
     },
     {
       "id": "m10_ga_37",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q12] Which of these is a stop codon in DNA?",
+      "question": "The Indian National Congress was founded in? (Set 5)",
       "options": [
-        "GTA",
-        "ACT",
-        "TAA",
-        "ACA"
+        "1919",
+        "1857",
+        "1905",
+        "1885"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is TAA."
+      "explanation": "The correct answer is 1885."
     },
     {
       "id": "m10_ga_38",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 249",
+      "question": "Which Article of the Indian Constitution deals with the Right to Equality? (Set 8)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Article 32",
+        "Article 17",
+        "Article 19",
+        "Article 14"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Article 14."
     },
     {
       "id": "m10_ga_39",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 153",
+      "question": "The Quit India Movement was launched in which year? (Set 9)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "1947",
+        "1930",
+        "1920",
+        "1942"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is 1942."
     },
     {
       "id": "m10_ga_40",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q23] Naturally occuring uranium primarily consists of which isotope?",
+      "question": "Where is the headquarters of UNESCO located? (Set 9)",
       "options": [
-        "233",
-        "239",
-        "235",
-        "238"
+        "Geneva",
+        "Paris",
+        "London",
+        "New York"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is 238."
+      "explanation": "The correct answer is Paris."
     },
     {
       "id": "m10_ga_41",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q49] How many laws of thermodynamics are there?",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 6)",
       "options": [
-        "Two",
-        "Four",
-        "Five",
-        "Three"
+        "New Delhi",
+        "Kolkata",
+        "Chennai",
+        "Mumbai"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Four."
+      "explanation": "The correct answer is Mumbai."
     },
     {
       "id": "m10_ga_42",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 244",
+      "question": "Who was the first Governor-General of independent India? (Set 2)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Warren Hastings",
+        "Lord Dalhousie",
+        "C. Rajagopalachari",
+        "Lord Mountbatten"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Lord Mountbatten."
     },
     {
       "id": "m10_ga_43",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 198",
+      "question": "The concept of Directive Principles of State Policy (DPSP) was borrowed from which constitution? (Set 2)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "UK",
+        "USSR",
+        "Ireland",
+        "USA"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Ireland."
     },
     {
       "id": "m10_ga_44",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q44] Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+      "question": "Which classical dance form originated in Kerala? (Set 8)",
       "options": [
-        "Archimedes",
-        "Niels Henrik David Bohr",
-        "Ernest Rutherford",
-        "Joseph John Thomson"
+        "Bharatanatyam",
+        "Kuchipudi",
+        "Odissi",
+        "Kathakali"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Ernest Rutherford."
+      "explanation": "The correct answer is Kathakali."
     },
     {
       "id": "m10_ga_45",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q35] Which planet did the \"Viking 1\" spacecraft send surface images of, starting in 1976?",
+      "question": "Who founded the Maurya Empire? (Set 7)",
       "options": [
-        "Mars",
-        "Saturn",
-        "Jupiter",
-        "Venus"
+        "Chandragupta Maurya",
+        "Ashoka",
+        "Bimbisara",
+        "Bindusara"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Mars."
+      "explanation": "The correct answer is Chandragupta Maurya."
     },
     {
       "id": "m10_ga_46",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q78] What is the only state in the United States that does not have a flag in a shape with 4 edges?",
+      "question": "The Indian National Congress was founded in? (Set 2)",
       "options": [
-        "Ohio",
-        "New Mexico",
-        "Idaho",
-        "Florida"
+        "1885",
+        "1919",
+        "1905",
+        "1857"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Ohio."
+      "explanation": "The correct answer is 1885."
     },
     {
       "id": "m10_ga_47",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q72] Which US state is furthest north east?",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 2)",
       "options": [
-        "Georgia",
-        "Florida",
-        "New York",
-        "Maine"
+        "6",
+        "8",
+        "7",
+        "9"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Maine."
+      "explanation": "The correct answer is 8."
     },
     {
       "id": "m10_ga_48",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q57] What is the highest mountain in the world?",
+      "question": "Which schedule of the Indian Constitution contains the languages recognized by the Constitution? (Set 8)",
       "options": [
-        "Annapurna",
-        "Mount Godwin Austen",
-        "Kangchenjunga",
-        "Mt. Everest"
+        "7th Schedule",
+        "9th Schedule",
+        "8th Schedule",
+        "10th Schedule"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Mt. Everest."
+      "explanation": "The correct answer is 8th Schedule."
     },
     {
       "id": "m10_ga_49",
       "section": "General Awareness",
       "type": "single",
-      "question": "Dummy GK Question 202",
+      "question": "The headquarters of the Reserve Bank of India (RBI) is located in? (Set 9)",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Mumbai",
+        "New Delhi",
+        "Chennai",
+        "Kolkata"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Fallback"
+      "explanation": "The correct answer is Mumbai."
     },
     {
       "id": "m10_ga_50",
       "section": "General Awareness",
       "type": "single",
-      "question": "[Q54] Which city is the biggest in Canada?",
+      "question": "The Tropic of Cancer passes through how many Indian states? (Set 9)",
       "options": [
-        "Toronto",
-        "Vancouver",
-        "Ottawa",
-        "Montreal"
+        "7",
+        "8",
+        "6",
+        "9"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Toronto."
+      "explanation": "The correct answer is 8."
     },
     {
       "id": "m10_q_51",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "36",
-        "38",
-        "40",
-        "42"
+        "30\u00b0",
+        "90\u00b0",
+        "75\u00b0",
+        "60\u00b0"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
     },
     {
       "id": "m10_q_52",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 15% of 250?",
+      "question": "If x - 1/x = 3, then what is the value of x\u00b3 - 1/x\u00b3?",
       "options": [
-        "47",
-        "37",
-        "57",
-        "32"
+        "33",
+        "36",
+        "38",
+        "39"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "15/100 * 250 = 37."
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 3\u00b3 + 3(3) = 36."
     },
     {
       "id": "m10_q_53",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 370 and sold it at a profit of 20%. Find the selling price.",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
       "options": [
-        "Rs. 424",
-        "Rs. 454",
-        "Rs. 462",
-        "Rs. 444"
+        "12 cm",
+        "26 cm",
+        "28 cm",
+        "24 cm"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 370 + (20% of 370) = 444."
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 3\u00b2) = 24 cm."
     },
     {
       "id": "m10_q_54",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 20 days. If they work together, how many days will they take?",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 20%. Find his profit percentage.",
       "options": [
-        "12 days",
-        "14 days",
-        10,
-        "9 days"
+        "2.0%",
+        "0.0%",
+        "-1.0%",
+        "5.0%"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/20. Total = 1/20 + 1/20. Days = 10."
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 20 - (25*20)/100 = 0.0%."
     },
     {
       "id": "m10_q_55",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 6000 at 10% per annum for 3 years.",
+      "question": "A can complete a task in 20 days, and B in 30 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "Rs. 1900",
-        "Rs. 1800",
-        "Rs. 1850",
-        "Rs. 1600"
+        "11 days",
+        "14 days",
+        "12 days",
+        "16 days"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 6000*10*3/100 = 1800."
+      "explanation": "Total days = (A*B)/(A+B) = (20*30)/(20+30) = 12 days."
     },
     {
       "id": "m10_q_56",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
+      "question": "A sum of Rs. 6000 is invested at simple interest of 5% per annum. What will be the total amount after 3 years?",
       "options": [
-        "205 m",
-        "225 m",
-        "275 m",
-        "325 m"
+        "Rs. 6900",
+        "Rs. 6750",
+        "Rs. 7100",
+        "Rs. 7400"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 15 = 225m."
+      "explanation": "SI = P*R*T/100 = 900. Amount = P + SI = 6000 + 900 = 6900."
     },
     {
       "id": "m10_q_57",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 6, find the value of x\u00b2 + (1/x\u00b2).",
-      "options": [
-        "36",
-        "42",
-        "40",
-        "38"
-      ],
-      "correctAnswer": 3,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 6\u00b2 - 2 = 38."
-    },
-    {
-      "id": "m10_q_58",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "What is 35% of 235?",
-      "options": [
-        "82",
-        "77",
-        "92",
-        "102"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "35/100 * 235 = 82."
-    },
-    {
-      "id": "m10_q_59",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 270 and sold it at a profit of 30%. Find the selling price.",
-      "options": [
-        "Rs. 351",
-        "Rs. 331",
-        "Rs. 361",
-        "Rs. 364"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 270 + (30% of 270) = 351."
-    },
-    {
-      "id": "m10_q_60",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 60 days. If they work together, how many days will they take?",
-      "options": [
-        "14 days",
-        "17 days",
-        15,
-        "19 days"
-      ],
-      "correctAnswer": 2,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/60. Total = 1/20 + 1/60. Days = 15."
-    },
-    {
-      "id": "m10_q_61",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "Find the simple interest on Rs. 1000 at 10% per annum for 3 years.",
-      "options": [
-        "Rs. 300",
-        "Rs. 100",
-        "Rs. 400",
-        "Rs. 350"
-      ],
-      "correctAnswer": 0,
-      "marks": 2,
-      "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 1000*10*3/100 = 300."
-    },
-    {
-      "id": "m10_q_62",
-      "section": "Quantitative Aptitude",
-      "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 20 seconds. Find the length of the train.",
+      "question": "A train travelling at 108 km/hr crosses a stationary pole in 10 seconds. What is the length of the train?",
       "options": [
         "400 m",
         "350 m",
@@ -15507,615 +15427,695 @@ const SAMPLE_MOCK_TESTS = [
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 20 = 300m."
+      "explanation": "Speed in m/s = 108 * (5/18) = 30 m/s. Length = Speed * Time = 30 * 10 = 300 m."
+    },
+    {
+      "id": "m10_q_58",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "An amount of Rs. 252 is divided between P and Q in the ratio 3:4. What is P's share?",
+      "options": [
+        "Rs. 144",
+        "Rs. 88",
+        "Rs. 118",
+        "Rs. 108"
+      ],
+      "correctAnswer": 3,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "P's share = 252 * (3/7) = 108."
+    },
+    {
+      "id": "m10_q_59",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
+      "options": [
+        "45\u00b0",
+        "45\u00b0",
+        "90\u00b0",
+        "60\u00b0"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
+    },
+    {
+      "id": "m10_q_60",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "If x - 1/x = 4, then what is the value of x\u00b3 - 1/x\u00b3?",
+      "options": [
+        "78",
+        "72",
+        "76",
+        "80"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 4\u00b3 + 3(4) = 76."
+    },
+    {
+      "id": "m10_q_61",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 3 cm. Find the length of the chord.",
+      "options": [
+        "24 cm",
+        "28 cm",
+        "26 cm",
+        "12 cm"
+      ],
+      "correctAnswer": 0,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 3\u00b2) = 24 cm."
+    },
+    {
+      "id": "m10_q_62",
+      "section": "Quantitative Aptitude",
+      "type": "single",
+      "question": "A trader marks his goods 20% above CP and allows a discount of 15%. Find his profit percentage.",
+      "options": [
+        "1.0%",
+        "7.0%",
+        "2.0%",
+        "4.0%"
+      ],
+      "correctAnswer": 2,
+      "marks": 2,
+      "negativeMarks": 0.5,
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 20 - 15 - (20*15)/100 = 2.0000000000000027%."
     },
     {
       "id": "m10_q_63",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 4, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "20",
-        "18",
-        "16",
-        "22"
+        "10 days",
+        "8 days",
+        "12 days",
+        "7 days"
       ],
       "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 4\u00b2 - 2 = 18."
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
     },
     {
       "id": "m10_q_64",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 25% of 616?",
+      "question": "A sum of Rs. 5000 is invested at simple interest of 5% per annum. What will be the total amount after 4 years?",
       "options": [
-        "154",
-        "149",
-        "164",
-        "174"
+        "Rs. 5850",
+        "Rs. 6000",
+        "Rs. 6500",
+        "Rs. 6200"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "25/100 * 616 = 154."
+      "explanation": "SI = P*R*T/100 = 1000. Amount = P + SI = 5000 + 1000 = 6000."
     },
     {
       "id": "m10_q_65",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 460 and sold it at a profit of 20%. Find the selling price.",
+      "question": "A train travelling at 90 km/hr crosses a stationary pole in 20 seconds. What is the length of the train?",
       "options": [
-        "Rs. 532",
-        "Rs. 562",
-        "Rs. 552",
-        "Rs. 575"
+        "480 m",
+        "600 m",
+        "550 m",
+        "500 m"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 460 + (20% of 460) = 552."
+      "explanation": "Speed in m/s = 90 * (5/18) = 25 m/s. Length = Speed * Time = 25 * 20 = 500 m."
     },
     {
       "id": "m10_q_66",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 20 days. If they work together, how many days will they take?",
+      "question": "An amount of Rs. 135 is divided between P and Q in the ratio 2:7. What is P's share?",
       "options": [
-        "12 days",
-        "9 days",
-        "14 days",
-        10
+        "Rs. 10",
+        "Rs. 30",
+        "Rs. 40",
+        "Rs. 105"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/20. Total = 1/20 + 1/20. Days = 10."
+      "explanation": "P's share = 135 * (2/9) = 30."
     },
     {
       "id": "m10_q_67",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 4000 at 15% per annum for 3 years.",
+      "question": "If sin(\u03b8) = cos(60\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "Rs. 1800",
-        "Rs. 1600",
-        "Rs. 1900",
-        "Rs. 1850"
+        "75\u00b0",
+        "60\u00b0",
+        "90\u00b0",
+        "30\u00b0"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 4000*15*3/100 = 1800."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 60 => \u03b8 = 30."
     },
     {
       "id": "m10_q_68",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 72 km/hr and crosses a pole in 15 seconds. Find the length of the train.",
+      "question": "If x - 1/x = 5, then what is the value of x\u00b3 - 1/x\u00b3?",
       "options": [
-        "300 m",
-        "280 m",
-        "350 m",
-        "400 m"
+        "140",
+        "145",
+        "142",
+        "135"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 72 * 5/18 = 20 m/s. Length = 20 * 15 = 300m."
+      "explanation": "x\u00b3 - 1/x\u00b3 = (x - 1/x)\u00b3 + 3(x - 1/x) = 5\u00b3 + 3(5) = 140."
     },
     {
       "id": "m10_q_69",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 2, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "The radius of a circle is 13 cm and the distance of a chord from the center is 4 cm. Find the length of the chord.",
       "options": [
-        "10",
-        "8",
-        "4",
-        "6"
+        "26 cm",
+        "24 cm",
+        "28 cm",
+        "12 cm"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 2\u00b2 - 2 = 6."
+      "explanation": "Length of chord = 2 * \u221a(r\u00b2 - d\u00b2) = 2 * \u221a(13\u00b2 - 4\u00b2) = 24 cm."
     },
     {
       "id": "m10_q_70",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "What is 25% of 715?",
+      "question": "A trader marks his goods 25% above CP and allows a discount of 20%. Find his profit percentage.",
       "options": [
-        "198",
-        "188",
-        "178",
-        "173"
+        "2.0%",
+        "5.0%",
+        "-1.0%",
+        "0.0%"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "25/100 * 715 = 178."
+      "explanation": "Net Profit % = Markup% - Discount% - (Markup * Discount)/100 = 25 - 20 - (25*20)/100 = 0.0%."
     },
     {
       "id": "m10_q_71",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A shopkeeper bought an article for Rs. 390 and sold it at a profit of 10%. Find the selling price.",
+      "question": "A can complete a task in 12 days, and B in 24 days. If they work together, in how many days will the work be completed?",
       "options": [
-        "Rs. 448",
-        "Rs. 409",
-        "Rs. 439",
-        "Rs. 429"
+        "12 days",
+        "10 days",
+        "7 days",
+        "8 days"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SP = CP + (Profit% of CP) = 390 + (10% of 390) = 429."
+      "explanation": "Total days = (A*B)/(A+B) = (12*24)/(12+24) = 8 days."
     },
     {
       "id": "m10_q_72",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A can do a piece of work in 20 days, and B can do it in 30 days. If they work together, how many days will they take?",
+      "question": "A sum of Rs. 2000 is invested at simple interest of 12% per annum. What will be the total amount after 3 years?",
       "options": [
-        "14 days",
-        "11 days",
-        "16 days",
-        12
+        "Rs. 2920",
+        "Rs. 3220",
+        "Rs. 2720",
+        "Rs. 2570"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Work/day by A = 1/20, by B = 1/30. Total = 1/20 + 1/30. Days = 12."
+      "explanation": "SI = P*R*T/100 = 720. Amount = P + SI = 2000 + 720 = 2720."
     },
     {
       "id": "m10_q_73",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "Find the simple interest on Rs. 6000 at 15% per annum for 2 years.",
+      "question": "A train travelling at 72 km/hr crosses a stationary pole in 12 seconds. What is the length of the train?",
       "options": [
-        "Rs. 1800",
-        "Rs. 1850",
-        "Rs. 1900",
-        "Rs. 1600"
+        "240 m",
+        "340 m",
+        "290 m",
+        "220 m"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "SI = P*R*T/100 = 6000*15*2/100 = 1800."
+      "explanation": "Speed in m/s = 72 * (5/18) = 20 m/s. Length = Speed * Time = 20 * 12 = 240 m."
     },
     {
       "id": "m10_q_74",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "A train travels at 54 km/hr and crosses a pole in 10 seconds. Find the length of the train.",
+      "question": "An amount of Rs. 180 is divided between P and Q in the ratio 4:6. What is P's share?",
       "options": [
-        "200 m",
-        "250 m",
-        "150 m",
-        "130 m"
+        "Rs. 52",
+        "Rs. 72",
+        "Rs. 108",
+        "Rs. 82"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "Speed = 54 * 5/18 = 15 m/s. Length = 15 * 10 = 150m."
+      "explanation": "P's share = 180 * (4/10) = 72."
     },
     {
       "id": "m10_q_75",
       "section": "Quantitative Aptitude",
       "type": "single",
-      "question": "If x + (1/x) = 5, find the value of x\u00b2 + (1/x\u00b2).",
+      "question": "If sin(\u03b8) = cos(45\u00b0), and 0 < \u03b8 < 90\u00b0, find the value of \u03b8.",
       "options": [
-        "29",
-        "25",
-        "27",
-        "31"
+        "60\u00b0",
+        "45\u00b0",
+        "45\u00b0",
+        "90\u00b0"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "x\u00b2 + 1/x\u00b2 = (x + 1/x)\u00b2 - 2 = 5\u00b2 - 2 = 27."
+      "explanation": "sin(\u03b8) = cos(90 - \u03b8). So 90 - \u03b8 = 45 => \u03b8 = 45."
     },
     {
       "id": "m10_e_76",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q159] Find the error in the sentence: 'Sentence part 158.'",
+      "question": "[Q1] Select the most appropriate SYNONYM of the given word: Abundant",
       "options": [
-        "Error in part 158",
-        "No error",
-        "Error in noun",
-        "Error in verb"
+        "Rare",
+        "Plentiful",
+        "Scarce",
+        "Irrelevant"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 158."
+      "explanation": "Abundant means plentiful."
     },
     {
       "id": "m10_e_77",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q132] Meaning of idiom: IDIOM_131",
+      "question": "[Q2] Select the most appropriate ANTONYM of the given word: Barren",
       "options": [
-        "Wrong meaning B",
-        "Wrong meaning A",
-        "Correct meaning 131",
-        "Wrong meaning C"
+        "Fertile",
+        "Dry",
+        "Irrelevant",
+        "Empty"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 131."
+      "explanation": "The opposite of Barren is fertile."
     },
     {
       "id": "m10_e_78",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q16] Meaning of idiom: IDIOM_15",
+      "question": "[Q3] Select the most appropriate meaning of the given idiom: 'Under the weather'",
       "options": [
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 15",
-        "Wrong meaning A"
+        "To cook food",
+        "To be extremely happy",
+        "To act aggressively",
+        "Feeling ill"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 15."
+      "explanation": "'Under the weather' means feeling ill."
     },
     {
       "id": "m10_e_79",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q150] Select the antonym of: WORD_149",
+      "question": "[Q4] Select the correctly spelt word.",
       "options": [
-        "Synonym_149",
-        "Random_149",
-        "Unrelated_149",
-        "Antonym_149"
+        "Embarass",
+        "Emmbarrass",
+        "Embarrass",
+        "Embarras"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_149."
+      "explanation": "The correct spelling is Embarrass."
     },
     {
       "id": "m10_e_80",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q35] Find the error in the sentence: 'Sentence part 34.'",
+      "question": "[Q5] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Error in noun",
-        "Error in verb",
-        "Error in part 34",
-        "No error"
+        "He",
+        "to the store",
+        "today",
+        "did not went"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 34."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m10_e_81",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q41] Select the synonym of: WORD_40",
+      "question": "[Q6] Select the most appropriate SYNONYM of the given word: Abundant",
       "options": [
-        "Antonym_40",
-        "Random_40",
-        "Synonym_40",
-        "Unrelated_40"
+        "Scarce",
+        "Plentiful",
+        "Rare",
+        "Irrelevant"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_40."
+      "explanation": "Abundant means plentiful."
     },
     {
       "id": "m10_e_82",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q148] Meaning of idiom: IDIOM_147",
+      "question": "[Q7] Select the most appropriate ANTONYM of the given word: Obsolete",
       "options": [
-        "Wrong meaning C",
-        "Correct meaning 147",
-        "Wrong meaning B",
-        "Wrong meaning A"
+        "Modern",
+        "Outdated",
+        "Ancient",
+        "Irrelevant"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 147."
+      "explanation": "The opposite of Obsolete is modern."
     },
     {
       "id": "m10_e_83",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q60] Meaning of idiom: IDIOM_59",
+      "question": "[Q8] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
       "options": [
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Correct meaning 59",
-        "Wrong meaning A"
+        "To be extremely happy",
+        "To act aggressively",
+        "To cook food",
+        "To endure a painful situation"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 59."
+      "explanation": "'Bite the bullet' means to endure a painful situation."
     },
     {
       "id": "m10_e_84",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q36] Meaning of idiom: IDIOM_35",
+      "question": "[Q9] Select the correctly spelt word.",
       "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B",
-        "Correct meaning 35"
+        "Embarrass",
+        "Embarass",
+        "Embarras",
+        "Emmbarrass"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 35."
+      "explanation": "The correct spelling is Embarrass."
     },
     {
       "id": "m10_e_85",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q237] Select the synonym of: WORD_236",
+      "question": "[Q10] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Antonym_236",
-        "Unrelated_236",
-        "Synonym_236",
-        "Random_236"
+        "He",
+        "did not went",
+        "to the store",
+        "today"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_236."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m10_e_86",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q125] Select the synonym of: WORD_124",
+      "question": "[Q11] Select the most appropriate SYNONYM of the given word: Diligent",
       "options": [
-        "Synonym_124",
-        "Random_124",
-        "Antonym_124",
-        "Unrelated_124"
+        "Lethargic",
+        "Hardworking",
+        "Lazy",
+        "Irrelevant"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_124."
+      "explanation": "Diligent means hardworking."
     },
     {
       "id": "m10_e_87",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q236] Meaning of idiom: IDIOM_235",
+      "question": "[Q12] Select the most appropriate ANTONYM of the given word: Barren",
       "options": [
-        "Correct meaning 235",
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Wrong meaning B"
+        "Empty",
+        "Dry",
+        "Irrelevant",
+        "Fertile"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 235."
+      "explanation": "The opposite of Barren is fertile."
     },
     {
       "id": "m10_e_88",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q85] Select the synonym of: WORD_84",
+      "question": "[Q13] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
       "options": [
-        "Antonym_84",
-        "Unrelated_84",
-        "Synonym_84",
-        "Random_84"
+        "To cook food",
+        "To be extremely happy",
+        "Avoid the main topic",
+        "To act aggressively"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_84."
+      "explanation": "'Beat around the bush' means avoid the main topic."
     },
     {
       "id": "m10_e_89",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q192] Meaning of idiom: IDIOM_191",
+      "question": "[Q14] Select the correctly spelt word.",
       "options": [
-        "Wrong meaning B",
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Correct meaning 191"
+        "Embarras",
+        "Emmbarrass",
+        "Embarass",
+        "Embarrass"
       ],
       "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 191."
+      "explanation": "The correct spelling is Embarrass."
     },
     {
       "id": "m10_e_90",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q62] Select the antonym of: WORD_61",
+      "question": "[Q15] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Synonym_61",
-        "Antonym_61",
-        "Unrelated_61",
-        "Random_61"
+        "to the store",
+        "today",
+        "He",
+        "did not went"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 3,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_61."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m10_e_91",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q174] Select the antonym of: WORD_173",
+      "question": "[Q16] Select the most appropriate SYNONYM of the given word: Abundant",
       "options": [
-        "Unrelated_173",
-        "Random_173",
-        "Antonym_173",
-        "Synonym_173"
+        "Irrelevant",
+        "Rare",
+        "Plentiful",
+        "Scarce"
       ],
       "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_173."
+      "explanation": "Abundant means plentiful."
     },
     {
       "id": "m10_e_92",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q235] Find the error in the sentence: 'Sentence part 234.'",
+      "question": "[Q17] Select the most appropriate ANTONYM of the given word: Hostile",
       "options": [
-        "Error in noun",
-        "Error in part 234",
-        "Error in verb",
-        "No error"
+        "Friendly",
+        "Irrelevant",
+        "Aggressive",
+        "Bitter"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Error in part 234."
+      "explanation": "The opposite of Hostile is friendly."
     },
     {
       "id": "m10_e_93",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q116] Meaning of idiom: IDIOM_115",
+      "question": "[Q18] Select the most appropriate meaning of the given idiom: 'Bite the bullet'",
       "options": [
-        "Wrong meaning C",
-        "Wrong meaning A",
-        "Correct meaning 115",
-        "Wrong meaning B"
+        "To be extremely happy",
+        "To endure a painful situation",
+        "To act aggressively",
+        "To cook food"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 115."
+      "explanation": "'Bite the bullet' means to endure a painful situation."
     },
     {
       "id": "m10_e_94",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q249] Select the synonym of: WORD_248",
+      "question": "[Q19] Select the correctly spelt word.",
       "options": [
-        "Unrelated_248",
-        "Synonym_248",
-        "Random_248",
-        "Antonym_248"
+        "Embarrass",
+        "Emmbarrass",
+        "Embarass",
+        "Embarras"
       ],
-      "correctAnswer": 1,
+      "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_248."
+      "explanation": "The correct spelling is Embarrass."
     },
     {
       "id": "m10_e_95",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q204] Meaning of idiom: IDIOM_203",
+      "question": "[Q20] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Correct meaning 203",
-        "Wrong meaning C",
-        "Wrong meaning B",
-        "Wrong meaning A"
+        "did not went",
+        "today",
+        "to the store",
+        "He"
       ],
       "correctAnswer": 0,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Correct meaning 203."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     },
     {
       "id": "m10_e_96",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q169] Select the synonym of: WORD_168",
+      "question": "[Q21] Select the most appropriate SYNONYM of the given word: Diligent",
       "options": [
-        "Unrelated_168",
-        "Antonym_168",
-        "Synonym_168",
-        "Random_168"
+        "Lethargic",
+        "Hardworking",
+        "Lazy",
+        "Irrelevant"
       ],
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_168."
+      "explanation": "Diligent means hardworking."
     },
     {
       "id": "m10_e_97",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q53] Select the synonym of: WORD_52",
+      "question": "[Q22] Select the most appropriate ANTONYM of the given word: Barren",
       "options": [
-        "Synonym_52",
-        "Random_52",
-        "Antonym_52",
-        "Unrelated_52"
+        "Irrelevant",
+        "Empty",
+        "Fertile",
+        "Dry"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_52."
+      "explanation": "The opposite of Barren is fertile."
     },
     {
       "id": "m10_e_98",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q117] Select the synonym of: WORD_116",
+      "question": "[Q23] Select the most appropriate meaning of the given idiom: 'Beat around the bush'",
       "options": [
-        "Synonym_116",
-        "Unrelated_116",
-        "Antonym_116",
-        "Random_116"
+        "To be extremely happy",
+        "Avoid the main topic",
+        "To act aggressively",
+        "To cook food"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 1,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_116."
+      "explanation": "'Beat around the bush' means avoid the main topic."
     },
     {
       "id": "m10_e_99",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q50] Select the antonym of: WORD_49",
+      "question": "[Q24] Select the correctly spelt word.",
       "options": [
-        "Antonym_49",
-        "Random_49",
-        "Unrelated_49",
-        "Synonym_49"
+        "Acccomodate",
+        "Accomodate",
+        "Accommodate",
+        "Acommodate"
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Antonym_49."
+      "explanation": "The correct spelling is Accommodate."
     },
     {
       "id": "m10_e_100",
       "section": "English Comprehension",
       "type": "single",
-      "question": "[Q181] Select the synonym of: WORD_180",
+      "question": "[Q25] Identify the segment in the sentence which contains a grammatical error: 'He did not went to the store today.'",
       "options": [
-        "Unrelated_180",
-        "Random_180",
-        "Antonym_180",
-        "Synonym_180"
+        "He",
+        "today",
+        "did not went",
+        "to the store"
       ],
-      "correctAnswer": 3,
+      "correctAnswer": 2,
       "marks": 2,
       "negativeMarks": 0.5,
-      "explanation": "The correct answer is Synonym_180."
+      "explanation": "'Did' is always followed by the base form of the verb (go), not the past tense (went)."
     }
   ]
 }

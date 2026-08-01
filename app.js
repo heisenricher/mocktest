@@ -1,35 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
-import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
-import { getFirestore, collection, addDoc, getDocs, query, orderBy, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
-
-// TODO: REPLACE THIS ENTIRE CONFIG OBJECT WITH YOUR REAL FIREBASE CONFIG!
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-
-let app, auth, db, provider;
+// LOCAL DEMO AUTHENTICATION SYSTEM
 let currentUser = null;
-let isFirebaseConfigured = false;
-
-if (firebaseConfig.apiKey !== "YOUR_API_KEY") {
-  try {
-    app = initializeApp(firebaseConfig);
-    auth = getAuth(app);
-    db = getFirestore(app);
-    provider = new GoogleAuthProvider();
-    isFirebaseConfigured = true;
-  } catch (e) {
-    console.error("Firebase init failed", e);
-  }
+let allTests = [];
+if (typeof SAMPLE_MOCK_TESTS !== "undefined") {
+  allTests = [...SAMPLE_MOCK_TESTS];
 }
 
 // MockTest Hub - Core Minimalist Engine
-let allTests = [...SAMPLE_MOCK_TESTS];
 let currentTest = null;
 let currentQuestionIndex = 0;
 let userResponses = {}; 
@@ -40,52 +16,53 @@ let activeCategory = "All";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadCustomTestsFromStorage();
+  loadUserFromStorage();
   renderCatalog();
   setupEventListeners();
-  setupFirebaseUI();
+  setupAuthUI();
 });
 
-function setupFirebaseUI() {
+function loadUserFromStorage() {
+  const storedUser = localStorage.getItem("cgl_mock_user");
+  if (storedUser) {
+    currentUser = JSON.parse(storedUser);
+  }
+}
+
+function setupAuthUI() {
   const loginBtn = document.getElementById("loginBtn");
   const logoutBtn = document.getElementById("logoutBtn");
   const dashboardBtn = document.getElementById("dashboardBtn");
   const closeDashboardBtn = document.getElementById("closeDashboardBtn");
   
-  if (!isFirebaseConfigured) {
-    loginBtn.onclick = () => alert("FIREBASE NOT CONFIGURED. PLEASE ADD YOUR CONFIG KEYS IN APP.JS.");
-    return;
+  const userProfile = document.getElementById("userProfile");
+  const userName = document.getElementById("userName");
+
+  if (currentUser) {
+    loginBtn.style.display = "none";
+    userProfile.style.display = "flex";
+    userName.textContent = currentUser.name.toUpperCase();
+  } else {
+    loginBtn.style.display = "inline-flex";
+    userProfile.style.display = "none";
   }
 
-  onAuthStateChanged(auth, (user) => {
-    const loginBtn = document.getElementById("loginBtn");
-    const userProfile = document.getElementById("userProfile");
-    const userAvatar = document.getElementById("userAvatar");
-    const userName = document.getElementById("userName");
-
-    if (user) {
-      currentUser = user;
-      loginBtn.style.display = "none";
-      userProfile.style.display = "flex";
-      userAvatar.src = user.photoURL || "";
-      userName.textContent = user.displayName.toUpperCase();
-    } else {
-      currentUser = null;
-      loginBtn.style.display = "inline-flex";
-      userProfile.style.display = "none";
-    }
-  });
-
-  loginBtn.onclick = async () => {
-    try {
-      await signInWithPopup(auth, provider);
-    } catch (e) {
-      console.error("Login Failed", e);
-      alert("LOGIN FAILED. SEE CONSOLE.");
+  loginBtn.onclick = () => {
+    const name = prompt("ENTER YOUR FULL NAME FOR DEMO LOGIN:");
+    if (name && name.trim().length > 0) {
+      currentUser = {
+        uid: "local_" + Date.now(),
+        name: name.trim()
+      };
+      localStorage.setItem("cgl_mock_user", JSON.stringify(currentUser));
+      setupAuthUI(); // refresh
     }
   };
 
-  logoutBtn.onclick = async () => {
-    await signOut(auth);
+  logoutBtn.onclick = () => {
+    currentUser = null;
+    localStorage.removeItem("cgl_mock_user");
+    setupAuthUI();
   };
 
   dashboardBtn.onclick = () => {
@@ -98,49 +75,39 @@ function setupFirebaseUI() {
   };
 }
 
-async function loadPastTests() {
+function loadPastTests() {
   const listEl = document.getElementById("pastTestsList");
   if (!currentUser) {
-    listEl.innerHTML = `<div style="text-align: center; color: var(--accent-red); font-size: 0.8rem; padding: 2rem;">PLEASE LOG IN TO VIEW HISTORY.</div>`;
+    listEl.innerHTML = `<div style="text-align: center; font-size: 0.8rem; padding: 2rem;">PLEASE LOG IN TO VIEW HISTORY.</div>`;
     return;
   }
   
-  listEl.innerHTML = `<div style="text-align: center; color: var(--text-muted); font-size: 0.8rem; padding: 2rem;">LOADING CLOUD RECORDS...</div>`;
+  const savedHistory = JSON.parse(localStorage.getItem(`history_${currentUser.uid}`) || "[]");
   
-  try {
-    const testsRef = collection(db, "users", currentUser.uid, "tests");
-    const q = query(testsRef, orderBy("timestamp", "desc"));
-    const querySnapshot = await getDocs(q);
-    
-    if (querySnapshot.empty) {
-      listEl.innerHTML = `<div style="text-align: center; color: var(--text-muted); font-size: 0.8rem; padding: 2rem;">NO PAST TESTS FOUND IN CLOUD.</div>`;
-      return;
-    }
-
-    listEl.innerHTML = "";
-    querySnapshot.forEach((doc) => {
-      const data = doc.data();
-      const dateStr = data.timestamp ? data.timestamp.toDate().toLocaleString() : "Unknown Date";
-      
-      const card = document.createElement("div");
-      card.style.cssText = "border: 1px solid var(--border-light); padding: 1rem; margin-bottom: 0.5rem; background: var(--bg-card); display: flex; justify-content: space-between; align-items: center;";
-      card.innerHTML = `
-        <div>
-          <div style="font-weight: 800; font-size: 0.9rem;">${data.testTitle}</div>
-          <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">${dateStr}</div>
-        </div>
-        <div style="text-align: right;">
-          <div style="font-weight: 800; color: var(--accent-blue); font-size: 1.1rem;">${data.score.toFixed(2)} / ${data.totalMarks}</div>
-          <div style="font-size: 0.75rem; color: var(--text-muted);">${data.accuracy}% ACCURACY</div>
-        </div>
-      `;
-      listEl.appendChild(card);
-    });
-
-  } catch (error) {
-    console.error("Error fetching tests", error);
-    listEl.innerHTML = `<div style="text-align: center; color: var(--accent-red); font-size: 0.8rem; padding: 2rem;">ERROR FETCHING RECORDS. ENSURE FIRESTORE IS ENABLED IN TEST MODE.</div>`;
+  if (savedHistory.length === 0) {
+    listEl.innerHTML = `<div style="text-align: center; font-size: 0.8rem; padding: 2rem;">NO PAST TESTS FOUND IN LOCAL STORAGE.</div>`;
+    return;
   }
+
+  listEl.innerHTML = "";
+  // Sort descending
+  savedHistory.sort((a,b) => b.timestamp - a.timestamp).forEach((data) => {
+    const dateStr = new Date(data.timestamp).toLocaleString();
+    
+    const card = document.createElement("div");
+    card.style.cssText = "border: 2px solid #000; padding: 1rem; margin-bottom: 0.5rem; background: #fff; display: flex; justify-content: space-between; align-items: center;";
+    card.innerHTML = `
+      <div>
+        <div style="font-weight: 900; font-size: 0.9rem;">${data.testTitle}</div>
+        <div style="font-size: 0.75rem; margin-top: 0.25rem;">${dateStr}</div>
+      </div>
+      <div style="text-align: right;">
+        <div style="font-weight: 900; font-size: 1.1rem;">${data.score.toFixed(2)} / ${data.totalMarks}</div>
+        <div style="font-size: 0.75rem;">${data.accuracy}% ACCURACY</div>
+      </div>
+    `;
+    listEl.appendChild(card);
+  });
 }
 
 
@@ -149,7 +116,8 @@ function loadCustomTestsFromStorage() {
   if (saved) {
     try {
       const customTests = JSON.parse(saved);
-      allTests = [...SAMPLE_MOCK_TESTS, ...customTests];
+      // Append to the ones loaded from sample-tests.js
+      allTests = [...allTests, ...customTests];
     } catch (e) {
       console.error("Failed to load saved tests", e);
     }
@@ -171,11 +139,12 @@ function renderCatalog() {
     return matchCategory && matchSearch;
   });
 
-  document.getElementById("totalTestsCount").textContent = allTests.length;
+  const totalTestsCountEl = document.getElementById("totalTestsCount");
+  if(totalTestsCountEl) totalTestsCountEl.textContent = allTests.length;
 
   if (filtered.length === 0) {
     grid.innerHTML = `
-      <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
+      <div style="grid-column: 1/-1; text-align: center; padding: 3rem 1rem;">
         <p style="font-size: 1rem; font-weight: 700;">> NO_TESTS_MATCHING_FILTER</p>
       </div>
     `;
@@ -187,15 +156,14 @@ function renderCatalog() {
     card.className = "test-card";
     card.innerHTML = `
       <div>
-        <span class="test-category-tag">${test.category}</span>
-        <h3 class="test-card-title">${test.title}</h3>
+        <h3 class="test-card-title">> ${test.title}</h3>
         <p class="test-card-desc">${test.description}</p>
       </div>
       <div>
         <div class="test-meta">
-          <div class="meta-item">[DUR: ${test.durationMinutes}m]</div>
-          <div class="meta-item">[QS: ${test.totalQuestions}]</div>
-          <div class="meta-item">[MARKS: ${test.totalMarks}]</div>
+          <div>[DUR: ${test.durationMinutes}m]</div>
+          <div>[QS: ${test.totalQuestions}]</div>
+          <div>[MARKS: ${test.totalMarks}]</div>
         </div>
         <button class="btn btn-primary" style="width: 100%; justify-content: center;" onclick="startTest('${test.id}')">
           [START MOCK TEST]
@@ -235,7 +203,6 @@ function startTest(testId) {
   if (pauseOverlay) pauseOverlay.style.display = "none";
   if (pauseBtn) {
     pauseBtn.textContent = "[PAUSE TEST]";
-    pauseBtn.style.color = "var(--text-main)";
   }
 
   currentTest.questions.forEach(q => {
@@ -263,7 +230,6 @@ function startTimer() {
 
   timerInterval = setInterval(() => {
     if (isPaused) return;
-
     timeRemainingSeconds--;
     updateTimerDisplay();
 
@@ -327,7 +293,9 @@ function renderQuestion() {
 
   document.getElementById("qNumberBadge").textContent = `QUESTION ${String(currentQuestionIndex + 1).padStart(2, '0')} / ${String(currentTest.questions.length).padStart(2, '0')}`;
   document.getElementById("marksBadge").textContent = `+${q.marks}.00 | -${q.negativeMarks}`;
-  document.getElementById("questionText").textContent = q.question;
+  
+  // Clean formatting for algorithmic equations
+  document.getElementById("questionText").innerHTML = q.question.replace(/\n/g, '<br/>');
 
   const optionsContainer = document.getElementById("optionsList");
   optionsContainer.innerHTML = "";
@@ -431,7 +399,7 @@ function confirmSubmitTest() {
   }
 }
 
-async function submitTest() {
+function submitTest() {
   clearInterval(timerInterval);
   document.getElementById("examScreen").classList.remove("active");
 
@@ -467,11 +435,11 @@ async function submitTest() {
   document.getElementById("resWrong").textContent = wrongCount;
   document.getElementById("resSkipped").textContent = skippedCount;
 
-  // FIREBASE: Save test to cloud if logged in
-  if (isFirebaseConfigured && currentUser) {
+  // LOCAL STORAGE SAVE
+  if (currentUser) {
     try {
-      const testsRef = collection(db, "users", currentUser.uid, "tests");
-      await addDoc(testsRef, {
+      const savedHistory = JSON.parse(localStorage.getItem(`history_${currentUser.uid}`) || "[]");
+      savedHistory.push({
         testId: currentTest.id,
         testTitle: currentTest.title,
         score: obtainedMarks,
@@ -480,11 +448,11 @@ async function submitTest() {
         correct: correctCount,
         wrong: wrongCount,
         skipped: skippedCount,
-        timestamp: serverTimestamp()
+        timestamp: Date.now()
       });
-      console.log("Test saved to cloud successfully.");
+      localStorage.setItem(`history_${currentUser.uid}`, JSON.stringify(savedHistory));
     } catch (e) {
-      console.error("Failed to save test to cloud", e);
+      console.error("Failed to save test locally", e);
     }
   }
 
@@ -503,13 +471,15 @@ function togglePause() {
     if (overlay) overlay.style.display = "flex";
     if (btn) {
       btn.textContent = "[RESUME TEST]";
-      btn.style.color = "var(--accent-green)";
+      btn.classList.add("btn-primary");
+      btn.classList.remove("btn-secondary");
     }
   } else {
     if (overlay) overlay.style.display = "none";
     if (btn) {
       btn.textContent = "[PAUSE TEST]";
-      btn.style.color = "var(--text-main)";
+      btn.classList.add("btn-secondary");
+      btn.classList.remove("btn-primary");
     }
   }
 }
@@ -522,42 +492,31 @@ function renderSolutions() {
     const resp = userResponses[q.id];
     const userAns = resp.selectedOption;
 
-    let statusClass = "skipped";
     let statusText = "[SKIPPED]";
-
     if (userAns === q.correctAnswer) {
-      statusClass = "correct";
       statusText = `[CORRECT +${q.marks}.00]`;
     } else if (userAns !== null) {
-      statusClass = "wrong";
       statusText = `[INCORRECT -${q.negativeMarks}]`;
     }
 
     const card = document.createElement("div");
-    card.className = `solution-card ${statusClass}`;
+    card.className = `solution-card`;
     
     let optionsHtml = q.options.map((opt, oIdx) => {
-      let optColor = "var(--text-main)";
       let badge = "";
+      if (oIdx === q.correctAnswer) badge = " <strong>[CORRECT]</strong>";
+      else if (oIdx === userAns) badge = " <strong>[YOUR SELECTION]</strong>";
 
-      if (oIdx === q.correctAnswer) {
-        optColor = "var(--accent-green)";
-        badge = " <strong>[CORRECT]</strong>";
-      } else if (oIdx === userAns) {
-        optColor = "var(--accent-red)";
-        badge = " <strong>[YOUR SELECTION]</strong>";
-      }
-
-      return `<li style="color: ${optColor}; margin-bottom: 0.35rem; font-family: var(--font-mono); font-size: 0.88rem;">[${String.fromCharCode(65 + oIdx)}] ${opt}${badge}</li>`;
+      return `<li style="margin-bottom: 0.35rem;">[${String.fromCharCode(65 + oIdx)}] ${opt}${badge}</li>`;
     }).join("");
 
     card.innerHTML = `
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-        <span style="font-weight: 800; font-family: var(--font-mono); font-size: 0.85rem;">Q${idx + 1} // ${q.section}</span>
-        <span style="font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700;">${statusText}</span>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; border-bottom: 2px solid #000; padding-bottom: 0.5rem;">
+        <span style="font-weight: 800;">Q${idx + 1} // ${q.section}</span>
+        <span style="font-weight: 900;">${statusText}</span>
       </div>
-      <p style="font-weight: 600; font-size: 0.98rem; margin-bottom: 0.85rem; font-family: var(--font-sans);">${q.question}</p>
-      <ul style="list-style: none; padding-left: 0; margin-bottom: 0.85rem;">${optionsHtml}</ul>
+      <p style="font-weight: 700; margin-bottom: 1rem;">${q.question}</p>
+      <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">${optionsHtml}</ul>
       <div class="explanation-box">
         <strong>> EXPLANATION:</strong><br/>
         ${q.explanation}
@@ -586,7 +545,7 @@ function importJSONTest() {
   try {
     const parsed = JSON.parse(jsonText);
     if (!parsed.title || !parsed.questions || !Array.isArray(parsed.questions)) {
-      alert("INVALID JSON. MISSING TITLE OR QUESTIONS ARRAY.");
+      alert("INVALID JSON.");
       return;
     }
 
@@ -603,13 +562,13 @@ function importJSONTest() {
     allTests.push(parsed);
     renderCatalog();
     closeImportModal();
-    alert("TEST IMPORTED SUCCESSFULLY.");
+    alert("TEST IMPORTED.");
   } catch (err) {
     alert("JSON ERROR: " + err.message);
   }
 }
 
-// Expose functions to global scope for HTML inline handlers
+// Expose functions to global scope
 window.startTest = startTest;
 window.prevQuestion = prevQuestion;
 window.clearResponse = clearResponse;
