@@ -390,11 +390,12 @@ h1, h2, h3, h4, p, span, div, button {
   border: 4px solid var(--border-dark);
 }
 .palette-btn.answered {
-  background: #d4d4d4;
+  background: #4ade80;
+  color: #000;
 }
 .palette-btn.review {
-  background: #000;
-  color: #fff;
+  background: #facc15;
+  color: #000;
 }
 .palette-btn.unanswered {
   background: transparent;
